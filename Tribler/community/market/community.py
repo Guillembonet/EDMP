@@ -126,11 +126,12 @@ class MarketCommunity(Community, BlockListener):
     """
     Community for general asset trading.
     """
-    master_peer = Peer(unhexlify("3081a7301006072a8648ce3d020106052b81040027038192000403225c5011b442e40d36c3918d1ee12"
-                                 "729f95e11f0f0f3a517b858d4ca093faa35cc92f6a152152312398e5ec87cb636818020812a04667d7c"
-                                 "174d9b1303a6183dcd2c8f72d98f9f04988c299e01ed65ef65d5f413c22ea836eade5d7c5762fb81604"
-                                 "3f9cf82166d5d8fe558afa4e7b2c252374e589d6033908138c95c9145d603074aa81bff0055006f9ca4"
-                                 "30f28b82"))
+    master_peer = Peer(unhexlify("3081a7301006072a8648ce3d020106052b81040027038192000404218998d826e"
+                                 "883d3a181cfd3ea3fb7abd4cdbe09a90ea6a84c4c216b184aa7e061ad615344fe"
+                                 "698fe920d7524c0e8554c72fee5d294522fc1ffb24e4823e9ba45d9c192e36947"
+                                 "b07a04f73bef3200240f00404b80d22f60bcba71bcd838f202dddef99e44a6177"
+                                 "a2ca99bb2adeb0e4fb084c137d0877f8731b5211c404413d6885f88cfb64b6303"
+                                 "645b6484223372d"))
     PROTOCOL_VERSION = 2
     BLOCK_CLASS = MarketBlock
     DB_NAME = 'market'
