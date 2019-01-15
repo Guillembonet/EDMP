@@ -12,8 +12,9 @@ For example:
 
 ./run_market.py 8082 /home/bunetz/.Tribler2 /home/bunetz/.Tribler2/ec_multichain2.pem
 
-Now we can use call the api (with these calls https://tribler.readthedocs.io/en/devel/restapi/market.html) deployed in http://localhost:<port>
+Now we can call the API deployed in http://localhost:<port>
 
+Market API documentation https://tribler.readthedocs.io/en/devel/restapi/market.html
 
 **We make use of submodules, so remember using the --recursive argument when cloning this repo.**
 
