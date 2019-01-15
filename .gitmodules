@@ -1,3 +1,9 @@
 [submodule "Tribler/Core/DecentralizedTracking/pymdht"]
 	path = Tribler/Core/DecentralizedTracking/pymdht
 	url = https://github.com/devos50/pymdht.git
+[submodule "Tribler/dispersy"]
+	path = Tribler/dispersy
+	url = https://github.com/Guillembonet/dispersy.git
+[submodule "Tribler/pyipv8"]
+	path = Tribler/pyipv8
+	url = https://github.com/Guillembonet/py-ipv8.git
