@@ -2,6 +2,16 @@
 EDMP
 *******
 
+How to run
+=======================================
+To be able to have two nodes in the same computer you should run run_market.py with 3 arguments which have to be different for each node.
+
+For example:
+
+./run_market.py 8081 /home/bunetz/.Tribler /home/bunetz/.Tribler/ec_multichain.pem
+./run_market.py 8082 /home/bunetz/.Tribler2 /home/bunetz/.Tribler2/ec_multichain2.pem
+
+Now we can use call the api (with these calls https://tribler.readthedocs.io/en/devel/restapi/market.html) deployed in http://localhost:<port>
 
 
 **We make use of submodules, so remember using the --recursive argument when cloning this repo.**
