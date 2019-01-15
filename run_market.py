@@ -3,16 +3,33 @@ from twisted.internet import reactor
 from Tribler.Core.Config.tribler_config import TriblerConfig
 from Tribler.community.market.core.assetamount import AssetAmount
 from Tribler.community.market.core.assetpair import AssetPair
+import sys
 
 
 def start_market():
 
+    if len(sys.argv) != 4:
+        print('Incorrect number of arguments, using port 8080 and default state directory.')
+        port = 8080
+        state_dir = None
+        keypair_filename = None
+
+    else:
+        port = sys.argv[1]
+        state_dir = sys.argv[2]
+        keypair_filename = sys.argv[3]
+
+
     config = TriblerConfig()
-    config.set_http_api_port(8082)
+    config.set_http_api_port(int(port))
     config.set_http_api_enabled(True)
     config.set_bitcoinlib_enabled(True)
-    print(config.get_is_matchmaker())
-    config.set_state_dir('/home/bunetz/.TriblerTmp')
+
+    if state_dir is not None:
+        config.set_state_dir(state_dir)
+    if keypair_filename is not None:
+        config.set_trustchain_keypair_filename(keypair_filename)
+
     session = Session(config)
     session.start()
 
@@ -25,9 +42,9 @@ def start_market():
     print('Market started')
     assets = AssetPair(AssetAmount(100000, 'BTC'), AssetAmount(10, 'MB'))
 
-    print('Create a ask')
-    session.lm.market_community.create_ask(assets, 100)
-    print('Ask created')
+    # print('Create a ask')
+    # session.lm.market_community.create_ask(assets, 100)
+    # print('Ask created')
 
     # print('Create a bid')
     # session.lm.market_community.create_bid(assets, 100)
