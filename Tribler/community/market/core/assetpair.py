@@ -1,6 +1,8 @@
 from Tribler.community.market.core.assetamount import AssetAmount
 from Tribler.community.market.core.price import Price
 
+# Static values
+HASH_LENGTH = 5
 
 class AssetPair(object):
     """
@@ -9,7 +11,7 @@ class AssetPair(object):
     """
 
     def __init__(self, first, second):
-        if first.asset_id > second.asset_id:
+        if len(second.asset_id) < HASH_LENGTH and first.asset_id > second.asset_id:
             raise ValueError("Asset %s must be smaller than %s" % (first, second))
 
         self.first = first

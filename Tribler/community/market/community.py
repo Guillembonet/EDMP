@@ -46,6 +46,7 @@ from Tribler.pyipv8.ipv8.messaging.payload_headers import GlobalTimeDistribution
 from Tribler.pyipv8.ipv8.peer import Peer
 from Tribler.pyipv8.ipv8.requestcache import NumberCache, RandomNumberCache, RequestCache
 from Tribler.pyipv8.ipv8.util import addCallback
+from Tribler.community.market.core.assetpair import HASH_LENGTH
 
 
 # Message definitions
@@ -554,21 +555,23 @@ class MarketCommunity(Community, BlockListener):
         if assets.first.asset_id == assets.second.asset_id:
             raise RuntimeError("You cannot trade between the same wallet")
 
-        if assets.first.asset_id not in self.wallets or not self.wallets[assets.first.asset_id].created:
+        if len(assets.first.asset_id) < HASH_LENGTH and (assets.first.asset_id not in self.wallets or not self.wallets[assets.first.asset_id].created):
             raise RuntimeError("Please create a %s wallet first" % assets.first.asset_id)
 
-        if assets.second.asset_id not in self.wallets or not self.wallets[assets.second.asset_id].created:
+        if len(assets.second.asset_id) < HASH_LENGTH and (assets.second.asset_id not in self.wallets or not self.wallets[assets.second.asset_id].created):
             raise RuntimeError("Please create a %s wallet first" % assets.second.asset_id)
 
-        asset1_min_unit = self.wallets[assets.first.asset_id].min_unit()
-        if assets.first.amount < asset1_min_unit:
-            raise RuntimeError("The assets to trade should be higher than or equal to the min unit of this asset (%s)."
-                               % assets.first)
+        if len(assets.first.asset_id) < HASH_LENGTH:
+            asset1_min_unit = self.wallets[assets.first.asset_id].min_unit()
+            if assets.first.amount < asset1_min_unit:
+                raise RuntimeError("The assets to trade should be higher than or equal to the min unit of this asset (%s)."
+                                   % assets.first)
 
-        asset2_min_unit = self.wallets[assets.second.asset_id].min_unit()
-        if assets.first.amount < asset2_min_unit:
-            raise RuntimeError("The assets to trade should be higher than or equal to the min unit of this asset (%s)."
-                               % assets.second)
+        if len(assets.second.asset_id) < HASH_LENGTH:
+            asset2_min_unit = self.wallets[assets.second.asset_id].min_unit()
+            if assets.second.amount < asset2_min_unit:
+                raise RuntimeError("The assets to trade should be higher than or equal to the min unit of this asset (%s)."
+                                   % assets.second)
 
         if timeout < 0:
             raise RuntimeError("The timeout for this order should be positive")
