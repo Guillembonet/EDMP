@@ -24,6 +24,8 @@ def start_market():
     config.set_http_api_port(int(port))
     config.set_http_api_enabled(True)
     config.set_bitcoinlib_enabled(True)
+    config.set_testnet(False)
+    config.set_dummy_wallets_enabled(True)
 
     if state_dir is not None:
         config.set_state_dir(state_dir)

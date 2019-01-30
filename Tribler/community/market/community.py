@@ -345,12 +345,23 @@ class MarketCommunity(Community, BlockListener):
         """
         Return a tuple of incoming and outgoing payment address of an order.
         """
-        if order.is_ask():
-            return WalletAddress(self.wallets[order.assets.second.asset_id].get_address()),\
-                   WalletAddress(self.wallets[order.assets.first.asset_id].get_address())
+
+        if order.assets.first.asset_id.startswith("EW"):
+            first_asset_id = "EW"
         else:
-            return WalletAddress(self.wallets[order.assets.first.asset_id].get_address()), \
-                   WalletAddress(self.wallets[order.assets.second.asset_id].get_address())
+            first_asset_id = order.assets.first.asset_id
+
+        if order.assets.second.asset_id.startswith("EW"):
+            second_asset_id = "EW"
+        else:
+            second_asset_id = order.assets.second.asset_id
+
+        if order.is_ask():
+            return WalletAddress(self.wallets[second_asset_id].get_address()),\
+                   WalletAddress(self.wallets[first_asset_id].get_address())
+        else:
+            return WalletAddress(self.wallets[first_asset_id].get_address()), \
+                   WalletAddress(self.wallets[second_asset_id].get_address())
 
     def match_order_ids(self, order_ids):
         """
@@ -882,7 +893,7 @@ class MarketCommunity(Community, BlockListener):
         if order.status == "unverified":
             # The order is not verified yet but it might be very soon. We simply save it and process it later.
             return
-        elif order.status != "open" or order.available_quantity == 0:
+        elif order.status != "open": #or order.available_quantity == 0:
             # Send a declined trade back
             decline_reason = DeclineMatchReason.ORDER_COMPLETED if order.status != "open" \
                 else DeclineMatchReason.OTHER
@@ -907,7 +918,6 @@ class MarketCommunity(Community, BlockListener):
                                                 payload.matchmaker_trader_id,
                                                 DeclineMatchReason.OTHER)
                 return
-
             self.send_proposed_trade(propose_trade, payload.match_id, address)
 
         # Reserve the quantity
@@ -1367,7 +1377,11 @@ class MarketCommunity(Community, BlockListener):
         order = self.order_manager.order_repository.find_by_id(transaction.order_id)
         asset_id = transaction.assets.first.asset_id if order.is_ask() else transaction.assets.second.asset_id
 
-        wallet = self.wallets[asset_id]
+        if asset_id.startswith("EW"):
+            wallet = self.wallets["EW"]
+        else:
+            wallet = self.wallets[asset_id]
+
         if not wallet or not wallet.created:
             raise RuntimeError("No %s wallet present" % asset_id)
 

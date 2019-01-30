@@ -35,6 +35,7 @@ from Tribler.Core.Modules.search_manager import SearchManager
 from Tribler.Core.Modules.versioncheck_manager import VersionCheckManager
 from Tribler.Core.Modules.wallet.dummy_wallet import DummyWallet1, DummyWallet2
 from Tribler.Core.Modules.wallet.tc_wallet import TrustchainWallet
+from Tribler.Core.Modules.wallet.energy_wallet import EnergyWallet
 from Tribler.Core.Modules.watch_folder import WatchFolder
 from Tribler.Core.TorrentChecker.torrent_checker import TorrentChecker
 from Tribler.Core.TorrentDef import TorrentDef, TorrentDefNoMetainfo
@@ -278,6 +279,9 @@ class TriblerLaunchMany(TaskManager):
             tc_wallet = TrustchainWallet(self.trustchain_community)
             self.wallets[tc_wallet.get_identifier()] = tc_wallet
 
+            #Create energy wallet
+            energy_wallet = EnergyWallet()
+            self.wallets[energy_wallet.get_identifier()] = energy_wallet
         # DHT Community
         if self.session.config.get_dht_enabled():
             from Tribler.pyipv8.ipv8.dht.discovery import DHTDiscoveryCommunity
