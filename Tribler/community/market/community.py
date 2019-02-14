@@ -7,6 +7,7 @@ from twisted.internet import reactor
 from twisted.internet.defer import Deferred, inlineCallbacks, succeed
 
 from Tribler.Core.Modules.wallet.tc_wallet import TrustchainWallet
+from Tribler.Core.Modules.wallet.energy_wallet import EnergyWallet
 from Tribler.Core.simpledefs import NTFY_MARKET_ON_ASK, NTFY_MARKET_ON_ASK_TIMEOUT, NTFY_MARKET_ON_BID,\
     NTFY_MARKET_ON_BID_TIMEOUT, NTFY_MARKET_ON_PAYMENT_RECEIVED, NTFY_MARKET_ON_PAYMENT_SENT,\
     NTFY_MARKET_ON_TRANSACTION_COMPLETE
@@ -1393,6 +1394,8 @@ class MarketCommunity(Community, BlockListener):
             peer = Peer(b64decode(str(transaction.partner_incoming_address)),
                         address=self.lookup_ip(transaction.partner_order_id.trader_id))
             transfer_deferred = wallet.transfer(transfer_amount.amount, peer)
+        elif isinstance(wallet, EnergyWallet):
+            transfer_deferred = wallet.transfer(transfer_amount.amount, asset_id, str(transaction.partner_incoming_address))
         else:
             transfer_deferred = wallet.transfer(transfer_amount.amount, str(transaction.partner_incoming_address))
 
@@ -1463,8 +1466,15 @@ class MarketCommunity(Community, BlockListener):
         asset_id = payment.transferred_assets.asset_id
 
         def monitor_for_transaction():
-            wallet = self.wallets[asset_id]
-            transaction_deferred = wallet.monitor_transaction(str(payment.payment_id))
+            if asset_id.startswith("EW"):
+                wallet_asset_id = "EW"
+            else:
+                wallet_asset_id = asset_id
+            wallet = self.wallets[wallet_asset_id]
+            if isinstance(wallet, EnergyWallet):
+                transaction_deferred = wallet.monitor_transaction(str(payment.payment_id), asset_id)
+            else:
+                transaction_deferred = wallet.monitor_transaction(str(payment.payment_id))
             transaction_deferred.addCallback(lambda _: self.received_payment(peer, payment, transaction))
 
         reactor.callFromThread(monitor_for_transaction)

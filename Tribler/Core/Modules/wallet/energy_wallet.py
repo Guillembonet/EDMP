@@ -43,12 +43,8 @@ class EnergyWallet(Wallet):
             'precision': self.precision()
         })
 
-    def transfer(self, quantity, candidate):
+    def transfer(self, quantity, hash, candidate):
         def on_balance(balance):
-            if balance['available'] < quantity:
-                raise InsufficientFunds()
-
-            self.balance -= quantity
 
             self.transaction_history.append({
                 'id': str(quantity),
@@ -57,7 +53,7 @@ class EnergyWallet(Wallet):
                 'to': '',
                 'amount': quantity,
                 'fee_amount': 0.0,
-                'currency': self.get_identifier(),
+                'hash': hash,
                 'timestamp': '',
                 'description': ''
             })
@@ -66,7 +62,7 @@ class EnergyWallet(Wallet):
 
         return self.get_balance().addCallback(on_balance)
 
-    def monitor_transaction(self, transaction_id):
+    def monitor_transaction(self, transaction_id, hash):
         """
         Monitor an incoming transaction with a specific ID.
         """
@@ -78,7 +74,7 @@ class EnergyWallet(Wallet):
                 'to': self.address,
                 'amount': float(str(transaction_id)),
                 'fee_amount': 0.0,
-                'currency': self.get_identifier(),
+                'hash': hash,
                 'timestamp': '',
                 'description': ''
             })
