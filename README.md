@@ -1,6 +1,6 @@
 # EDMP
 
-[Test](#running-edmp-from-the-repository)
+[1. Index example](#running-edmp-from-the-repository)
 
 ## How to run
 To be able to have two nodes in the same computer you should run run_market.py with 3 arguments which have to be different for each node.
@@ -19,7 +19,7 @@ Market API documentation https://tribler.readthedocs.io/en/devel/restapi/market.
 
 ## Setting up your development environment
 
-We support development on Linux, macOS and Windows. We have written documentation that guides you through installing the required packages when setting up a Tribler development environment. See `our Linux development guide <http://tribler.readthedocs.io/en/devel/development/development_on_linux.html>`_ for the guide on setting up a development environment on Linux distributions. See `our Windows development guide <http://tribler.readthedocs.io/en/devel/development/development_on_windows.html>`_ for setting everything up on Windows. See `our OS X development guide <http://tribler.readthedocs.io/en/devel/development/development_on_osx.html>`_ for the guide to setup the development environment on macOS.
+We support development on Linux, macOS and Windows. We have written documentation that guides you through installing the required packages when setting up a Tribler development environment. See our Linux development guide <http://tribler.readthedocs.io/en/devel/development/development_on_linux.html> for the guide on setting up a development environment on Linux distributions. See our Windows development guide <http://tribler.readthedocs.io/en/devel/development/development_on_windows.html> for setting everything up on Windows. See our OS X development guide <http://tribler.readthedocs.io/en/devel/development/development_on_osx.html> for the guide to setup the development environment on macOS.
 
 ## Running EDMP from the repository
 
