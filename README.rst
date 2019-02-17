@@ -2,6 +2,8 @@
 EDMP
 *******
 
+[Test](#running-edmp-from-the-repository)
+
 How to run
 =======================================
 To be able to have two nodes in the same computer you should run run_market.py with 3 arguments which have to be different for each node.
