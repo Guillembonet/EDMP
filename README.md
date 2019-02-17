@@ -11,7 +11,7 @@ For example:
 
 ./run_market.py 8082 /home/bunetz/.Tribler2 /home/bunetz/.Tribler2/ec_multichain2.pem
 
-Now we can call the API deployed in http://localhost:<port>
+Now we can call the API deployed in http://localhost:[port]
 
 Market API documentation https://tribler.readthedocs.io/en/devel/restapi/market.html
 
@@ -25,13 +25,13 @@ We support development on Linux, macOS and Windows. We have written documentatio
 
 First clone the repository:
 
-```python
+```
 git clone --recursive git@github.com:Tribler/tribler.git
 ```
 
 or, if you haven't added your ssh key to your github account:
 
-```python
+```
 git clone --recursive https://github.com/Tribler/tribler.git
 ```
 
@@ -40,12 +40,12 @@ Second, install the `dependencies <doc/development/development_on_linux.rst>`_.
 Done!
 Now you can run tribler by executing the ``tribler.sh`` script on the root of the repository:
 
-```python
+```
 ./tribler.sh
 ```
     
 On Windows, you can use the following command to run Tribler:
 
-```python
+```
 python run_tribler.py
 ```
