@@ -6,12 +6,14 @@ To be able to have two nodes in the same computer you should run run_market.py w
 For example:
 
 ```
-./run_market.py 8081 /home/bunetz/.Tribler /home/bunetz/.Tribler/ec_multichain.pem
+./run_market.py 8080 /home/bunetz/.Tribler /home/bunetz/.Tribler/ec_multichain.pem
 
 ./run_market.py 8082 /home/bunetz/.Tribler2 /home/bunetz/.Tribler2/ec_multichain2.pem
 ```
 
-Now we can call the API deployed in http://localhost:[port]
+Now we can call the API deployed in http://localhost:[port], for this we can use the index.html file for the GUI.
+
+To use IPFS we can use the following page: http://54.196.97.107/
 
 Market API documentation https://tribler.readthedocs.io/en/devel/restapi/market.html
 
