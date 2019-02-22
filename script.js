@@ -24,7 +24,6 @@ function sell() {
 }
 
 function buy(hash, price, currency) {
-alert('buy ' + hash + " for " + price + ' ' + currency)
 	var json = new URLSearchParams({
 
 			first_asset_amount: price,
@@ -45,6 +44,7 @@ alert('buy ' + hash + " for " + price + ' ' + currency)
 		console.log(data)
 		if (xhr.status == 200) {
 			alert('bid created successfully')
+			alert('You can copy the hash: ' + hash)
 			location.reload();
 		}
 	}
