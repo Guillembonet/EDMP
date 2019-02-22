@@ -139,6 +139,13 @@ After proof-of-ownership determine the transaction of that data’s property by 
 We present the IPFS steps exploiting the image provided below. Basically, the IPFS exploitation regards the initial and final part of the overall transaction process. From data recording to data retrieval.
 ![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Figure%209%20Data%20insertion%20in%20IPFS%20(owner%20side).PNG "Figure 9 Data insertion in IPFS (owner side)")
 ![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Figure%2010%20Data%20retrieval%20from%20IPFS%20(buyer%20side).PNG "Figure 10 Data retrieval from IPFS (buyer side)")
+
+## Attempt of deep integration (prototype):
+During our project, we mainly work, as pointed out above, with two main elements: decentralised market and IPFS.
+The final part of the project was the integration in a unique component of: the uploading of data and selling of hash from the owner side and; from the buyer side the buying of the hash end the final download of the energy consumption data.
+We attempted an effort to integrate the Tribler & IPFS in a single GUI instead of the current version where we make market transactions and IPFS data upload/download through webpages. However, due to time limitations as creating a data market place on the Tribler is not feasible due to the complexity and extent of the code, we decided to go for the basic implementation using webpages.
+The attempt in the single integration resulted in the trying of creating an enhanced version of Tribler GUI with an additional feature of a separate Data marketplace to raise ask and accept a bid (data for currency) from a single interface. By the way, we start this attempt in order to understand its feasibility. An image of the resulted try is presented below. Further developments could result in a single interface of great integration between the different components.
+
 ![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Capture.JPG "Figure 12 Tribler Deep Integration attempt")
 
 ## Issues and further developing:
