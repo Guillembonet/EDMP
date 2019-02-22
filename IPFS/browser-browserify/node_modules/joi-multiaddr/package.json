@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      "joi-multiaddr@^4.0.0",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "joi-multiaddr@>=4.0.0 <5.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "joi-multiaddr@4.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/joi-multiaddr",
+  "_nodeVersion": "11.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/joi-multiaddr_4.0.0_1546623446495_0.2606683239001928"
+  },
+  "_npmUser": {
+    "email": "alan138@gmail.com",
+    "name": "alanshaw"
+  },
+  "_npmVersion": "6.5.0-next.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "joi-multiaddr",
+    "raw": "joi-multiaddr@^4.0.0",
+    "rawSpec": "^4.0.0",
+    "scope": null,
+    "spec": ">=4.0.0 <5.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs"
+  ],
+  "_resolved": "https://registry.npmjs.org/joi-multiaddr/-/joi-multiaddr-4.0.0.tgz",
+  "_shasum": "1b8440e3c983a520d2637ce10b5fe9443833eab3",
+  "_shrinkwrap": null,
+  "_spec": "joi-multiaddr@^4.0.0",
+  "_where": "/home/ubuntu/js-ipfs",
+  "author": {
+    "name": "Alan Shaw"
+  },
+  "bugs": {
+    "url": "https://github.com/tableflip/joi-multiaddr/issues"
+  },
+  "dependencies": {
+    "mafmt": "^6.0.0",
+    "multiaddr": "^6.0.2"
+  },
+  "description": "Validate a multiaddr and common formats",
+  "devDependencies": {
+    "ava": "^1.0.1",
+    "joi": "^14.1.0",
+    "npm-run-all": "^4.1.2",
+    "nyc": "^13.1.0",
+    "standard": "^12.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 6,
+    "integrity": "sha512-c/QaICFM2nscoHfltv5XBfNBcUNMDBCus5arSwIrMIMJ/yRcKMrzDL1vCtckhtDczajMGkcu1vyRg17rPJsd6g==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcL5nXCRA9TVsSAnZWagAATZEP/2gPFvGpFkbpLqY1EZcj\nwGDHoSDjllUopM70pcvi9fTpW6aIYMZ/QOktsKmPAWmAZnWsELPjr2qvaR1o\n3EMBwle43g0Qu/zfMfkq9U9Kc/Ja2IZ5OyNQ0hz7HQhek8sbr0GT7fQBu/5U\ncuTquHrlKWCqiKIpE/i3eRhKCknz0IQaGY1JhpsLr5PAz3GZ1oRhVAk7wTrH\nOaP8jOpcc+VjD4aNKudp9uKCzzKrZE8E9NXDB8JT2KzpPl3eCIQWt1SCi6GC\nOO4ANC2+/ISZ8CAEWDCIiA4pRT9XVlXlZigrMmyXnWOTLhuAhOzQVb22qSrn\nodE9PQQxhs1hBZTGHh3AG2ecslIgd0nZ3luje52w0nEoehIZdraawT7y04d5\n4pV6ytkE2JUACGCF4+qPopFWG6aMY01YHjKbB4Gft4AOL9Zi1TQhbllDO2dW\n7h7uywy1CP7M1PCE6eQefMIoOzltkldgtig+1zrMWzyL4GWCrhoLhaCqu0Fx\nYFiXkyr1pSrBECUbBQOv+K3JsxMqaPCccMDcqOidLcya140eUcbTg5oZZFN4\nO1S2pQehezDk0w9sxUN5SvNq67+Kq8U1acrERx5mvxfMXzZAtshuzuCkR0sK\nXOm31LXfNSxdmUuFVy/UeJkTrSGXkINl7tp/96Q37l2UemEeUlWvnQPcLmyD\n59wD\r\n=HVCd\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "1b8440e3c983a520d2637ce10b5fe9443833eab3",
+    "tarball": "https://registry.npmjs.org/joi-multiaddr/-/joi-multiaddr-4.0.0.tgz",
+    "unpackedSize": 8065
+  },
+  "gitHead": "418d9b84e5f5391620cb261bc66f7384e7f4f631",
+  "homepage": "https://github.com/tableflip/joi-multiaddr#readme",
+  "keywords": [
+    "addr",
+    "address",
+    "extension",
+    "ipfs",
+    "ipns",
+    "ipv4",
+    "ipv6",
+    "joi",
+    "mafmt",
+    "multiaddr",
+    "tcp",
+    "validate",
+    "validation",
+    "wss"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "alanshaw",
+      "email": "alan138@gmail.com"
+    }
+  ],
+  "name": "joi-multiaddr",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tableflip/joi-multiaddr.git"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "run-s lint test:*",
+    "test:ava": "nyc --reporter=lcov --reporter=text ava"
+  },
+  "version": "4.0.0"
+}

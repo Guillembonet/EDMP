@@ -1,0 +1,122 @@
+{
+  "_args": [
+    [
+      "cid-tool@~0.2.0",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "cid-tool@>=0.2.0 <0.3.0",
+  "_hasShrinkwrap": false,
+  "_id": "cid-tool@0.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cid-tool",
+  "_nodeVersion": "11.1.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cid-tool_0.2.0_1542903464942_0.14590876969136524"
+  },
+  "_npmUser": {
+    "email": "alan138@gmail.com",
+    "name": "alanshaw"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cid-tool",
+    "raw": "cid-tool@~0.2.0",
+    "rawSpec": "~0.2.0",
+    "scope": null,
+    "spec": ">=0.2.0 <0.3.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs"
+  ],
+  "_resolved": "https://registry.npmjs.org/cid-tool/-/cid-tool-0.2.0.tgz",
+  "_shasum": "cf1d2506f68c1da1a9d214760cc1fd5d0c2ddfc9",
+  "_shrinkwrap": null,
+  "_spec": "cid-tool@~0.2.0",
+  "_where": "/home/ubuntu/js-ipfs",
+  "author": {
+    "name": "Alan Shaw"
+  },
+  "bin": {
+    "cid": "src/cli/bin.js"
+  },
+  "bugs": {
+    "url": "https://github.com/multiformats/js-cid-tool/issues"
+  },
+  "contributors": [
+    {
+      "name": "Alan Shaw",
+      "email": "alan.shaw@protocol.ai"
+    },
+    {
+      "name": "Alan Shaw",
+      "email": "alan@tableflip.io"
+    }
+  ],
+  "dependencies": {
+    "cids": "~0.5.6",
+    "explain-error": "^1.0.4",
+    "multibase": "~0.6.0",
+    "multihashes": "~0.4.14",
+    "yargs": "^12.0.2"
+  },
+  "description": "Convert and discover properties of CIDs",
+  "devDependencies": {
+    "aegir": "^15.1.0",
+    "chai": "^4.1.2",
+    "dirty-chai": "^2.0.1",
+    "execa": "^1.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "fileCount": 30,
+    "integrity": "sha512-YQcNOpK+hgfkedrqkQCa7vpXLMRooP1OwJmzhEc6m6ggzva+4yPaPNjMqmY7OPizGvf1kkoKHs/ZWWJOH8eylg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb9tapCRA9TVsSAnZWagAARvQP/Al3aJySYiBll2PTBRJu\nCTVnQbOpIEsU50Is/vdNJfOsdQ5tlouC6fXb0NUSHRMMM255/NZ+7Kpp9jDA\n+XsUJYdh6U+P07CFlDsKYUaRkqBr2itjqasTW8FhLuZYW31bipcMi1hejXEc\nmqu9J0B1t9vzXJIcsEGqHyH6TemB+HbQHcJkwZc+XTvYjg7hWMpmD6WIXXu6\nYN/wrkaOugp/sfQ0/zARcxUu5c0PTbKgqxZVG/kzoMQvJMExqNaJPlU223Os\nEaM6/8YecyOBado14sXYchfhED7VvDTTc4trWaG4we82H1Hsu7aqCQiwB+kB\nzJIUeoIR8vyDW+XTXYcIJuyzm4bPigh26pC5A3DCLZTFU3XaprHpO+BCMnKM\nyyrVmmxhuvYEaBnp0vxSuh0ZNkrynW1Y5cX/MNtzj+LyFGminmKNmpPGIJaD\nKId+cIlvm7nWE9s8Bskgu7B0OxvHbK1EDjItb2nO3u71Bej+PRRIgYOYbYmx\nLzqIVVkfAMTMClgrf/D9L3FBIcLcNOaR5Ij/KhEX1oW+YHRoG93uphcBlqK5\nGuejJ5SegMoQUg/xWNw3T3PmPHnA71OzQIC46gbHk+EWRQjvIb2hm56czo3e\naqq8fPK4tAeuHAW+B5RlZDByQ+JnEcJrwXByHyiwUoT3oncdaj0iZYL3Kj6p\nXTlZ\r\n=fBmy\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "cf1d2506f68c1da1a9d214760cc1fd5d0c2ddfc9",
+    "tarball": "https://registry.npmjs.org/cid-tool/-/cid-tool-0.2.0.tgz",
+    "unpackedSize": 31656
+  },
+  "gitHead": "a3e4a5f4024073d1e832d9771b80307db7e14add",
+  "homepage": "https://github.com/multiformats/js-cid-tool#readme",
+  "keywords": [
+    "CID",
+    "codec",
+    "multibase",
+    "multicodec",
+    "multihash",
+    "tool",
+    "util"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "alanshaw",
+      "email": "alan138@gmail.com"
+    }
+  ],
+  "name": "cid-tool",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multiformats/js-cid-tool.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "lint": "aegir lint",
+    "release": "aegir release -t node",
+    "release-major": "aegir release -t node --type major",
+    "release-minor": "aegir release -t node --type minor",
+    "start": "node src/cli/bin.js",
+    "test": "aegir test -t node"
+  },
+  "version": "0.2.0"
+}

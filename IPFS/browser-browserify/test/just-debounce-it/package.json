@@ -1,0 +1,84 @@
+{
+  "_args": [
+    [
+      "just-debounce-it@^1.1.0",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/ipfs-bitswap"
+    ]
+  ],
+  "_from": "just-debounce-it@>=1.1.0 <2.0.0",
+  "_id": "just-debounce-it@1.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/just-debounce-it",
+  "_nodeVersion": "8.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/just-debounce-it_1.1.0_1533790124806_0.4697192946540709"
+  },
+  "_npmUser": {
+    "email": "anguscroll@gmail.com",
+    "name": "angus-c"
+  },
+  "_npmVersion": "5.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "just-debounce-it",
+    "raw": "just-debounce-it@^1.1.0",
+    "rawSpec": "^1.1.0",
+    "scope": null,
+    "spec": ">=1.1.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs-bitswap"
+  ],
+  "_resolved": "https://registry.npmjs.org/just-debounce-it/-/just-debounce-it-1.1.0.tgz",
+  "_shasum": "8e92578effc155358a44f458c52ffbee66983bef",
+  "_shrinkwrap": null,
+  "_spec": "just-debounce-it@^1.1.0",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/ipfs-bitswap",
+  "author": {
+    "name": "Eric Nolte and Angus Croll"
+  },
+  "bugs": {
+    "url": "https://github.com/angus-c/just/issues"
+  },
+  "dependencies": {},
+  "description": "return a debounced function",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 4,
+    "integrity": "sha512-87Nnc0qZKgBZuhFZjYVjSraic0x7zwjhaTMrCKlj0QYKH6lh0KbFzVnfu6LHan03NO7J8ygjeBeD0epejn5Zcg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJba8etCRA9TVsSAnZWagAAfqoP/jIHX81Qcqzd1ABYhPs9\n7Ccqkq82vyEXGCApRiL8U2p1aA5sCBqHeJRP8kHWIYea98lTiGpTM7TaH8Vf\nkruJIs9fG+NHUgP8h4NHCinp76aBIe+GU3NPDorvSpKbCDvdcAXwYR+WFyFn\nCzFnATMfHfKOnNP6se/mHSYtmIUjj01EWfj4ajT9JBQx6SzZNWJl3vVfK/mb\nSF8UFPGhunn3VzfZfIEW+QLolk/Y1SET9mDH9yGOlfm32OwUKezrcI/8UCGZ\nif87z3Uzs9i4De873Tqs2ldGPk2InyIdWInDgqAc9ahj4WOjH+H4UlbX8sy0\ntqa9y4ag2LeBHFJqwnb4h8kXTMcwgPunGtlrMgY6DMZ9qwGaUBmHIB6WFz4A\nAnVVCasLmU774I9a830E6SgB43QPDKPHhAtmvm4YW181FjyFFFKq7kTy4bg1\n/NO6k/zdqzoeG4x0T7UQNMAEBblRQOTFtQokd4lAlwc8xY21d9XV9Gmzvomh\nb+7L64e4rgpUMyZMoIB32bqmLMH5YOyyBme8t60BgQKbEj04Ce23OpuihWWj\ngbHt+h3AIw5OHnozX7NbbtpNUlpYZotprHppH/Kn9tMVc75vMy7JT8uGrzDj\n+/OG4AmhI/43wISlgLUxNGlSQWRZ8h5C5Fn612zCkSIlIXRvbk2h0Nt61Ou9\nojcn\r\n=QYOg\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "8e92578effc155358a44f458c52ffbee66983bef",
+    "tarball": "https://registry.npmjs.org/just-debounce-it/-/just-debounce-it-1.1.0.tgz",
+    "unpackedSize": 2573
+  },
+  "homepage": "https://github.com/angus-c/just#readme",
+  "keywords": [
+    "debounce",
+    "function",
+    "just",
+    "no-dependencies"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "angus-c",
+      "email": "anguscroll@gmail.com"
+    }
+  ],
+  "name": "just-debounce-it",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angus-c/just.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}

@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      "pino-std-serializers@^2.3.0",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/pino"
+    ]
+  ],
+  "_from": "pino-std-serializers@>=2.3.0 <3.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "pino-std-serializers@2.3.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/pino-std-serializers",
+  "_nodeVersion": "8.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/pino-std-serializers_2.3.0_1539368558558_0.34376181366905545"
+  },
+  "_npmUser": {
+    "email": "hello@matteocollina.com",
+    "name": "matteo.collina"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "pino-std-serializers",
+    "raw": "pino-std-serializers@^2.3.0",
+    "rawSpec": "^2.3.0",
+    "scope": null,
+    "spec": ">=2.3.0 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/pino"
+  ],
+  "_resolved": "https://registry.npmjs.org/pino-std-serializers/-/pino-std-serializers-2.3.0.tgz",
+  "_shasum": "34eeaab97c055c28e22c0542ae55978e7e427786",
+  "_shrinkwrap": null,
+  "_spec": "pino-std-serializers@^2.3.0",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/pino",
+  "author": {
+    "email": "james.sumners@gmail.com",
+    "name": "James Sumners"
+  },
+  "bugs": {
+    "url": "https://github.com/pinojs/pino-std-serializers/issues"
+  },
+  "dependencies": {},
+  "description": "A collection of standard object serializers for Pino",
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "snazzy": "^7.0.0",
+    "standard": "^11.0.0",
+    "tap": "^12.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 12,
+    "integrity": "sha512-klfGoOsP6sJH7ON796G4xoUSx2fkpFgKHO4YVVO2zmz31jR+etzc/QzGJILaOIiCD6HTCFgkPx+XN8nk+ruqPw==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbwOZvCRA9TVsSAnZWagAAwgAP/1NH7EAwcBulcCHaStnN\n/0gkWaTTONOPs0eg2XlZDzqEKE/+WpAVjoytNFknAoE4GBv4VdfVHPGP7gyB\nJFTXwC6yWs34gg9G7MUjS54BdWqusU7z5MiDRRp2m5iLiVIoK24bdqJREqUJ\n3OZAPjGVTmiTliQ8bhVNfM3zXxby3QFdkCQ44FsuLmfzpbm8PmztwFFMAuqf\nAu5GJlhOXC7a9BWu2/ozQKUt4cIWqSBmNAMrdn3TNo92Lb/jWtmA7PR9FYtH\nkUGNfjSVKIQl7xBgZ8AcXgmtzOJtVU4iFxPjW3nluRwocs8m8dRh2Blr/zu2\naY3eu+f8AMY5MrImcApj9H/0HIu/pkjWNA9iwUUT+MfNMl6FFxTvMz3A80ns\nfdNq+fxpUPHtbDkDEAXKT0cLy0GwoxNi81DsuN6yRkIEPi0DZfiqqoHlrWO8\n0TKKaHwAUmxE0FlS+wbG8zrdM8lcs87Mr/8aUyFAuZMfWvxUGNgwtyIo50fn\n+zIodpMAWL1QLwKv+Rg7INkpPnHpPALfABGEXLu4e5QU3BrJsIiKAc4b6PPx\nZYxLV26P4Jq3XJNyM68Yf6ycDIplOpeLx81hTozreFSJoFp35ROxajz0O9Zi\nNNyqj8nsueXQ4V3n76t2UHCTko3Z44nCaFDIcbUZJkpGj/QiRUvEaFrgJ5wI\nebrr\r\n=7mtt\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "34eeaab97c055c28e22c0542ae55978e7e427786",
+    "tarball": "https://registry.npmjs.org/pino-std-serializers/-/pino-std-serializers-2.3.0.tgz",
+    "unpackedSize": 19798
+  },
+  "gitHead": "c8c4bea28ebd5bcbf3030ba455354b47be33b1b2",
+  "homepage": "https://github.com/pinojs/pino-std-serializers#readme",
+  "keywords": [
+    "logging",
+    "pino"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "davidmarkclements",
+      "email": "huperekchuno@googlemail.com"
+    },
+    {
+      "name": "jsumners",
+      "email": "james.sumners@gmail.com"
+    },
+    {
+      "name": "matteo.collina",
+      "email": "hello@matteocollina.com"
+    },
+    {
+      "name": "watson",
+      "email": "w@tson.dk"
+    }
+  ],
+  "name": "pino-std-serializers",
+  "optionalDependencies": {},
+  "precommit": [
+    "lint",
+    "test"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pinojs/pino-std-serializers.git"
+  },
+  "scripts": {
+    "lint": "standard | snazzy",
+    "lint-ci": "standard",
+    "test": "tap --no-cov 'test/**/*.test.js'",
+    "test-ci": "tap --cov --coverage-report=text 'test/**/*.test.js'"
+  },
+  "version": "2.3.0"
+}

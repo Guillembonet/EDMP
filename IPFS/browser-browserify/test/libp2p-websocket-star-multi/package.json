@@ -1,0 +1,121 @@
+{
+  "_args": [
+    [
+      "libp2p-websocket-star-multi@~0.4.0",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "libp2p-websocket-star-multi@>=0.4.0 <0.5.0",
+  "_hasShrinkwrap": false,
+  "_id": "libp2p-websocket-star-multi@0.4.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/libp2p-websocket-star-multi",
+  "_nodeVersion": "10.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/libp2p-websocket-star-multi_0.4.3_1548316387267_0.7773484061441822"
+  },
+  "_npmUser": {
+    "email": "mkg20001@gmail.com",
+    "name": "mkg20001"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {
+    "lodash": "4.17.11"
+  },
+  "_requested": {
+    "name": "libp2p-websocket-star-multi",
+    "raw": "libp2p-websocket-star-multi@~0.4.0",
+    "rawSpec": "~0.4.0",
+    "scope": null,
+    "spec": ">=0.4.0 <0.5.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs"
+  ],
+  "_resolved": "https://registry.npmjs.org/libp2p-websocket-star-multi/-/libp2p-websocket-star-multi-0.4.3.tgz",
+  "_shasum": "28d5aa4efffb7cf14ac147fc927841a5e275cfd7",
+  "_shrinkwrap": null,
+  "_spec": "libp2p-websocket-star-multi@~0.4.0",
+  "_where": "/home/ubuntu/js-ipfs",
+  "author": {
+    "email": "mkg20001@gmail.com",
+    "name": "Maciej Krüger"
+  },
+  "bugs": {
+    "url": "https://github.com/mkg20001/js-libp2p-websocket-star-multi/issues"
+  },
+  "contributors": [
+    {
+      "name": "Alan Shaw",
+      "email": "alan.shaw@protocol.ai"
+    },
+    {
+      "name": "Maciej Krüger",
+      "email": "mkg20001@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "async": "^2.6.1",
+    "debug": "^4.1.0",
+    "libp2p-websocket-star": "~0.10.2",
+    "mafmt": "^6.0.2",
+    "multiaddr": "^6.0.3",
+    "once": "^1.4.0"
+  },
+  "description": "Allows to listen on multiple websocket-star-rendezvous servers while ignoring offline ones",
+  "devDependencies": {
+    "aegir": "^15.3.1",
+    "chai": "^4.2.0",
+    "dirty-chai": "^2.0.1",
+    "libp2p-websocket-star-rendezvous": "github:libp2p/js-libp2p-websocket-star-rendezvous",
+    "lodash": "^4.17.11"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 12,
+    "integrity": "sha512-AhiBQABPw0uCRX4T1XzixRvCRXIq3k/IqrXcdRLgBZ8Yi6SXl0l7YwfAv5bO4fjq+jJTj2ypPvyM16ftNnWqBw==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcSW7jCRA9TVsSAnZWagAAJbkQAI0WVXuNmibsEQbI/4Jx\ndYUfZKeddvAackuPcVZiYzY4dox26Vc2J9yOqXiYLl8WE97Bk4bHPLTtd6Pz\n6KTY/Ih9VgBnMA45Sqa0/h/D70UivdcnjMDWxhs7iKNwSIZp0sPmoNgT8Zjb\nlYUy9dHyVRV9B5RxfEWcDwJ8nz9kjeJfajXZZRtI6ff6dMH9aEx8eFnMSbyW\n0rUgCrJJaaZeML7VsywLpIAvdyho/TcszLiywwMCfKzYzCfuPZ7uQdJRc2gM\naDFb0xB6jbbU4KYWVQYGbM+qitIcjHvXj54p5UJ4TzDpeIQptehqAiMtu8AR\nWrv3AxSMPa+YQLt5q8WuyaCY5zmQnKkU4SLUN1H7x2s6BpUdwbkg8TNbwyYZ\nMLi571tGlvwIQPPsIU1bT7xSKmuROR6VQhhkm9m4fmiGZzWtPQpZJicP1OpD\n05/Z1E4i+bN9VrS8j3d38qFOrD47B8I28pe5VTvVh12xQohy7VrqB1A/lbug\nN39pox4JdQHz2+/o+j5vh2AOcxsUzlOknSQ4Y+vgqK6AIz9TDSZK2h+KVqEo\ninRzFlvAwtqWmtLkF4clYr8+M/SSVtBTJwRmxUx8oqkQyF4JxXWZlrhRnvtO\nOckvECKoWDH/HpjO8gCqCOtnrcIaoteAA1vgr2pvLnajGLqIwPPo/CYIhqeO\nJY0J\r\n=IZa5\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "28d5aa4efffb7cf14ac147fc927841a5e275cfd7",
+    "tarball": "https://registry.npmjs.org/libp2p-websocket-star-multi/-/libp2p-websocket-star-multi-0.4.3.tgz",
+    "unpackedSize": 24593
+  },
+  "gitHead": "26ce060619ad68f8d88a8a61f00e62da1a8884df",
+  "homepage": "https://github.com/mkg20001/js-libp2p-websocket-star-multi#readme",
+  "keywords": [
+    "libp2p",
+    "multiple",
+    "round-robin",
+    "websocket-star"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "mkg20001",
+      "email": "mkg20001@gmail.com"
+    }
+  ],
+  "name": "libp2p-websocket-star-multi",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkg20001/js-libp2p-websocket-star-multi.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage -u",
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "release-major": "aegir release --type major",
+    "release-minor": "aegir release --type minor",
+    "test": "aegir test",
+    "test:browser": "aegir test -t browser",
+    "test:node": "aegir test -t node"
+  },
+  "version": "0.4.3"
+}

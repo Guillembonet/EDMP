@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      "bignumber.js@^8.0.2",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "bignumber.js@>=8.0.2 <9.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "bignumber.js@8.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/bignumber.js",
+  "_nodeVersion": "11.5.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bignumber.js_8.0.2_1547419155492_0.4141997435738314"
+  },
+  "_npmUser": {
+    "email": "M8ch88l@gmail.com",
+    "name": "mikemcl"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "bignumber.js",
+    "raw": "bignumber.js@^8.0.2",
+    "rawSpec": "^8.0.2",
+    "scope": null,
+    "spec": ">=8.0.2 <9.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/borc",
+    "/ipfs",
+    "/ipfs-bitswap",
+    "/ipfs-http-client",
+    "/ipfs-repo",
+    "/libp2p-switch"
+  ],
+  "_resolved": "https://registry.npmjs.org/bignumber.js/-/bignumber.js-8.0.2.tgz",
+  "_shasum": "d8c4e1874359573b1ef03011a2d861214aeef137",
+  "_shrinkwrap": null,
+  "_spec": "bignumber.js@^8.0.2",
+  "_where": "/home/ubuntu/js-ipfs",
+  "author": {
+    "email": "M8ch88l@gmail.com",
+    "name": "Michael Mclaughlin"
+  },
+  "browser": "bignumber.js",
+  "bugs": {
+    "url": "https://github.com/MikeMcl/bignumber.js/issues"
+  },
+  "dependencies": {},
+  "description": "A library for arbitrary-precision decimal and non-decimal arithmetic",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 10,
+    "integrity": "sha512-EiuvFrnbv0jFixEQ9f58jo7X0qI2lNGIr/MxntmVzQc5JUweDSh8y8hbTCAomFtqwUPIOWcLXP0VEOSZTG7FFw==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcO74UCRA9TVsSAnZWagAAbwsP/1CHGyqtrqk8grZ5eR8M\nWbaCYnqPa4XjWl1KSi9ZYo0KxUeY/Isi1eFd80345XIFrFL8ZtSwTMFNIW9k\n4w0GTqa/piCki/TfEsLneN98GA1Vnd4qHNd30xqgx5j8o1C1Ep7rH9tsesD7\nqjOH929t2fhDL7gp1kY9OGh/4LnYS0/O3PBYwTwc/GN8qtQmVJx7KywJI0O1\nEeQmBgD6sPmp2qu6vw3CJLQ9wshIV7tiH8Kl/jgL7DZAyA+tkZbHJIYTJhJC\nWazgWiATVLjpZBCWjfHxo7Fp1ETL3CmkCNBoSqbtJuo73u2e8fN1QPd3qsfv\nXLoSi1Z+A3dLcytfBEdnGx5jsJU6T/x4xvrLV3g3Pz722+yQhDuFVvJuBGIQ\nd1rW1sU04liZw/AvRxb+O4ncvSSnC1A6xQINnvU6vY8EFYyYKefTSHy0bj8A\nz0ooswvnyDvRO6SxXRL7L7Wn/ZfCzT6g1Kf+VQShJCY+63pojisFOy2lYrYd\n+lGZApPOsdJJQKnKYPBqP9EkHwHJk8knQn8BNsG/V+qYfXBz/i75AUvZfZsa\nxEs2fOLI7xcw/G4Ev5aMrUwSnOwrl5aIpgOmwAPeazr81utdkhW2FB7+ZMC9\nCRPTM2pi9zaanqEcXZ1CqXkWj+8FCb1dpUgDiamTxuJsITcS77R4farLtZuM\nT3W6\r\n=sig/\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "d8c4e1874359573b1ef03011a2d861214aeef137",
+    "tarball": "https://registry.npmjs.org/bignumber.js/-/bignumber.js-8.0.2.tgz",
+    "unpackedSize": 394844
+  },
+  "engines": {
+    "node": "*"
+  },
+  "gitHead": "90672e77e471ddf91cf644d685db148e3e39e49f",
+  "homepage": "https://github.com/MikeMcl/bignumber.js#readme",
+  "keywords": [
+    "arbitrary",
+    "arithmetic",
+    "big",
+    "bigdecimal",
+    "bigint",
+    "biginteger",
+    "bignum",
+    "bignumber",
+    "decimal",
+    "float",
+    "number",
+    "precision"
+  ],
+  "license": "MIT",
+  "main": "bignumber",
+  "maintainers": [
+    {
+      "name": "mikemcl",
+      "email": "M8ch88l@gmail.com"
+    }
+  ],
+  "module": "bignumber.mjs",
+  "name": "bignumber.js",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeMcl/bignumber.js.git"
+  },
+  "scripts": {
+    "build": "uglifyjs bignumber.js --source-map -c -m -o bignumber.min.js",
+    "test": "node test/test"
+  },
+  "types": "bignumber.d.ts",
+  "version": "8.0.2"
+}

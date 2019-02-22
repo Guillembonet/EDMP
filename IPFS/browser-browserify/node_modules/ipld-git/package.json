@@ -1,0 +1,160 @@
+{
+  "_args": [
+    [
+      "ipld-git@~0.2.2",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "ipld-git@>=0.2.2 <0.3.0",
+  "_hasShrinkwrap": false,
+  "_id": "ipld-git@0.2.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ipld-git",
+  "_nodeVersion": "10.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/ipld-git_0.2.3_1547813228131_0.8515799573410285"
+  },
+  "_npmUser": {
+    "email": "volker.mische@gmail.com",
+    "name": "vmx"
+  },
+  "_npmVersion": "6.5.0",
+  "_phantomChildren": {
+    "lodash": "4.17.11",
+    "varint": "5.0.0"
+  },
+  "_requested": {
+    "name": "ipld-git",
+    "raw": "ipld-git@~0.2.2",
+    "rawSpec": "~0.2.2",
+    "scope": null,
+    "spec": ">=0.2.2 <0.3.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs"
+  ],
+  "_resolved": "https://registry.npmjs.org/ipld-git/-/ipld-git-0.2.3.tgz",
+  "_shasum": "3a94e97082e7cc341589431604f0c29a9369d628",
+  "_shrinkwrap": null,
+  "_spec": "ipld-git@~0.2.2",
+  "_where": "/home/ubuntu/js-ipfs",
+  "bugs": {
+    "url": "https://github.com/ipld/js-ipld-git/issues"
+  },
+  "contributors": [
+    {
+      "name": "Alan Shaw",
+      "email": "alan.shaw@protocol.ai"
+    },
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Jonah Weissman",
+      "email": "jonahrweissman@gmail.com"
+    },
+    {
+      "name": "Richard Schneider",
+      "email": "makaretu@gmail.com"
+    },
+    {
+      "name": "Victor Bjelkholm",
+      "email": "victorbjelkholm@gmail.com"
+    },
+    {
+      "name": "Volker Mische",
+      "email": "volker.mische@gmail.com"
+    },
+    {
+      "name": "greenkeeper[bot]",
+      "email": "greenkeeper[bot]@users.noreply.github.com"
+    },
+    {
+      "name": "Łukasz Magiera",
+      "email": "magik6k@gmail.com"
+    },
+    {
+      "name": "Łukasz Magiera",
+      "email": "magik6k@users.noreply.github.com"
+    }
+  ],
+  "dependencies": {
+    "async": "^2.6.0",
+    "cids": "~0.5.2",
+    "multicodec": "~0.4.0",
+    "multihashes": "~0.4.12",
+    "multihashing-async": "~0.5.1",
+    "smart-buffer": "^4.0.0",
+    "traverse": "~0.6.6"
+  },
+  "description": "JavaScript Implementation of Git IPLD format",
+  "devDependencies": {
+    "aegir": "^18.0.2",
+    "chai": "^4.1.2",
+    "deep-freeze": "0.0.1",
+    "dirty-chai": "^2.0.1",
+    "garbage": "0.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 46,
+    "integrity": "sha512-AbIlgbK0vgLqQ/U+kJmnLnK2+uxaMS6PdP/PBK5heBQII3Lb2IpYoMqdJja5wYISTYxGzJeh9PB2U/de3B0ucw==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcQcFsCRA9TVsSAnZWagAAVTgQAIhJrUnT0yguLa1iHqT0\nl9Bjc0lwYDQMKHBKZKBtYBK8JFuJ3e8LFCpPFnXV3F7kc5NxbuH0+8uMXnyw\nG4aA1Lt3MrP1rTDurQgBng2PzO2m8KhqnLsX7wZPcHMVkc4gIpFNa8fliZuW\ngn/oonr+s974q1Vv2xQFfkZKpgAr/YiUiJaQ5rZzs84Hyy0zWZ0dlekmJZOf\nF4fhxNaJu5+NJLZpQmwFfyDiQZXhgXR2HzwWoo4kiYfJ9BeEnW/zazUrptnY\n7BChs7nn8D1luYz7/SkIGYqS59h7SBrqIVTpGY7TCLM3/vsiFPUB3Wb1wKQY\n0+wfiW0A5+IkUPGy9Jx9YcAes0oZ+9GfbtXsGwcz2HX3iJt9CooLLLgBb3Qf\nT8M3WoOm0Kw+fkv469thf5cWWF+MjKVU0AYnYQIxkYNLE1gb5QbrpF73KcDi\n9TglOyVx/gzw5IzQi7kGpgh5XJO9r2if939l7nb1STLEKqU6V2cT0coxRwhp\n46Oa06CLG21X3v4ZjJlcP2DyK4NXWQpfpeJ6uUvRtva/oIBg5YVYivMt9Ckx\n2iMZkOHc6NHXdBL+84rkg2su9D713zvPeo1Npl4y705pfqAWESthEHd4LZI4\nFnvymc6qr5c37bkWZTWdalkYQo/mVKTGZzfdtg6TXG5Q0+a914V6KOAyuAIR\nzUoM\r\n=wPJb\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "3a94e97082e7cc341589431604f0c29a9369d628",
+    "tarball": "https://registry.npmjs.org/ipld-git/-/ipld-git-0.2.3.tgz",
+    "unpackedSize": 1467498
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
+  "gitHead": "bc1c90fdf6d112ce9b6769f20095d7684d64b710",
+  "homepage": "https://github.com/ipld/js-ipld-git",
+  "keywords": [
+    "IPFS"
+  ],
+  "leadMaintainer": "Volker Mische <volker.mische@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "devtty",
+      "email": "lmagiera@protonmail.com"
+    },
+    {
+      "name": "vmx",
+      "email": "volker.mische@gmail.com"
+    }
+  ],
+  "name": "ipld-git",
+  "optionalDependencies": {},
+  "pre-push": [
+    "lint",
+    "test"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipld/js-ipld-git.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "release-major": "aegir release --type major",
+    "release-minor": "aegir release --type minor",
+    "test": "aegir test",
+    "test:browser": "aegir test --target browser",
+    "test:node": "aegir test --target node"
+  },
+  "version": "0.2.3"
+}

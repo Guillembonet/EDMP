@@ -1,0 +1,169 @@
+<html>
+<head>
+<script src="bundle.js"></script>
+<script>
+function show(shown, hidden) {
+  document.getElementById(shown).style.display='block';
+  document.getElementById(hidden).style.display='none';
+  return false;
+}
+</script>
+<style>
+      .content {
+        border: 1px solid black;
+        padding: 10px;
+        margin: 5px 0;
+      }
+    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #FFFFFF;
+}
+
+.right {
+  right: 0;
+  background-color: #C0C0C0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+<head>
+  <title>Energy Data Market</title>
+  
+  <div class="split left">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+
+
+
+
+
+  <div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Data to HASH</h1>
+  </div>
+  <body id="sellpage">
+	  <h1>Add device data to IPFS</h1>
+	<div id="dataapi"></div>
+	<button id="add" onclick="myFunction()">Display</button>
+	<br></br>
+    <textarea id="source" readonly rows="1" cols="65"></textarea>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+	const myDiv = document.getElementById("dataapi");
+
+var request = new XMLHttpRequest();
+
+request.open('GET', 'https://api.oehu.org/devices', true);
+request.onload = function () {
+  var data = JSON.parse(this.response);
+
+   if (request.status >= 200 && request.status < 400) {
+    data.forEach(device => {
+	var checkBox = document.createElement("input");
+        var label = document.createElement("label");
+        checkBox.type = "checkbox";
+		checkBox.name = "ankush";
+        checkBox.value = JSON.stringify(device);
+		var br = document.createElement("br");
+        myDiv.appendChild(br);
+        myDiv.appendChild(checkBox);
+        myDiv.appendChild(label);
+        label.appendChild(document.createTextNode(device.deviceId));
+    });
+  } else {
+    console.log('error');
+  }
+}
+request.send();
+function myFunction() {
+    var dat = document.getElementsByName("ankush");
+	var count=0;
+	for(var i=0, n=dat.length;i<n;i++) {
+     if (dat[i].checked){
+	    count=count +1;
+		var item = dat[i];
+	 }
+	 if (count==1){
+	    document.getElementById("source").value = item.value;
+		item.checked=false;
+		item.disabled=true;
+	 } else if (count==0){
+	   document.getElementById("source").value = "Please select one device";
+	 } else{
+	   document.getElementById("source").value = "Multiple devices have been selected. Please select only one";
+	 }
+  }
+}
+</script>
+	<br></br>
+    <button id="store">add to ipfs</button>
+    <div>
+      <div>found in ipfs:</div>
+      <div class="content" id="hash">[ipfs hash]</div>
+      <div class="content" id="content">[ipfs content]</div>
+    </div>
+</div>
+  </div>
+</div>
+  
+
+<div class="split right">
+  <div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>HASH to Data</h1>
+  </div>
+  <body>
+    <h1>Convert Hash to data</h1>
+	
+	<div>
+<textarea id="haship" row="1" cols="65"></textarea>
+<br></br>
+<button id="adddata">Display Data</button>
+
+<br></br>
+<textarea id="data" row="1" cols="65"></textarea>
+
+ </div>
+</div>
+  </div>
+</body>
+</body>
+</html>

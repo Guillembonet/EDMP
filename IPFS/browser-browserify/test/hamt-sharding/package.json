@@ -1,0 +1,110 @@
+{
+  "_args": [
+    [
+      "hamt-sharding@~0.0.2",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/ipfs-mfs"
+    ]
+  ],
+  "_from": "hamt-sharding@>=0.0.2 <0.1.0",
+  "_hasShrinkwrap": false,
+  "_id": "hamt-sharding@0.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/hamt-sharding",
+  "_nodeVersion": "10.8.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/hamt-sharding_0.0.2_1542991603244_0.8623714819270185"
+  },
+  "_npmUser": {
+    "email": "alex@achingbrain.net",
+    "name": "achingbrain"
+  },
+  "_npmVersion": "6.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "hamt-sharding",
+    "raw": "hamt-sharding@~0.0.2",
+    "rawSpec": "~0.0.2",
+    "scope": null,
+    "spec": ">=0.0.2 <0.1.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs-mfs",
+    "/ipfs-unixfs-exporter",
+    "/ipfs-unixfs-importer"
+  ],
+  "_resolved": "https://registry.npmjs.org/hamt-sharding/-/hamt-sharding-0.0.2.tgz",
+  "_shasum": "53691f72122f1929a92a4688c7bb59545a8998ac",
+  "_shrinkwrap": null,
+  "_spec": "hamt-sharding@~0.0.2",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/ipfs-mfs",
+  "bugs": {
+    "url": "https://github.com/ipfs-shipyard/js-hamt-sharding/issues"
+  },
+  "contributors": [
+    {
+      "name": "achingbrain",
+      "email": "alex@achingbrain.net"
+    }
+  ],
+  "dependencies": {
+    "sparse-array": "^1.3.1"
+  },
+  "description": "JavaScript implementation of sharding using hash array mapped tries",
+  "devDependencies": {
+    "aegir": "^17.0.0",
+    "chai": "^4.2.0",
+    "dirty-chai": "^2.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 15,
+    "integrity": "sha512-0pUBRvsdM1G6RgXfJASUMLwk++LQMNoXx2n2iMZiSzV43lBNesSz130wkGSP2D6d/8DYIWABLL1Vqb4PpcUcvQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb+C70CRA9TVsSAnZWagAAVIMP/AwXBY5FzZgbKlwVJs63\n1FpUFSjlgab9mUQ8IWAHoZ3VjGoeF0sh0ju+L0tZXEosivkfRdxMiAQsvxJb\nVqadRc/CQFKRoutEEj8DdiJ7I06nCYCXabJNO9zpVtlsHiVSwLv/SPOTwE4D\nhvj4LX/CMJRIkvV3Q9B+slmsln6rBY/2JMKvHaPtZT9k5uvfphCYFotSNtdz\ndK2E7fBsC08NvrPoeZde6V2Y6b72y1OHFYG0JiBrQrJERsTMuWB4cfpCyA1i\ne1sexRqlS05z2rPtq3OtEbBjyu6CX+rallXCvy1PcbNxoVXyyzt4GMvyhuAv\n9+wv5jZ7BdjHP4JM+GDF/+botVgFHKNzTI0XuQmW685tLVXkJQP1YcOtybw4\nIhkoXmps9xXvCsHfR03vZutklCOt/4Vli8tJ0Ly8ikmdYBDyC13d7eg7gIJQ\nM/e/tWGPWz0fOwcYBBBv8gp9kBnNo5/p7Cu91i/LIZA5V2hm2zZnSaB83RII\ni3VRIsD5f1jYj1dHBUfjy+snTD4jnWUj2z6wlyB9NsPCsLVgyz83BMB1UPyd\nNKSvARq2B5/A1xqJRHjjhlWsDOD87uxICkGiWdA5VIB7OdH9iB0KuVlZGJ+c\ndQOL60yjXkVHlQDU3eCqGJp+LSXx//8SUEwWTt4lZZ+6wRQc9TkGj0giVRLJ\no3uR\r\n=G585\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "53691f72122f1929a92a4688c7bb59545a8998ac",
+    "tarball": "https://registry.npmjs.org/hamt-sharding/-/hamt-sharding-0.0.2.tgz",
+    "unpackedSize": 297296
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "fe532cfdc9aa3c94932c87fd087c94b2adc1c9fe",
+  "homepage": "https://github.com/ipfs-shipyard/js-hamt-sharding#readme",
+  "keywords": [
+    "IPFS",
+    "hamt",
+    "sharding"
+  ],
+  "leadMaintainer": "Alex Potsides <alex.potsides@protocol.ai>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "achingbrain",
+      "email": "alex@achingbrain.net"
+    }
+  ],
+  "name": "hamt-sharding",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipfs-shipyard/js-hamt-sharding.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "release-major": "aegir release --type major",
+    "release-minor": "aegir release --type minor",
+    "test": "aegir test",
+    "test:browser": "aegir test -t browser",
+    "test:node": "aegir test -t node",
+    "test:webworker": "aegir test -t webworker"
+  },
+  "version": "0.0.2"
+}

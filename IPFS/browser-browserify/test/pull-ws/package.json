@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      "pull-ws@github:hugomrdias/pull-ws#fix/bundle-size",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/libp2p-websockets"
+    ]
+  ],
+  "_from": "hugomrdias/pull-ws#fix/bundle-size",
+  "_id": "pull-ws@3.3.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/pull-ws",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/hugomrdias/pull-ws/fix%2Fbundle-size/package.json",
+      "gitUrl": "git://github.com/hugomrdias/pull-ws.git#fix/bundle-size",
+      "httpsUrl": "git+https://github.com/hugomrdias/pull-ws.git#fix/bundle-size",
+      "shortcut": "github:hugomrdias/pull-ws#fix/bundle-size",
+      "ssh": "git@github.com:hugomrdias/pull-ws.git#fix/bundle-size",
+      "sshUrl": "git+ssh://git@github.com/hugomrdias/pull-ws.git#fix/bundle-size",
+      "type": "github"
+    },
+    "name": "pull-ws",
+    "raw": "pull-ws@github:hugomrdias/pull-ws#fix/bundle-size",
+    "rawSpec": "github:hugomrdias/pull-ws#fix/bundle-size",
+    "scope": null,
+    "spec": "github:hugomrdias/pull-ws#fix/bundle-size",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "/libp2p-websockets"
+  ],
+  "_resolved": "git://github.com/hugomrdias/pull-ws.git#8e2ce0bb3b1cd6804828316e937fff8e0bef6225",
+  "_shasum": "8a175b3f52b97b6cf513d692c7d74c352bd47beb",
+  "_shrinkwrap": null,
+  "_spec": "pull-ws@github:hugomrdias/pull-ws#fix/bundle-size",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/libp2p-websockets",
+  "author": {
+    "email": "damon.oehlman@gmail.com",
+    "name": "Damon Oehlman"
+  },
+  "browser": {
+    "./server": false,
+    "ws": false
+  },
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/pull-ws/issues"
+  },
+  "dependencies": {
+    "iso-url": "^0.4.4",
+    "relative-url": "^1.0.2",
+    "safe-buffer": "^5.1.1",
+    "ws": "^1.1.0"
+  },
+  "description": "Simple pull-streams for websocket client connections",
+  "devDependencies": {
+    "mapleTree": "^0.5.1",
+    "pull-goodbye": "~0.0.1",
+    "pull-json-doubleline": "^1.0.0",
+    "pull-split": "^0.2.0",
+    "pull-stream": "^3.3.2",
+    "pull-through": "^1.0.18",
+    "tap": "^5.7.2",
+    "tape": "^4.4.0",
+    "testling": "^1.7.1",
+    "wsurl": "^1.0.0"
+  },
+  "gitHead": "8e2ce0bb3b1cd6804828316e937fff8e0bef6225",
+  "homepage": "https://github.com/DamonOehlman/pull-ws",
+  "keywords": [
+    "pull-stream",
+    "websocket",
+    "ws"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "pull-ws",
+  "optionalDependencies": {},
+  "readme": "# pull-ws\n\nUse websockets via pull-stream interface. both client and server.\n\n[![NPM](https://nodei.co/npm/pull-ws.png)](https://nodei.co/npm/pull-ws/)\n\n[![unstable](https://img.shields.io/badge/stability-unstable-yellowgreen.svg)](https://github.com/dominictarr/stability#unstable) [![Build Status](https://img.shields.io/travis/DamonOehlman/pull-ws.svg?branch=master)](https://travis-ci.org/DamonOehlman/pull-ws) \n\n## example - client\n``` js\nvar connect = require('pull-ws/client')\n// OR: require('pull-ws').connect\n\nconnect(WS_URL, function (err, stream) {\n  if(err) throw err //handle err\n  pull(source, stream, sink)\n})\n\n```\n## example - server\n\n``` js\nvar createServer = require('pull-ws/server')\ncreateServer(function (stream) {\n  //pipe the stream somewhere.\n  //eg, echo server\n  pull(stream, stream)\n}).listen(PORT)\n```\n\n## api\n\n### `connect = require('pull-ws/client')`\n\n`connect(url, cb | {binary: boolean, onConnect: cb})`\n\nCreate a websocket client connection. set binary: true\nto get a stream of arrayBuffers (on the browser).\ndefaults to true on node, but to strings on the browser.\nthis may cause a problems if your application assumes binary.\n\nelse, just provide the callback.\n\n``` js\nconnect(url, function (err, stream) {\n  ...\n})\n```\n\n\n### `createServer = require('pull-ws/server')`\n\ncreate pull stream websocket servers.\nthe servers take a lot more options than clients.\n\n`createServer(opts?, onConnection)`\n\n`onConnect(stream)` is called every time a connection is received.\n\n`opts` takes the same server options as [ws module](https://github.com/websockets/ws/blob/master/doc/ws.md#new-wsserveroptions-callback)\n\n\n#### example\n\none duplex service you may want to use this with is [muxrpc](https://github.com/dominictarr/muxrpc)\n\n``` js\nvar ws = require('pull-ws-server')\nvar pull = require('pull-stream')\n\nws.createServer(function (stream) {\n  //pipe duplex style to your service.\n  pull(stream, service.createStream(), stream)\n})\n.listen(9999)\n\nvar stream = ws.connect('ws://localhost:9999')\n\npull(stream, client.createStream(), stream)\n```\n\nif the connection fails, the first read from the stream will be an error,\notherwise, to get a handle of stream end/error pass a callback to connect.\n\n``` js\nws.connect('ws://localhost:9999', function (err, stream) {\n  if(err) return handleError(err)\n  //stream is now ready\n})\n\n```\n\nTo run the server over TLS:\n\n```js\nvar tlsOpts = {\n  key: fs.readFileSync('test/fixtures/keys/agent2-key.pem'),\n  cert: fs.readFileSync('test/fixtures/keys/agent2-cert.pem')\n};\nws.createServer(tlsOpts, function (stream) {\n  //pipe duplex style to your service.\n  pull(stream, service.createStream(), stream)\n})\n.listen(9999)\n```\n\nTo add client-authentication to the server, you can set `verifyClient`.\n[Documentation here](https://github.com/websockets/ws/blob/master/doc/ws.md#optionsverifyclient).\n\n```js\nfunction verifyClient (info) {\n  return info.secure == true\n}\nws.createServer({ verifyClient: verifyClient }, onStream)\n```\n\n## use with an http server\n\nif you have an http server that you also need to serve stuff\nover, and want to use a single port, use the `server` option.\n\n``` js\nvar http = require('http')\nvar server = http.createServer(function(req, res){...}).listen(....)\nws.createServer({server: server}, function (stream) { ... })\n\n```\n\n### core, websocket wrapping functions\n\nthese modules are used internally, to wrap a websocket.\nyou probably won't need to touch these,\nbut they are documented anyway.\n\n### `require('pull-ws/duplex')(socket, opts?)`\n\nturn a websocket into a duplex pull stream.\nIf provided, `opts` is passed to `pws.sink(socket, opts)`.\n\nWebsockets do not support half open mode.\n[see allowHalfOpen option in net module](\nhttp://nodejs.org/api/net.html#net_net_createserver_options_connectionlistener)\n\nIf you have a protocol that assumes halfOpen connections, but are using\na networking protocol like websockets that does not support it, I suggest\nusing [pull-goodbye](https://github.com/dominictarr/pull-goodbye) with your\nprotocol.\n\nThe duplex stream will also contain a copy of the properties from\nthe http request that became the websocket. they are `method`, `url`,\n`headers` and `upgrade`.\n\nalso exposed at: `var duplex = require('pull-ws')`\n\n### `require('pull-ws/sink')(socket, opts?)`\n\nCreate a pull-stream `Sink` that will write data to the `socket`.\n`opts` may be `{closeOnEnd: true, onClose: onClose}`.\n`onClose` will be called when the sink ends. If `closeOnEnd=false`\nthe stream will not close, it will just stop emitting data.\n(by default `closeOnEnd` is true)\n\nIf `opts` is a function, then `onClose = opts; opts.closeOnEnd = true`.\n\n```js\nvar pull = require('pull-stream');\nvar wsSink = require('pull-ws');\n\n// connect to the echo endpoint for test/server.js\nvar socket = new WebSocket('wss://echo.websocket.org');\n\n// write values to the socket\npull(\n  pull.infinite(function() {\n    return 'hello @ ' + Date.now()\n  }),\n  // throttle so it doesn't go nuts\n  pull.asyncMap(function(value, cb) {\n    setTimeout(function() {\n      cb(null, value);\n    }, 100);\n  }),\n  wsSink(socket)\n);\n\nsocket.addEventListener('message', function(evt) {\n  console.log('received: ' + evt.data);\n});\n\n```\n\nalso exposed at `require('pull-ws').sink`\n\n### `require('pull-ws/source')(socket)`\n\nCreate a pull-stream `Source` that will read data from the `socket`.\n\n```js\nvar pull = require('pull-stream');\n\n// we just need the source, so cherrypick\nvar wsSource = require('pull-ws/source');\n\npull(\n  // connect to the test/server.js endpoint\n  wsSource(new WebSocket('ws://localhost:3000/read')),\n  pull.log()\n);\n\n```\n\nalso exposed at `require('pull-ws').source`\n\n# LICENSE\n\nMIT\n\n\n\n\n\n\n\n\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamonOehlman/pull-ws.git"
+  },
+  "scripts": {
+    "browser": "testling",
+    "start": "node server.js",
+    "test": "tap test/*.js"
+  },
+  "size-limit": [
+    {
+      "path": "index.js",
+      "limit": "9 KB"
+    }
+  ],
+  "stability": "unstable",
+  "testling": {
+    "files": "test/all.js",
+    "server": "test/server.js"
+  },
+  "version": "3.3.1"
+}

@@ -1,0 +1,191 @@
+{
+  "_args": [
+    [
+      "cids@~0.5.5",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "cids@>=0.5.5 <0.6.0",
+  "_hasShrinkwrap": false,
+  "_id": "cids@0.5.7",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cids",
+  "_nodeVersion": "10.4.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cids_0.5.7_1544137603736_0.3827984858241309"
+  },
+  "_npmUser": {
+    "email": "volker.mische@gmail.com",
+    "name": "vmx"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cids",
+    "raw": "cids@~0.5.5",
+    "rawSpec": "~0.5.5",
+    "scope": null,
+    "spec": ">=0.5.5 <0.6.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/cid-tool",
+    "/ipfs",
+    "/ipfs-bitswap",
+    "/ipfs-block",
+    "/ipfs-http-client",
+    "/ipfs-http-response",
+    "/ipfs-mfs",
+    "/ipfs-repo",
+    "/ipfs-unixfs-exporter",
+    "/ipld",
+    "/ipld-bitcoin",
+    "/ipld-dag-cbor",
+    "/ipld-dag-pb",
+    "/ipld-ethereum",
+    "/ipld-git",
+    "/ipld-raw",
+    "/ipld-zcash",
+    "/is-ipfs",
+    "/libp2p-kad-dht"
+  ],
+  "_resolved": "https://registry.npmjs.org/cids/-/cids-0.5.7.tgz",
+  "_shasum": "bc5034bddcb9396fbf1cb60ad5498c976133de53",
+  "_shrinkwrap": null,
+  "_spec": "cids@~0.5.5",
+  "_where": "/home/ubuntu/js-ipfs",
+  "bugs": {
+    "url": "https://github.com/multiformats/js-cid/issues"
+  },
+  "contributors": [
+    {
+      "name": "Mitar",
+      "email": "mitar.github@tnode.com"
+    },
+    {
+      "name": "Alan Shaw",
+      "email": "alan.shaw@protocol.ai"
+    },
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Enrico Marino",
+      "email": "enrico.marino@email.com"
+    },
+    {
+      "name": "Friedel Ziegelmayer",
+      "email": "dignifiedquire@gmail.com"
+    },
+    {
+      "name": "Mikeal Rogers",
+      "email": "mikeal.rogers@gmail.com"
+    },
+    {
+      "name": "Alan Shaw",
+      "email": "alan@tableflip.io"
+    },
+    {
+      "name": "Real Harry",
+      "email": "sidewaybot@gmail.com"
+    },
+    {
+      "name": "Richard Littauer",
+      "email": "richard.littauer@gmail.com"
+    },
+    {
+      "name": "Victor Bjelkholm",
+      "email": "victorbjelkholm@gmail.com"
+    },
+    {
+      "name": "Volker Mische",
+      "email": "volker.mische@gmail.com"
+    },
+    {
+      "name": "greenkeeper[bot]",
+      "email": "greenkeeper[bot]@users.noreply.github.com"
+    },
+    {
+      "name": "kumavis",
+      "email": "kumavis@users.noreply.github.com"
+    }
+  ],
+  "dependencies": {
+    "class-is": "^1.1.0",
+    "multibase": "~0.6.0",
+    "multicodec": "~0.2.7",
+    "multihashes": "~0.4.14"
+  },
+  "description": "CID Implementation in JavaScript",
+  "devDependencies": {
+    "aegir": "^17.0.0",
+    "chai": "^4.1.2",
+    "dirty-chai": "^2.0.1",
+    "multihashing": "~0.3.2",
+    "multihashing-async": "~0.5.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 13,
+    "integrity": "sha512-SlAz4p8XMEW3mhwiYbzfjn+5+Y//+kIuHqzRUytK0a3uGBnsjJb76xHliehv0HcVMCjRKv2vZnPTwd4QX+IcMA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcCauECRA9TVsSAnZWagAAzkkP/iT1qbz9Gfkui/nyIDER\nHgzQJluad7ZrViiF4OkVyrETvLf0t/Uvw12XLqWi80hUKi73p/wrnD1SCF3i\nkFgzjqMyq3r1FcrVnoWXtrZXgzFpt05XYGs/lHe9ZttqsKsHDfLBEtXCOS6n\n1tRv7FkETfawcHF/DJ0PQAYpmccgS2M8yXNYqe8yhzFwgnvc56kdKFVQ2rmj\n3/Ojqratlx2WyMjs8NOCi3x7uPHquQvdcoUliTFBnUOyVtyyASQ0KbIweg+S\nfDsi2aWnNN+R7pKEoTJun/myzkmb3PAY7UOPiJEzlyZs0pIxY5WohgEgEDG9\nTaLm9JCX686DEdPIF5KKiPZ85k3kdD1Iy/C3Cw7oEUxVsXE4uMoZmJc93uUq\nsTjAn4p08S0nRAE4n6WYvcSQ1hVu62oo2p/YLiDCWgPrjc87DgTqadXSvfbz\n/CCApj2DmBWdmpudAyGH6xzkaofu3EBp0ROKHMOoyuCpuXR84C3FOk7eUEO9\nQpf7rPkn4dFvt7fQtiER/rOduGrQQlRSH3CnlTGXrpHO5W52O5tkQaalaL9T\n0Rm5AjaZnCQkv1LJFaFq0d5xpqiWHtczPiI+H5lNhV1F+aINPqE96QVXt7gZ\nNfxRT0rjGhV+h3dpOoslAGw7M2fP4v6kQM8eJggWA+YbHDUapStuotF2Rz2M\n2qO1\r\n=ATHk\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "bc5034bddcb9396fbf1cb60ad5498c976133de53",
+    "tarball": "https://registry.npmjs.org/cids/-/cids-0.5.7.tgz",
+    "unpackedSize": 521005
+  },
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=3.0.0"
+  },
+  "gitHead": "22504757cead5e3213d6fd4a385ab546885debe8",
+  "homepage": "https://github.com/multiformats/js-cid#readme",
+  "keywords": [
+    "cid",
+    "ipld",
+    "multihash"
+  ],
+  "leadMaintainer": "Volker Mische <volker.mische@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "dignifiedquire",
+      "email": "dignifiedquire@gmail.com"
+    },
+    {
+      "name": "vmx",
+      "email": "volker.mische@gmail.com"
+    }
+  ],
+  "name": "cids",
+  "optionalDependencies": {},
+  "pre-push": [
+    "lint",
+    "test"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/multiformats/js-cid.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "docs": "aegir docs",
+    "lint": "aegir lint",
+    "release": "aegir release --docs",
+    "release-major": "aegir release --type major --docs",
+    "release-minor": "aegir release --type minor --docs",
+    "test": "aegir test",
+    "test:browser": "aegir test --target browser",
+    "test:node": "aegir test --target node"
+  },
+  "version": "0.5.7"
+}

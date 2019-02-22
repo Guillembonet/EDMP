@@ -1,0 +1,116 @@
+{
+  "_args": [
+    [
+      "unique-by@^1.0.0",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/peer-info"
+    ]
+  ],
+  "_from": "unique-by@>=1.0.0 <2.0.0",
+  "_id": "unique-by@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/unique-by",
+  "_nodeVersion": "0.10.26",
+  "_npmUser": {
+    "email": "matt@mlmorg.com",
+    "name": "mlmorg"
+  },
+  "_npmVersion": "2.7.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "unique-by",
+    "raw": "unique-by@^1.0.0",
+    "rawSpec": "^1.0.0",
+    "scope": null,
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/peer-info"
+  ],
+  "_resolved": "https://registry.npmjs.org/unique-by/-/unique-by-1.0.0.tgz",
+  "_shasum": "5220c86ba7bc572fb713ad74651470cb644212bd",
+  "_shrinkwrap": null,
+  "_spec": "unique-by@^1.0.0",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/peer-info",
+  "author": {
+    "email": "matt@mlmorg.com",
+    "name": "Matt Morgan"
+  },
+  "bugs": {
+    "email": "matt@mlmorg.com",
+    "url": "https://github.com/mlmorg/unique-by/issues"
+  },
+  "contributors": [
+    {
+      "name": "Matt Morgan"
+    }
+  ],
+  "dependencies": {},
+  "description": "Create a unique array of objects",
+  "devDependencies": {
+    "coveralls": "^2.0.0",
+    "istanbul": "^0.3.0",
+    "itape": "^1.0.0",
+    "lint-trap": "^1.0.0",
+    "opn": "^1.0.0",
+    "process": "^0.10.1",
+    "tape": "^3.4.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "5220c86ba7bc572fb713ad74651470cb644212bd",
+    "tarball": "https://registry.npmjs.org/unique-by/-/unique-by-1.0.0.tgz"
+  },
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "gitHead": "117fc3888a81ac48894bf37f19957687fdf1855e",
+  "homepage": "https://github.com/mlmorg/unique-by",
+  "itape": {
+    "trace": {
+      "debuglog": [
+        "eachfile"
+      ],
+      "formatStack": true,
+      "leakedHandles": {
+        "debugSockets": true,
+        "timeout": 5001
+      }
+    }
+  },
+  "keywords": [],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/mlmorg/unique-by/raw/master/LICENSE"
+    }
+  ],
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "mlmorg",
+      "email": "matt@mlmorg.com"
+    }
+  ],
+  "name": "unique-by",
+  "optionalDependencies": {},
+  "pre-commit.silent": true,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mlmorg/unique-by.git"
+  },
+  "scripts": {
+    "check-cover": "istanbul check-coverage --branches=100 --lines=100 --functions=100",
+    "check-ls": "npm ls 1>/dev/null",
+    "cover": "npm run test-cover -s && npm run check-cover -s",
+    "lint": "lint-trap .",
+    "test": "npm run check-ls -s && npm run lint -s && npm run cover -s",
+    "test-cover": "istanbul cover --report html --print detail -- test/index.js",
+    "trace": "itape test/index.js --trace",
+    "travis": "npm run cover -s && istanbul report lcov && ((cat coverage/lcov.info | coveralls) || exit 0)",
+    "view-cover": "opn ./coverage/index.html"
+  },
+  "version": "1.0.0"
+}

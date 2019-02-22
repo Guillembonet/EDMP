@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      "mri@1.1.1",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/args"
+    ]
+  ],
+  "_from": "mri@1.1.1",
+  "_hasShrinkwrap": false,
+  "_id": "mri@1.1.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/mri",
+  "_nodeVersion": "6.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/mri_1.1.1_1525681312835_0.21257163708592253"
+  },
+  "_npmUser": {
+    "email": "luke@lukeed.com",
+    "name": "lukeed"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "mri",
+    "raw": "mri@1.1.1",
+    "rawSpec": "1.1.1",
+    "scope": null,
+    "spec": "1.1.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/args"
+  ],
+  "_resolved": "https://registry.npmjs.org/mri/-/mri-1.1.1.tgz",
+  "_shasum": "85aa26d3daeeeedf80dc5984af95cc5ca5cad9f1",
+  "_shrinkwrap": null,
+  "_spec": "mri@1.1.1",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/args",
+  "author": {
+    "email": "luke.edwards05@gmail.com",
+    "name": "Luke Edwards",
+    "url": "lukeed.com"
+  },
+  "bugs": {
+    "url": "https://github.com/lukeed/mri/issues"
+  },
+  "dependencies": {},
+  "description": "Quickly scan for CLI flags and arguments",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 4,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa8AyhCRA9TVsSAnZWagAAHp8P/2+vXpSAx5On4Cgjs1Vv\nimNQ6iwXCCmEYuZy4by+LP4SNar0g3B41VIERVg5dNvr8bwl25GqhmQ7TuXR\nkk4AGHJL+cjCNK8aCRuZ2m8PXh5KkQ3tRl17zw23JXST7Jwd/U3z+e1uyrVG\n3J+GZBjFXxJPepfbfyCom/JOqIuvFoNzoA1QlM/oyhofDRZ+ucYDKI1CGwmk\na8/JF0S8r7NsUDqNtqGAipxfXiEdf6MiKePcmRxsfTs4ccUBVMVFbTXAzkmj\nTX52wpPM5KC+7M0FuKZzCHBK1Xy0ibEzEnjtS0mCv1c4MRwbADcRDPt96vxV\nug+bgH9vNwtF2n3n+WyjnNITM4YW8Wm1pawzDOEmEVSJ0mAd7S1l1ZzesrS3\n8EZnjidYt5gD+QaWcl1FId5LWkBv3hfEJCiwZ5rA/4CNpwTU2KT8+gADjJSA\nK14SaUXFtEa9xi5yIdBNsyY+FyKxFs48od8tjj+EMngSCZ31PWdBqTx2Wlc5\nK2Ni0evSLWUf5Rf7X7FU2Fs+9x7Cz+gjWMuzPvU54Nz3q09/wayytq9e4UCh\ncxivGZZ2zSbK61P0WwLGxGdDGUB7yAA2b0cILb80Kuvx5fFCiSFNN5ydkQDe\nHecyGRc71O93F/Lr0PzKmbIlL818+aV0RLPOkAVVyXEOfD+Qsnq//jmXSRa1\nWZax\r\n=SQK2\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "85aa26d3daeeeedf80dc5984af95cc5ca5cad9f1",
+    "tarball": "https://registry.npmjs.org/mri/-/mri-1.1.1.tgz",
+    "unpackedSize": 9975
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "lib"
+  ],
+  "gitHead": "b19beb2d66aef800ecbd8eff5a4f44ad84884503",
+  "homepage": "https://github.com/lukeed/mri#readme",
+  "keywords": [
+    "args",
+    "arguments",
+    "argv",
+    "cli",
+    "minimist",
+    "optimist",
+    "options",
+    "parser"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "lukeed",
+      "email": "luke@lukeed.com"
+    }
+  ],
+  "name": "mri",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukeed/mri.git"
+  },
+  "scripts": {
+    "bench": "node bench",
+    "test": "tape test/*.js | tap-spec"
+  },
+  "version": "1.1.1"
+}

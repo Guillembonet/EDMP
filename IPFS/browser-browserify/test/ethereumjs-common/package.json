@@ -1,0 +1,127 @@
+{
+  "_args": [
+    [
+      "ethereumjs-common@^1.1.0",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/ethereumjs-block"
+    ]
+  ],
+  "_from": "ethereumjs-common@>=1.1.0 <2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "ethereumjs-common@1.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ethereumjs-common",
+  "_nodeVersion": "8.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/ethereumjs-common_1.1.0_1549371311841_0.8584143337318162"
+  },
+  "_npmUser": {
+    "email": "Holger.Drewes@gmail.com",
+    "name": "holgerd77"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "ethereumjs-common",
+    "raw": "ethereumjs-common@^1.1.0",
+    "rawSpec": "^1.1.0",
+    "scope": null,
+    "spec": ">=1.1.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ethereumjs-block"
+  ],
+  "_resolved": "https://registry.npmjs.org/ethereumjs-common/-/ethereumjs-common-1.1.0.tgz",
+  "_shasum": "5ec9086c314d619d8f05e79a0525829fcb0e93cb",
+  "_shrinkwrap": null,
+  "_spec": "ethereumjs-common@^1.1.0",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/ethereumjs-block",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ethereumjs/ethereumjs-common/issues"
+  },
+  "dependencies": {},
+  "description": "Resources common to all Ethereum implementations",
+  "devDependencies": {
+    "@ethereumjs/config-nyc": "^1.1.0",
+    "@ethereumjs/config-prettier": "^1.1.0",
+    "@ethereumjs/config-tsc": "^1.1.0",
+    "@ethereumjs/config-tslint": "^1.1.0",
+    "@types/node": "^10.12.2",
+    "@types/tape": "^4.2.33",
+    "coveralls": "^3.0.1",
+    "nyc": "^11.7.1",
+    "prettier": "^1.15.3",
+    "tape": "^4.9.2",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.12.0",
+    "typedoc": "^0.14.0",
+    "typedoc-plugin-markdown": "^1.1.21",
+    "typescript": "^3.2.2",
+    "typestrict": "^1.0.2"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 38,
+    "integrity": "sha512-LUmYkKV/HcZbWRyu3OU9YOevsH3VJDXtI6kEd8VZweQec+JjDGKCmAVKUyzhYUHqxRJu7JNALZ3A/b3NXOP6tA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcWYeyCRA9TVsSAnZWagAAYNIP/07BcobzZk7qa0EJvSQk\n8xkkFLbk34If0W0Xc6M6a+1EKA2NkI8KWIQAi1LfdehtdjTQNBKOzl9QKp4R\nOqf8hnRGnSYIn6D/yTSXY7dZoMnj1mp/msYEaZMa6Q02Ok80bsZ8Cm6GXi3q\n7QizKH2bq+9SEamU5XMHiX4j3sCCoVQ6JciAe7qbovx4EiUZnCgAJGJ6yS+v\nQhVn6/ddi4AVny2h4G7YobDHHOtML+g+KdqQeIKVaENj1SKScHQU586FG3LV\nFgDwWKhyRJfayxxVjvsbs2R+oI0h1Uo5ifaKehyUTTH64yoDNhppAd3t63mp\nEocUkvsqdRM4obyWmtEdKM/v33z+qo+FWdeslVBQxrwkm0KqkTcuik//6S7I\nqHHWPS06aDWTF1LXhA/kpRZp3JCv+ssHS8U3+RAMdBKRt4AlL6K9ASDJEHYb\nGAdeNu8aLGWiDWfFg9bx55l+zbX5b9FEubM+YRPbh9j5hV14IY4WD8UAO+LE\nm58/6TJxkZcWecJjoFJ1zZZ3gEoPGNd4tFSKgE1w/xGA3T2ttqzoKQGPBjBh\nGk8a3G+10eqyxSwe1QAnzxHwnYUN1E/sEHwTL9ELD2yzxpjWXhI9/Z25usNB\nkEuyYtxesTTMgvd6k3505p1berOOE1ppTOz7As/vgaXPGOXVwDiMaAgh7Vsz\nwKF3\r\n=lahZ\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "5ec9086c314d619d8f05e79a0525829fcb0e93cb",
+    "tarball": "https://registry.npmjs.org/ethereumjs-common/-/ethereumjs-common-1.1.0.tgz",
+    "unpackedSize": 793218
+  },
+  "gitHead": "106ac9422c4353a026e432539abd547e52ef956e",
+  "homepage": "https://github.com/ethereumjs-ethereumjs/common",
+  "keywords": [
+    "bootstrap",
+    "constants",
+    "ethereum",
+    "ethereumjs",
+    "genesis",
+    "networks",
+    "parameters"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "maintainers": [
+    {
+      "name": "axic",
+      "email": "alex@rtfs.hu"
+    },
+    {
+      "name": "holgerd77",
+      "email": "Holger.Drewes@gmail.com"
+    },
+    {
+      "name": "jwasinger",
+      "email": "j-wasinger@hotmail.com"
+    }
+  ],
+  "name": "ethereumjs-common",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethereumjs/ethereumjs-common.git"
+  },
+  "scripts": {
+    "build": "ethereumjs-config-build",
+    "coverage": "ethereumjs-config-coverage",
+    "coveralls": "ethereumjs-config-coveralls",
+    "docs:build": "typedoc --out docs --excludePrivate --excludeExternals --mode file --readme none --theme markdown --mdEngine github src/*.ts src/genesisStates/*.ts",
+    "format": "ethereumjs-config-format",
+    "format:fix": "ethereumjs-config-format-fix",
+    "lint": "ethereumjs-config-lint",
+    "lint:fix": "ethereumjs-config-lint-fix",
+    "prepublishOnly": "npm run test && npm run build",
+    "test": "npm run lint && npm run unitTests",
+    "test:fix": "npm run lint:fix && npm run unitTests",
+    "tsc": "ethereumjs-config-tsc",
+    "tslint": "ethereumjs-config-tslint",
+    "tslint:fix": "ethereumjs-config-tslint-fix",
+    "unitTests": "ts-node ./node_modules/tape/bin/tape ./tests/*.ts"
+  },
+  "types": "./dist/index.d.ts",
+  "version": "1.1.0"
+}

@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      "quick-format-unescaped@^3.0.0",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/pino"
+    ]
+  ],
+  "_from": "quick-format-unescaped@>=3.0.0 <4.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "quick-format-unescaped@3.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/quick-format-unescaped",
+  "_nodeVersion": "10.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/quick-format-unescaped_3.0.2_1549378815585_0.023876932294962128"
+  },
+  "_npmUser": {
+    "email": "huperekchuno@googlemail.com",
+    "name": "davidmarkclements"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "quick-format-unescaped",
+    "raw": "quick-format-unescaped@^3.0.0",
+    "rawSpec": "^3.0.0",
+    "scope": null,
+    "spec": ">=3.0.0 <4.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/pino"
+  ],
+  "_resolved": "https://registry.npmjs.org/quick-format-unescaped/-/quick-format-unescaped-3.0.2.tgz",
+  "_shasum": "0137e94d8fb37ffeb70040535111c378e75396fb",
+  "_shrinkwrap": null,
+  "_spec": "quick-format-unescaped@^3.0.0",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/pino",
+  "author": {
+    "name": "David Mark Clements"
+  },
+  "bugs": {
+    "url": "https://github.com/davidmarkclements/quick-format/issues"
+  },
+  "dependencies": {},
+  "description": "Solves a problem with util.format",
+  "devDependencies": {
+    "fastbench": "^1.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "fileCount": 7,
+    "integrity": "sha512-FXTaCkwvpIlkdKeGDNgcq07SXWS383noQUuZjvdE1QcTt+eLuqof6/BDiEPqB59FWLie/l91+HtlJSw7iCViSA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcWaUACRA9TVsSAnZWagAATY8P/ikgZ3sjk9SG8nrPu0J5\nZqG311OWeidVUutKBPr151trhpnvX2lJkMwePe3XO441pE+3wyYq2Xz+4riX\nmpyn51IotA2wMtze5Xn31rTRzjy40ImtoexRy4GyCBzv12PO14x5dSgDLKbb\n3d4twP2X4Rds6iF7PhQr0+qfIG+OmvNXMG/vdq9xplVlIqGozDE3sG9kB5lo\nvr6Gq8eLRc2jS2fH/lfBPErOvRHciUfPqzhRhuFt9zUmxpBpHUpNdpnotlFO\nXyX5THQ8l8ckpPrWn9wflu6wLhz6gUOiMskue+GTGI9FL9WM3h6fHlf4Qtjk\nTwEwXUpy0p1/3ZoUnVMqYYZgT11dx4M7sBDTQOyOCufDQMuPFK0b9NtSs0TX\nwvYG3xnRGk4FITy867Jeljjaj3yO8h6MPcW653iDyfHodXMYneVBmq6aOZCg\n3WBVX8xBkbaoswSfyZgezTwAOQNdFSxb1xXFIDfSG5guikJDMP+JWgCynoo6\n3rK9wc3/kA61gFsK0j3VLgh2LvNbYdzzcLtzaZ7RR2Re4GDoTenADTiBHk9C\nl/FU2DlI0ezNIDomhM3s/o+55URmCS6rXx6idb1D2vqh1H3MvEkKFXLoDq2l\niyG06fCoguG0QYVu7H9RvgBJZzEjJ1N4hq5ejePQOaX/mqdPDoUI7iVf/N+V\nfFlq\r\n=rUHO\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "0137e94d8fb37ffeb70040535111c378e75396fb",
+    "tarball": "https://registry.npmjs.org/quick-format-unescaped/-/quick-format-unescaped-3.0.2.tgz",
+    "unpackedSize": 9507
+  },
+  "gitHead": "8baa0264f202772356f38d09cb7dcb51ef2100db",
+  "homepage": "https://github.com/davidmarkclements/quick-format#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "davidmarkclements",
+      "email": "huperekchuno@googlemail.com"
+    }
+  ],
+  "name": "quick-format-unescaped",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmarkclements/quick-format.git"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "version": "3.0.2"
+}

@@ -1,0 +1,110 @@
+{
+  "_args": [
+    [
+      "fast-redact@^1.4.2",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/pino"
+    ]
+  ],
+  "_from": "fast-redact@>=1.4.2 <2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "fast-redact@1.4.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/fast-redact",
+  "_nodeVersion": "10.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/fast-redact_1.4.4_1550418141493_0.1866749352658792"
+  },
+  "_npmUser": {
+    "email": "huperekchuno@googlemail.com",
+    "name": "davidmarkclements"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "fast-redact",
+    "raw": "fast-redact@^1.4.2",
+    "rawSpec": "^1.4.2",
+    "scope": null,
+    "spec": ">=1.4.2 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/pino"
+  ],
+  "_resolved": "https://registry.npmjs.org/fast-redact/-/fast-redact-1.4.4.tgz",
+  "_shasum": "d29bd1d0cc3ab808a9d4f9870f6e27e85c750db4",
+  "_shrinkwrap": null,
+  "_spec": "fast-redact@^1.4.2",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/pino",
+  "author": {
+    "email": "david.clements@nearform.com",
+    "name": "David Mark Clements"
+  },
+  "bugs": {
+    "url": "https://github.com/davidmarkclements/fast-redact/issues"
+  },
+  "dependencies": {},
+  "description": "very fast object redaction",
+  "devDependencies": {
+    "fastbench": "^1.0.1",
+    "pino-noir": "^2.2.1",
+    "snazzy": "^8.0.0",
+    "standard": "^12.0.1",
+    "tap": "^12.5.2"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dist": {
+    "fileCount": 19,
+    "integrity": "sha512-QOQZ8sDDQPZMJ6x6zlm6hLZ2cjPDqfN3R/AYnAbM+yy8VNPvOnVXdUF/E/xbMv7g44c1krhWuzgjH2u0V5Vhsg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcaYDeCRA9TVsSAnZWagAAXOYP/17Rb7fOnCNvQHxAnlwK\njM5iPcjg/8qelBC1H33TGx2QwSseGKFq4LjsEbuuVsTGjAqVkfguhy2K09Ez\nwroDetpFnSMN6IPQV6hrNVCjxHa1JrpmReYmVOIVlGm4aV58Yoh8Vef8/QSo\no/7hzhAMsEMm2ERrXKA1AwoG99MmkgC31Lpma5g/v7dMnMLfVm1cLjE6JJgH\n1fhJL2Gn8uBblEWcIN9xA/daKYTAeoeoXLCrrP2Z+kPcBnqZSpvFGNAh/juF\n5VRk5MKSK5BBG/TL5F9GJpy+cAe1oQbxqcfj3i0A5cNC6tGzkdv8vDaq5aR5\nTvtS7E1EY9AcPkhqhjmIji3kW8ezZ7C2lxFEqKEeueAO2g1amGRcPEIA+sRc\ng9ZGwLHuCQlAohVdS4JLKV7LmvNp+yY7mt85uw5dQ43Xe8Tu9ZWI3tk1aIOa\nLrEkNrNfLjSR2JjDASsNKPn/bXXThNcWnPMtO4+Lach6B/cEZsO8QaFJeb3p\nI5fLZVhd0VecB9YntON6tXAgjS1Sn0KrTjQswsrXxw9S5CK1tkKSqK1n9nhe\nazOXH0sjbcdaeSm6WvKJciHRKqtV5grkHsLynce4lPKNS3eC3vWi7HmM7psj\nJ/YssNGlbqLcHCE9Zbw65W+9W8yp2Wh5cKftjFmHHAaE1pRO8OZyveZrOUWN\nVqCy\r\n=dibM\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "d29bd1d0cc3ab808a9d4f9870f6e27e85c750db4",
+    "tarball": "https://registry.npmjs.org/fast-redact/-/fast-redact-1.4.4.tgz",
+    "unpackedSize": 63306
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "gitHead": "c7c8427dc19685679752e97928fe99d153ecab30",
+  "homepage": "https://github.com/davidmarkclements/fast-redact#readme",
+  "keywords": [
+    "censor",
+    "fast",
+    "gdpr",
+    "performance",
+    "performant",
+    "redact",
+    "serialize",
+    "speed",
+    "stringify"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "davidmarkclements",
+      "email": "huperekchuno@googlemail.com"
+    }
+  ],
+  "name": "fast-redact",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmarkclements/fast-redact.git"
+  },
+  "scripts": {
+    "bench": "node benchmark",
+    "ci": "tap --cov --100 test",
+    "cov": "tap --cov test",
+    "cov-ui": "tap --coverage-report=html test",
+    "pretest": "standard index.js 'lib/*.js' 'example/*.js' benchmark/index.js test/index.js | snazzy",
+    "test": "tap test"
+  },
+  "version": "1.4.4"
+}

@@ -1,0 +1,148 @@
+{
+  "_args": [
+    [
+      "prom-client@^11.1.3",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "prom-client@>=11.1.3 <12.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "prom-client@11.2.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/prom-client",
+  "_nodeVersion": "8.3.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/prom-client_11.2.1_1545399588013_0.9868976439760304"
+  },
+  "_npmUser": {
+    "email": "simon@nyberg.io",
+    "name": "siimon"
+  },
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "prom-client",
+    "raw": "prom-client@^11.1.3",
+    "rawSpec": "^11.1.3",
+    "scope": null,
+    "spec": ">=11.1.3 <12.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs"
+  ],
+  "_resolved": "https://registry.npmjs.org/prom-client/-/prom-client-11.2.1.tgz",
+  "_shasum": "486e7817de9b1d43c0a12aee26fc68830f4d1b16",
+  "_shrinkwrap": null,
+  "_spec": "prom-client@^11.1.3",
+  "_where": "/home/ubuntu/js-ipfs",
+  "author": {
+    "name": "Simon Nyberg"
+  },
+  "bugs": {
+    "url": "https://github.com/siimon/prom-client/issues"
+  },
+  "dependencies": {
+    "tdigest": "^0.1.1"
+  },
+  "description": "Client for prometheus",
+  "devDependencies": {
+    "@clevernature/benchmark-regression": "^1.0.0",
+    "eslint": "^5.6.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.1.2",
+    "express": "^4.13.3",
+    "husky": "^0.14.3",
+    "jest": "^23.6.0",
+    "lint-staged": "^7.0.0",
+    "lolex": "^2.1.3",
+    "prettier": "1.14.3",
+    "typescript": "^3.0.3"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 32,
+    "integrity": "sha512-7VwtjrkQS50NvDoeYNn2z6wzXB5BMGzUlmMOeLPaITtJsTVXnPywRta7QFiV4pKr0fbRx9oDfUcx1xibabjSAg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcHO0kCRA9TVsSAnZWagAAcgMP/21WabN6qv/Ivsnr1NkI\nizOko718vfXqxWvKExS5Fk3/OfLGGY78WZAbX8+oidYN0u5rMUGC3UiRgOiL\nMT9lS3k5My/MMPIjJOAVjI8lU/esxImDdnhzNNltenq65aHEcyoCy4hTYPkh\nhcyNiCZuttxNQNwFwUgmRY9RUBPUm73x+zEriBsAITFJvYVs4eAjZ819Hz0n\nWeSnOUuDuSM6fB1UMNgTIcmedF1O/s+KOi+ESxMKOlILbR1zf9USeS9FK5PA\n3Q8HCDNzOuwHShWsHNaXxlwPcSWQhojapNhux6KjoDH4EZZ/8c4jiykgq5dv\nFVSMD6j7KLviePsgx+TmOSalkTKItgsOi5CS7ONB1xer13w6gnLJU4wau7ro\nNM/dRYZed4CsqvDuvYo38x1Cx03joEXNRTzhIObT3uA3zvcokix432hBvPKL\n7nVOQGZCFRNrmxU8XOp+RNHIlqrwUOmGWScyawdkBC3jMhsyuqCpTSJH1uyy\nt8Mp1sgE8EXuLnVFJ75X93gkLQZXovPX1aXdt0dInEUvO7Xp+XLejeBQi8wO\njv+1VFpfQoFd+xJZ4ovNPMg++KaNLNVV8NuBz7UuPbb+Fg7bLn4HRkVH6GyE\nMHa+CmE5dcMg1vvoORhfKpEb3jPuUZg2R/3qE7cMT2/Z7qe9KZI+8QdLCPq1\nBovo\r\n=v3uw\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "486e7817de9b1d43c0a12aee26fc68830f4d1b16",
+    "tarball": "https://registry.npmjs.org/prom-client/-/prom-client-11.2.1.tgz",
+    "unpackedSize": 107628
+  },
+  "engines": {
+    "node": ">=6.1"
+  },
+  "gitHead": "ba9f366890991fb6372e68d09a375c0863ae41d7",
+  "homepage": "https://github.com/siimon/prom-client",
+  "jest": {
+    "testEnvironment": "node",
+    "testRegex": ".*Test\\.js$"
+  },
+  "keywords": [
+    "Client",
+    "Metrics",
+    "Prometheus"
+  ],
+  "license": "Apache-2.0",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{ts,md,json,yml}": [
+      "git add",
+      "prettier --write"
+    ],
+    ".{eslintrc,travis.yml}": [
+      "git add",
+      "prettier --write"
+    ]
+  },
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "siimon",
+      "email": "simon@nyberg.io"
+    },
+    {
+      "name": "simenb",
+      "email": "sbekkhus91@gmail.com"
+    }
+  ],
+  "name": "prom-client",
+  "optionalDependencies": {},
+  "prettier": {
+    "overrides": [
+      {
+        "files": "*.md",
+        "options": {
+          "useTabs": false
+        }
+      },
+      {
+        "files": ".eslintrc",
+        "options": {
+          "parser": "json"
+        }
+      }
+    ],
+    "singleQuote": true,
+    "useTabs": true
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/siimon/prom-client.git"
+  },
+  "scripts": {
+    "benchmarks": "node ./benchmarks/index.js",
+    "compile-typescript": "tsc index.d.ts --noImplicitAny --target es6",
+    "lint": "eslint .",
+    "precommit": "lint-staged",
+    "test": "npm run lint && npm run compile-typescript && npm run test-unit",
+    "test-unit": "jest"
+  },
+  "types": "./index.d.ts",
+  "version": "11.2.1"
+}

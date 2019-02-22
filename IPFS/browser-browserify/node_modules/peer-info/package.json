@@ -1,0 +1,192 @@
+{
+  "_args": [
+    [
+      "peer-info@~0.15.0",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "peer-info@>=0.15.0 <0.16.0",
+  "_hasShrinkwrap": false,
+  "_id": "peer-info@0.15.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/peer-info",
+  "_nodeVersion": "10.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/peer-info_0.15.1_1547050046228_0.7740557208470473"
+  },
+  "_npmUser": {
+    "email": "i@pgte.me",
+    "name": "pgte"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "peer-info",
+    "raw": "peer-info@~0.15.0",
+    "rawSpec": "~0.15.0",
+    "scope": null,
+    "spec": ">=0.15.0 <0.16.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs",
+    "/ipfs-http-client",
+    "/libp2p",
+    "/libp2p-bootstrap",
+    "/libp2p-circuit",
+    "/libp2p-identify",
+    "/libp2p-kad-dht",
+    "/libp2p-mdns",
+    "/libp2p-secio",
+    "/libp2p-switch",
+    "/libp2p-webrtc-star",
+    "/libp2p-websocket-star",
+    "/peer-book"
+  ],
+  "_resolved": "https://registry.npmjs.org/peer-info/-/peer-info-0.15.1.tgz",
+  "_shasum": "21254a7c516d0dd046b150120b9aaf1b9ad02146",
+  "_shrinkwrap": null,
+  "_spec": "peer-info@~0.15.0",
+  "_where": "/home/ubuntu/js-ipfs",
+  "bugs": {
+    "url": "https://github.com/libp2p/js-peer-info/issues"
+  },
+  "contributors": [
+    {
+      "name": "Richard Littauer",
+      "email": "richard.littauer@gmail.com"
+    },
+    {
+      "name": "Arnaud",
+      "email": "arnaud.valensi@gmail.com"
+    },
+    {
+      "name": "David Dias",
+      "email": "mail@daviddias.me"
+    },
+    {
+      "name": "Friedel Ziegelmayer",
+      "email": "dignifiedquire@gmail.com"
+    },
+    {
+      "name": "Greenkeeper",
+      "email": "support@greenkeeper.io"
+    },
+    {
+      "name": "Hugo Dias",
+      "email": "hugomrdias@gmail.com"
+    },
+    {
+      "name": "Orie Steele",
+      "email": "orie@ohs.io"
+    },
+    {
+      "name": "Pedro Teixeira",
+      "email": "i@pgte.me"
+    },
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Sid Harder",
+      "email": "sideharder@gmail.com"
+    },
+    {
+      "name": "Stephen Whitmore",
+      "email": "stephen.whitmore@gmail.com"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@moxy.studio"
+    },
+    {
+      "name": "Zane Starr",
+      "email": "zcstarr@gmail.com"
+    },
+    {
+      "name": "haad",
+      "email": "haad@headbanggames.com"
+    },
+    {
+      "name": "npmcdn-to-unpkg-bot",
+      "email": "npmcdn-to-unpkg-bot@users.noreply.github.com"
+    },
+    {
+      "name": "Łukasz Kurowski",
+      "email": "crackcomm@users.noreply.github.com"
+    },
+    {
+      "name": "ᴠɪᴄᴛᴏʀ ʙᴊᴇʟᴋʜᴏʟᴍ",
+      "email": "victorbjelkholm@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "mafmt": "^6.0.2",
+    "multiaddr": "^6.0.3",
+    "peer-id": "~0.12.2",
+    "unique-by": "^1.0.0"
+  },
+  "description": "IPFS Peer abstraction JavaScript implementation",
+  "devDependencies": {
+    "aegir": "^18.0.3",
+    "buffer-loader": "0.1.0",
+    "bundlesize": "~0.17.0",
+    "chai": "^4.2.0",
+    "dirty-chai": "^2.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 11,
+    "integrity": "sha512-Y91Q2tZRC0CpSTPd1UebhGqniOrOAk/aj60uYUcWJXCoLTAnGu+4LJGoiay8ayudS6ice7l3SKhgL/cS62QacA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcNhw+CRA9TVsSAnZWagAAoUUP/A5a6eII1G8Ak1NMbkUz\nAkitJXjLoe8kQuS2RxhbRaV6F008YvkSekkVvRgKPF+DiYnZDHI5hMTHUFzH\nYQQ6Wd+urChXJV92zut4C0fIBAnr4eRdLAvUVF3zSOj5wgeZomDN0UX0e6jF\nnFZfpUPI+vOmK686C9wVli2cYvEdKyQPFeIUCp8eCvtvGOFvmMF2F0Ud0D6X\noAC4/nyyLsAwiTGMRfImek/qV9IX4Kfnwkza01UIrEGyYX7lpPVzP5zjW760\ndpw/9m2V5IiuYLBoEPzneg+I8bRsecIG4SvF0Iz/V9a9JRioLRm9H0HF1Fz4\npgr+d1liVCC8OL1a9JFBLvWgWilMOgN8rQllOX0uvjr1aQ9mvHOqr2sNFxc+\nKwIY8VXsTw0wqAmYhsiGl91GHqSype9RYQ5N9YLImKzJ/OeWZj2AoRmVwaxk\nrJsaWk3tAt9FggCHLR/+IGnHcZgAF+B+teItxSXSF5usFqw6tGLwVOvDqj4X\n3EfzFZ46vtMbEX0NycQ9Zf/0PaznKBRvlSOgFdmDExEaOJ+jkjc/DMC+Hx8f\n0QHLbSDEUTuGL7RZ9QCXMtlNujfCmT+3uEABOBMgCgsQqqLwccgGIF5UYueh\njd3NYTLzvTxjCPo/zPqsYUt7kWiMDl+luzk+aXE1L0Vag7Kn9863zqpwTvN+\nDiEK\r\n=YYzD\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "21254a7c516d0dd046b150120b9aaf1b9ad02146",
+    "tarball": "https://registry.npmjs.org/peer-info/-/peer-info-0.15.1.tgz",
+    "unpackedSize": 5311791
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "28f06e5eb2d7ff0b4c7c426b4154032340fc78a5",
+  "homepage": "https://github.com/libp2p/js-peer-info",
+  "keywords": [
+    "IPFS"
+  ],
+  "leadMaintainer": "Pedro Teixeira <i@pgte.me>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "mail@daviddias.me"
+    },
+    {
+      "name": "pgte",
+      "email": "i@pgte.me"
+    }
+  ],
+  "name": "peer-info",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libp2p/js-peer-info.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage --provider coveralls",
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "release-major": "aegir release --type major",
+    "release-minor": "aegir release --type minor",
+    "size": "bundlesize -f dist/index.min.js -s 146kB",
+    "test": "aegir test",
+    "test:browser": "aegir test -t browser",
+    "test:node": "aegir test -t node"
+  },
+  "version": "0.15.1"
+}

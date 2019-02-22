@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>js-ipfs example</title>
+    <script src="bundle.js"></script>
+    <style>
+      .content {
+        border: 1px solid black;
+        padding: 10px;
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Add device data to IPFS</h1>
+	<div id="dataapi"></div>
+	<button id="add" onclick="myFunction()">Display</button>
+	<br></br>
+    <textarea id="source" readonly rows="1" cols="65"></textarea>
+	<script type="text/javascript">
+	const myDiv = document.getElementById("dataapi");
+
+var request = new XMLHttpRequest();
+
+request.open('GET', 'https://api.oehu.org/devices', true);
+request.onload = function () {
+  var data = JSON.parse(this.response);
+
+   if (request.status >= 200 && request.status < 400) {
+    data.forEach(device => {
+	var checkBox = document.createElement("input");
+        var label = document.createElement("label");
+        checkBox.type = "checkbox";
+		checkBox.name = "ankush";
+        checkBox.value = device;
+		var br = document.createElement("br");
+        myDiv.appendChild(br);
+        myDiv.appendChild(checkBox);
+        myDiv.appendChild(label);
+        label.appendChild(document.createTextNode(device.deviceId));
+    });
+  } else {
+    console.log('error');
+  }
+}
+request.send();
+function myFunction() {
+    var dat = document.getElementsByName("ankush");
+	var count=0;
+	for(var i=0, n=dat.length;i<n;i++) {
+     if (dat[i].checked){
+	    count=count +1;
+		var item = dat[i];
+	 }
+	 if (count==1){
+	    document.getElementById("source").value = item.value;
+		item.checked=false;
+		item.disabled=true;
+	 } else if (count==0){
+	   document.getElementById("source").value = "Please select one device";
+	 } else{
+	   document.getElementById("source").value = "Multiple devices have been selected. Please select only one";
+	 }
+  }
+}
+</script>
+	<br></br>
+    <button id="store">add to ipfs</button>
+    <div>
+      <div>found in ipfs:</div>
+      <div class="content" id="hash">[ipfs hash]</div>
+      <div class="content" id="content">[ipfs content]</div>
+    </div>
+  </body>
+</html>

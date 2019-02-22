@@ -1,0 +1,111 @@
+{
+  "_args": [
+    [
+      "prometheus-gc-stats@~0.6.0",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "prometheus-gc-stats@>=0.6.0 <0.7.0",
+  "_hasShrinkwrap": false,
+  "_id": "prometheus-gc-stats@0.6.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/prometheus-gc-stats",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/prometheus-gc-stats_0.6.1_1543257513303_0.4029207728272386"
+  },
+  "_npmUser": {
+    "email": "sbekkhus91@gmail.com",
+    "name": "simenb"
+  },
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "prometheus-gc-stats",
+    "raw": "prometheus-gc-stats@~0.6.0",
+    "rawSpec": "~0.6.0",
+    "scope": null,
+    "spec": ">=0.6.0 <0.7.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs"
+  ],
+  "_resolved": "https://registry.npmjs.org/prometheus-gc-stats/-/prometheus-gc-stats-0.6.1.tgz",
+  "_shasum": "24d244ac1d292caae12c54f8a7e7c547e443397d",
+  "_shrinkwrap": null,
+  "_spec": "prometheus-gc-stats@~0.6.0",
+  "_where": "/home/ubuntu/js-ipfs",
+  "author": {
+    "email": "sbekkhus91@gmail.com",
+    "name": "Simen Bekkhus"
+  },
+  "bugs": {
+    "url": "https://github.com/SimenB/node-prometheus-gc-stats/issues"
+  },
+  "dependencies": {
+    "gc-stats": "^1.2.1",
+    "optional": "^0.1.3"
+  },
+  "description": "Report Garbage Collection stats using Prometheus",
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-simenb-base": "^15.0.0",
+    "eslint-config-simenb-jest": "^2.0.0",
+    "eslint-config-simenb-node": "^1.0.0",
+    "jest": "^23.5.0",
+    "prettier": "^1.4.4",
+    "prom-client": "^10.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 5,
+    "integrity": "sha512-DUo/cDs+1XcVuqoFU6+DjmWjkjIRIVeswtZAIfslIPrYfli2NK0/g/BPoO/kqOgLvzbKRx4m9+MDeNsNIIJGkg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb/D2qCRA9TVsSAnZWagAAcjkP/R8DzxN+wvdYzagF+m7L\nO1IhfdUInA59c2hcvQdy8D9SLevVu9foNNOTNxyOyJx/6xqmbCR2L5DkrOmS\nYLogBvoPx9SwYzmv/UYA0i7jyYcyBXea0tQ2wvmWpojWdCgv4ZrssYvNsaJS\nQHERbsS4J8K5Smlokf8CblXzY5m8fysTkSdt7Vul48zV7PkyNRV9lgrdkbYt\nJhOwqVyuP/hLXyu81LwGsJ6xLCjt2CSPhVDs6sb24IEIteIhSqMKYnFsTpxZ\nR5ig9p9SNz3meXvA2lqqHTabsMwTHn5CgiYA417iW4KY4tc9WEqEDoMnPAOP\nk94zyhMjtVCy3u2w845WzJUV0vSRhyrmzDoj6vVIflNf4LilYsTlVviY9iS5\nTo0re4JdEdDZ0StkHGGy9ZPJSo2EobELpvOAl+OvB5aI8ZmJ9DvfAaFUUwy5\n4jqyA5SKa3HHfzOjocV6Ijmmr0XBGI/nbi+EZt/cRuDrs62iJoK0pFjb+sGB\nZuxgkhefj5svN7Nz9XJGJtFIOg8Rkh/ke14mxk2IYq72gQrYAgUt07WdSNSh\nc80Rm3GTAw7OG7mMZSJwXcbYX49qzCyRoz0ncPmZBa14TwXTXqGasSPvZRuC\nPEfU1OVXoLOph6+j091R744Wvf7yNg/Grt+fuHtSwhaI1tPlFfJgNVfRF6AW\n7bmp\r\n=JpMJ\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "24d244ac1d292caae12c54f8a7e7c547e443397d",
+    "tarball": "https://registry.npmjs.org/prometheus-gc-stats/-/prometheus-gc-stats-0.6.1.tgz",
+    "unpackedSize": 6616
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "homepage": "https://github.com/SimenB/node-prometheus-gc-stats#readme",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    "garbage-collection",
+    "gc",
+    "metrics",
+    "prom",
+    "prometheus",
+    "statsd"
+  ],
+  "license": "MIT",
+  "licenseText": "The MIT License (MIT)\n\nCopyright (c) 2016 Simen Bekkhus\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "simenb",
+      "email": "sbekkhus91@gmail.com"
+    }
+  ],
+  "name": "prometheus-gc-stats",
+  "optionalDependencies": {
+    "gc-stats": "^1.2.1"
+  },
+  "peerDependencies": {
+    "prom-client": ">= 10 < 12"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimenB/node-prometheus-gc-stats.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "jest"
+  },
+  "version": "0.6.1"
+}

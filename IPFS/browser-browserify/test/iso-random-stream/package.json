@@ -1,0 +1,127 @@
+{
+  "_args": [
+    [
+      "iso-random-stream@^1.1.0",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/libp2p-crypto"
+    ]
+  ],
+  "_from": "iso-random-stream@>=1.1.0 <2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "iso-random-stream@1.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/iso-random-stream",
+  "_nodeVersion": "10.13.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/iso-random-stream_1.1.0_1545066541161_0.7638167765484614"
+  },
+  "_npmUser": {
+    "email": "mail@hugodias.me",
+    "name": "hugomrdias"
+  },
+  "_npmVersion": "6.5.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "iso-random-stream",
+    "raw": "iso-random-stream@^1.1.0",
+    "rawSpec": "^1.1.0",
+    "scope": null,
+    "spec": ">=1.1.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/libp2p-crypto"
+  ],
+  "_resolved": "https://registry.npmjs.org/iso-random-stream/-/iso-random-stream-1.1.0.tgz",
+  "_shasum": "c1dc1bb43dd8da6524df9cbc6253b010806585c8",
+  "_shrinkwrap": null,
+  "_spec": "iso-random-stream@^1.1.0",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/libp2p-crypto",
+  "author": {
+    "email": "hugomrdias@gmail.com",
+    "name": "Hugo Dias",
+    "url": "hugodias.me"
+  },
+  "browser": {
+    "./src/random.js": "./src/random.browser.js"
+  },
+  "bugs": {
+    "url": "https://github.com/hugomrdias/iso-random-stream/issues"
+  },
+  "dependencies": {},
+  "description": "Random bytes stream for node and browser",
+  "devDependencies": {
+    "airtap": "^0.1.0",
+    "codecov": "^3.1.0",
+    "conventional-changelog-cli": "^2.0.5",
+    "eslint": "^4.7.1",
+    "eslint-config-halo": "^2.3.3",
+    "faucet": "^0.0.1",
+    "http-serve": "^1.0.1",
+    "husky": "^0.14.3",
+    "np": "^3.0.4",
+    "npm-run-all": "^4.1.1",
+    "nyc": "^13.0.1",
+    "tape": "^4.9.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 7,
+    "integrity": "sha512-ywSWt0KrWcsaK0jVoVJIR30rLyjg9Rw3k2Sm/qp+3tdtSV0SNH7L7KilKnENcENOSoJxDFvpt2idvuMMQohdCQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcF9gtCRA9TVsSAnZWagAA8akQAIfArPTE37qa0ZpvtAE0\nv26BfuxjDhYTAQPZ0+GfJrXLAMQEYh06qAPIpLn9ir1umIPrWGEe6Cme6Zls\n2WxWNG9fsJZ5wyBvOskTetI2b/FDC9d5w+A2NmRcmsClXHteU9vaSuASzAcG\neE262Akc1VFDHCTs25BUB8wTE+mxoYqKrSGn7t7eck1evNXP/LAzCs7FxxIe\n5/2Df3sa918soqurlQn0eFGna5AA3pzy6Ll+hOXyaCyazSFJXwPfwEqdAh2k\neGWoubBxjiWys0OpwMX7qbZ7MSjFbHcuemrzOkyJwuIeYNKDjM8D0/rffimh\nD3cgUCDUJtFmfEH0Pdu5PgHWKL6Oow4mimHtsUm/xu03yZVdUx6q1kLQxkiq\ni0gndhb0ANiCfp5sEdXZ+zIVCsF+NCGssHACHcPQeJ3fxSdml+xe2qK7RY7w\ncttzd+LjsgSTiF+8rqLVcN4tprtpCuGmmFUG6PBfU2HWieLVLXIkpIyA2WZJ\n0jUv8gHw9dq6DQV5Rf06uP2hByOsQ1DzHXoE6XvVmAe0lXzBwZIZEhV2Y2vI\nUgP/LmBRIY+BRNEShTjiCS2wjzmH4c5WyynhPLxaWwNOs/kwLOhrlJjJJno6\nn+NLl4eXSaJzk1uKP/ro093E1Eg1zqNvGb49fa/5Pz9SkHEEizYiMC7a0lPH\nbiKr\r\n=imnO\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "c1dc1bb43dd8da6524df9cbc6253b010806585c8",
+    "tarball": "https://registry.npmjs.org/iso-random-stream/-/iso-random-stream-1.1.0.tgz",
+    "unpackedSize": 6754
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "eslintConfig": {
+    "extends": "halo/node"
+  },
+  "eslintIgnore": [
+    "coverage",
+    "dist",
+    "node_modules",
+    "storybook-static",
+    "typings"
+  ],
+  "gitHead": "e1eec976b272493eca024ef45d4ec687bfe999f2",
+  "homepage": "https://github.com/hugomrdias/iso-random-stream#readme",
+  "keywords": [
+    "browser",
+    "bytes",
+    "isomorphic",
+    "node",
+    "random",
+    "stream"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "hugomrdias",
+      "email": "mail@hugodias.me"
+    }
+  ],
+  "name": "iso-random-stream",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomrdias/iso-random-stream.git"
+  },
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i changelog.md -s -r 0",
+    "cov": "yarn test && nyc report --reporter=html && hs coverage -s -o -c-1",
+    "cov:report": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "lint": "eslint --cache *.js src/*.js",
+    "precommit": "yarn validate",
+    "test": "nyc tape test.js | faucet",
+    "test:browser-local": "airtap --local test.js",
+    "validate": "run-p lint test",
+    "version": "yarn changelog && git add changelog.md"
+  },
+  "version": "1.1.0"
+}

@@ -1,0 +1,117 @@
+{
+  "_args": [
+    [
+      "hapi-pino@^5.2.0",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "hapi-pino@>=5.2.0 <6.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "hapi-pino@5.4.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/hapi-pino",
+  "_nodeVersion": "10.14.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/hapi-pino_5.4.1_1549669736097_0.2848254652568687"
+  },
+  "_npmUser": {
+    "email": "hello@matteocollina.com",
+    "name": "matteo.collina"
+  },
+  "_npmVersion": "6.7.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "hapi-pino",
+    "raw": "hapi-pino@^5.2.0",
+    "rawSpec": "^5.2.0",
+    "scope": null,
+    "spec": ">=5.2.0 <6.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs"
+  ],
+  "_resolved": "https://registry.npmjs.org/hapi-pino/-/hapi-pino-5.4.1.tgz",
+  "_shasum": "b4ea582037b924b05e826cb68907295ba9bbe531",
+  "_shrinkwrap": null,
+  "_spec": "hapi-pino@^5.2.0",
+  "_where": "/home/ubuntu/js-ipfs",
+  "author": {
+    "name": "David Mark Clements"
+  },
+  "bugs": {
+    "url": "https://github.com/pinojs/hapi-pino/issues"
+  },
+  "dependencies": {
+    "abstract-logging": "^1.0.0",
+    "hoek": "^6.1.2",
+    "pino": "^5.10.1",
+    "pino-pretty": "^2.5.0"
+  },
+  "description": "Hapi plugin for the Pino logger ",
+  "devDependencies": {
+    "code": "^5.2.4",
+    "coveralls": "^3.0.2",
+    "flush-write-stream": "^1.0.3",
+    "hapi": "^18.0.0",
+    "lab": "^18.0.0",
+    "make-promises-safe": "^4.0.0",
+    "pre-commit": "^1.1.2",
+    "split2": "^3.0.0",
+    "standard": "^12.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 12,
+    "integrity": "sha512-Bmt0XtRm5xPRE26bcn4dakgLPyAPyadEI5LF9P4EMP43XDzbxl4wQqwe2uVC463X9txdkwOAjaan3vDTC/guaQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcXhVoCRA9TVsSAnZWagAAzNEP/iSATrbitB9rSmqdEFW5\nXC5InI4M2W93xEA0FlS5AM0QSrCQ2tT78Ng/RS/WVffmMnZjtE5Q4tpwJYMn\n3D6Tk/TuglAEXokkcflsR0uLZ20tl6lAIqdFDvp6FB7xQk1wkS9s4N7dtXN9\nHRHZoYhopn6SSMi4jY1oNQ04JqupiBFO4a8r7N9LFPGndOluCXI5kNHpGZiU\nWgCMqplLz5i7WOMgb/hA8MzJqyucX4Cv+x/c6ToF45LAK9g1IDyg+lAs7i8L\nnEtOUw4byTlp2RfHgcVttmyGpOxngjEwa88YW8fZJAK60tINe1qVNVfHm0GO\nLcYwK3dzB/Pf59872V16ynD0NH3JXwmfQKHyxc8J+Gc86UcKUdqSZFxVN9Oo\nc7Fql5K5L6hZOvyCcHoebyv2E4eL9BeLigXUfsGwZ6wPH9Sj6m/KKDsG+18X\nXANFteyjGv+B1tADIJoq8+yoMd0dG8OTI6/3yeG81uLXggEk5u+LN/WIWRr+\nObu9qDLUsvy/aR/0Bo8kb5y7oZqktN6WQUemB/oaUYQOv+YWt5SU6wKFRBPt\nanDDA66M7H7rhBXW9OCldiLdSb5xeDs45v3jAfSZARPQM7ccD4cXy8X7rSnT\nk5Vwu4KdWPc///DuXz362O6ZEMmRJjYS25DcFJ7ewhxaSwhDPsogWDTQ1VZ+\n2EQU\r\n=E8jd\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "b4ea582037b924b05e826cb68907295ba9bbe531",
+    "tarball": "https://registry.npmjs.org/hapi-pino/-/hapi-pino-5.4.1.tgz",
+    "unpackedSize": 42949
+  },
+  "gitHead": "18d6f9d22351b8eb1b127109cac22fc6362876db",
+  "homepage": "https://github.com/pinojs/hapi-pino#readme",
+  "keywords": [
+    "fast",
+    "hapi",
+    "json",
+    "logger",
+    "pino",
+    "slow"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "davidmarkclements",
+      "email": "huperekchuno@googlemail.com"
+    },
+    {
+      "name": "jsumners",
+      "email": "james.sumners@gmail.com"
+    },
+    {
+      "name": "matteo.collina",
+      "email": "hello@matteocollina.com"
+    },
+    {
+      "name": "watson",
+      "email": "w@tson.dk"
+    }
+  ],
+  "name": "hapi-pino",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinojs/hapi-pino.git"
+  },
+  "scripts": {
+    "coverage": "lab test.js -c",
+    "coveralls": "lab test.js -r lcov | coveralls",
+    "test": "standard && lab --timeout 100000 test.js"
+  },
+  "version": "5.4.1"
+}

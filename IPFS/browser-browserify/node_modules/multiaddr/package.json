@@ -1,0 +1,227 @@
+{
+  "_args": [
+    [
+      "multiaddr@^6.0.0",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "multiaddr@>=6.0.0 <7.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "multiaddr@6.0.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/multiaddr",
+  "_nodeVersion": "10.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/multiaddr_6.0.4_1548422844873_0.6441127830686839"
+  },
+  "_npmUser": {
+    "email": "volker.mische@gmail.com",
+    "name": "vmx"
+  },
+  "_npmVersion": "6.5.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "multiaddr",
+    "raw": "multiaddr@^6.0.0",
+    "rawSpec": "^6.0.0",
+    "scope": null,
+    "spec": ">=6.0.0 <7.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs",
+    "/ipfs-http-client",
+    "/ipfs-repo",
+    "/joi-multiaddr",
+    "/libp2p",
+    "/libp2p-bootstrap",
+    "/libp2p-circuit",
+    "/libp2p-identify",
+    "/libp2p-mdns",
+    "/libp2p-switch",
+    "/libp2p-webrtc-star",
+    "/libp2p-websocket-star",
+    "/libp2p-websocket-star-multi",
+    "/mafmt",
+    "/multiaddr-to-uri",
+    "/peer-info"
+  ],
+  "_resolved": "https://registry.npmjs.org/multiaddr/-/multiaddr-6.0.4.tgz",
+  "_shasum": "28d85b816e1bceed869e5a11a6768641013a82a1",
+  "_shrinkwrap": null,
+  "_spec": "multiaddr@^6.0.0",
+  "_where": "/home/ubuntu/js-ipfs",
+  "bugs": {
+    "url": "https://github.com/multiformats/js-multiaddr/issues"
+  },
+  "contributors": [
+    {
+      "name": "Sid Harder",
+      "email": "sideharder@gmail.com"
+    },
+    {
+      "name": "Alan Shaw",
+      "email": "alan@tableflip.io"
+    },
+    {
+      "name": "Diogo Silva",
+      "email": "fsdiogo@gmail.com"
+    },
+    {
+      "name": "Dmitriy Ryajov",
+      "email": "dryajov@gmail.com"
+    },
+    {
+      "name": "Friedel Ziegelmayer",
+      "email": "dignifiedquire@gmail.com"
+    },
+    {
+      "name": "Hugo Dias",
+      "email": "hugomrdias@gmail.com"
+    },
+    {
+      "name": "Jacob Heun",
+      "email": "jacobheun@gmail.com"
+    },
+    {
+      "name": "Juan Batiz-Benet",
+      "email": "juan@benet.ai"
+    },
+    {
+      "name": "Lars Gierth",
+      "email": "lgierth@users.noreply.github.com"
+    },
+    {
+      "name": "Maciej Krüger",
+      "email": "mkg20001@gmail.com"
+    },
+    {
+      "name": "Marcin Rataj",
+      "email": "lidel@lidel.org"
+    },
+    {
+      "name": "Richard Littauer",
+      "email": "richard.littauer@gmail.com"
+    },
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Stephen Whitmore",
+      "email": "stephen.whitmore@gmail.com"
+    },
+    {
+      "name": "Steven Allen",
+      "email": "steven@stebalien.com"
+    },
+    {
+      "name": "Trond Arne Bråthen",
+      "email": "tabrath@gmail.com"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@moxy.studio"
+    },
+    {
+      "name": "Victor Bjelkholm",
+      "email": "victorbjelkholm@gmail.com"
+    },
+    {
+      "name": "Volker Mische",
+      "email": "volker.mische@gmail.com"
+    },
+    {
+      "name": "Yahya",
+      "email": "ya7yaz@gmail.com"
+    },
+    {
+      "name": "Zane Starr",
+      "email": "zcstarr@gmail.com"
+    },
+    {
+      "name": "greenkeeper[bot]",
+      "email": "greenkeeper[bot]@users.noreply.github.com"
+    },
+    {
+      "name": "npm-to-cdn-bot",
+      "email": "npmcdn-to-unpkg-bot@users.noreply.github.com",
+      "url": "by Forbes Lindesay"
+    },
+    {
+      "name": "victorbjelkholm",
+      "email": "victor@protocol.ai"
+    }
+  ],
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "class-is": "^1.1.0",
+    "ip": "^1.1.5",
+    "is-ip": "^2.0.0",
+    "varint": "^5.0.0"
+  },
+  "description": "multiaddr implementation (binary + string representation of network addresses)",
+  "devDependencies": {
+    "aegir": "^18.0.3",
+    "bundlesize": "~0.17.0",
+    "chai": "^4.2.0",
+    "dirty-chai": "^2.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 12,
+    "integrity": "sha512-oi7ImOEwPTRjHSOeOe0DgoxHLChHniME2on8G00fUwD88k4R2J2yrpd5643M9c8EqVuyvjy/e/zAZofpKIISyw==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcSw69CRA9TVsSAnZWagAAMvgP/jlo55HZkRpQevRve/OM\nm8fHZ4KObfbfFj82t9dOSODP1jtnfjgAHvPSO7FGI+34Fm2wQkNH6m5Mn9Ip\nO4SyGAoMClCSuw5a3Hb2g9UaT9F0Q2YCqYF5P2FXJ8ssuNgrspQyh8/OEsQt\nAuzL/NhJhwQXFSn3z4pcn1Wp/K6sR+TXF8eA0Y1EHo3nAAr5kcjV8YT9BXjV\nf3MQlzd6MWYBiCaxhpxIAoZCrTm46TM3oLn6TCZMKdVDtYrgMqp74rw8ryod\nR6KnkyrvSWtTXBA+7ckjZisDeGhnpTPFvbSbRG/nluEL6oeGcOxE+t7XhZ8M\n5jA073OB9OmxkfEVJrhdkvKpowkro5fjljUY4axF4v9+2o0JWlSbhuLVeeYU\ni2au5fW0JQfD2jBD04sZWCdndZCkjjQWbuk+2zRUOVfm7eWWMld6n8T1/rzM\nfzNiA0H6orY/JTEJt46ZakecFgT9HigaRcYSJbR+j8kSh9vX2aevcy2++wjI\n9A7cfG6h7sTLtVm2qBfqNlQQxmGbVgydPXm/vPEgJgD2oNhOfyq3PWz6BXc8\nJGXMLtvJ21xIsaLEr8K007gaEmdwUvODTbrXr0w54uDXXpie/0gQztnoEQwI\nyUFiGngO0U0lUCfPh0J1kYTWsiK8Mg8RkneivCUkBJ1XVlag5pACPwmoOz1Z\njPb9\r\n=VeG3\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "28d85b816e1bceed869e5a11a6768641013a82a1",
+    "tarball": "https://registry.npmjs.org/multiaddr/-/multiaddr-6.0.4.tgz",
+    "unpackedSize": 518879
+  },
+  "gitHead": "7ab0b65f3e4f18260a2f940467007a94ac0dd0e4",
+  "homepage": "https://github.com/multiformats/js-multiaddr",
+  "keywords": [
+    "binary",
+    "multiaddr",
+    "string"
+  ],
+  "leadMaintainer": "Victor Bjelkholm <victorbjelkholm@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "mail@daviddias.me"
+    },
+    {
+      "name": "victorbjelkholm",
+      "email": "victorbjelkholm@gmail.com"
+    },
+    {
+      "name": "vmx",
+      "email": "volker.mische@gmail.com"
+    }
+  ],
+  "name": "multiaddr",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multiformats/js-multiaddr.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage publish",
+    "docs": "aegir docs",
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "release-major": "aegir release --type major",
+    "release-minor": "aegir release --type minor",
+    "size": "bundlesize -f dist/index.min.js -s 14kB",
+    "test": "aegir test",
+    "test:browser": "aegir test -t browser",
+    "test:node": "aegir test -t node"
+  },
+  "version": "6.0.4"
+}

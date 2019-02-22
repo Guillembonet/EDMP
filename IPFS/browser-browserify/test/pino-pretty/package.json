@@ -1,0 +1,126 @@
+{
+  "_args": [
+    [
+      "pino-pretty@^2.5.0",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/hapi-pino"
+    ]
+  ],
+  "_from": "pino-pretty@>=2.5.0 <3.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "pino-pretty@2.5.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/pino-pretty",
+  "_nodeVersion": "10.14.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/pino-pretty_2.5.0_1544517246129_0.007720763750238557"
+  },
+  "_npmUser": {
+    "email": "hello@matteocollina.com",
+    "name": "matteo.collina"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {
+    "inherits": "2.0.3",
+    "safe-buffer": "5.1.2",
+    "util-deprecate": "1.0.2"
+  },
+  "_requested": {
+    "name": "pino-pretty",
+    "raw": "pino-pretty@^2.5.0",
+    "rawSpec": "^2.5.0",
+    "scope": null,
+    "spec": ">=2.5.0 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/hapi-pino"
+  ],
+  "_resolved": "https://registry.npmjs.org/pino-pretty/-/pino-pretty-2.5.0.tgz",
+  "_shasum": "fade5b6d2acbdbf2c7e77adf220e7b7d89d04437",
+  "_shrinkwrap": null,
+  "_spec": "pino-pretty@^2.5.0",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/hapi-pino",
+  "author": {
+    "email": "james.sumners@gmail.com",
+    "name": "James Sumners"
+  },
+  "bin": {
+    "pino-pretty": "./bin.js"
+  },
+  "bugs": {
+    "url": "https://github.com/pinojs/pino-pretty/issues"
+  },
+  "dependencies": {
+    "args": "^5.0.0",
+    "chalk": "^2.3.2",
+    "dateformat": "^3.0.3",
+    "fast-json-parse": "^1.0.3",
+    "fast-safe-stringify": "^2.0.6",
+    "jmespath": "^0.15.0",
+    "pump": "^3.0.0",
+    "readable-stream": "^3.0.6",
+    "split2": "^3.0.0"
+  },
+  "description": "Prettifier for Pino log lines",
+  "devDependencies": {
+    "pino": "^5.9.0",
+    "pre-commit": "^1.2.2",
+    "snazzy": "^8.0.0",
+    "standard": "^12.0.1",
+    "tap": "^12.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 13,
+    "integrity": "sha512-odR4SKdyubhe4aFts0/mBau2/mJLG23Ghyo86a+GZ2/Cev3CRr5nYv2+82V7v1hQL93yRSO004ASrrF7278TNQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcD3Z/CRA9TVsSAnZWagAAXvwP/RCkcTvFMlMCGWCIcp7i\nCg42UTY8nuE8gsQzj9cj6PAxwqGbXfU6nkb+rbkCK4B6r+2YYg3yDj2ArP1F\ncpLAbk8ktvdXgbS83RqChwGBOHHNGfwG8mFXTW0RLVS0In6HIRbi3AYABCQR\ntVF0bV56EDyBQCszR8E2Uypu0yrK8fE/IGycjfUv73M//+uYqN00vuVxRqcr\nBAlt2ALwk95aAbhqGCtMrdLgM+NKxeRf77+izQQwmKYM/u0pscuEtqHckksN\ndz25RjnXJOTyBpSQqjXAWcqOig8yMoIY+Z5eav+1qpnRKWEdrMRYuOpz1sQk\n7lunxny+zqpA347v7vb7CmUedU46n8lBQafTljynVHWsYZCX6Jg2lP37uS72\nrcTDufLfrfj5MXNqYvBI4jinN37OcPFZQwDRZqe+neZ8QfuCygKDsJv6Fl4H\nUgR6Yf/v2vb9Pc2vgqV4MhrFmTxwPR96TyQEK2wJN+Uaf2Rpd3jMoUvYSLTZ\nf+wHON2VqgTH9iGvYGkZmzCsTSB9wVO9wq/J5YyRnYk0xKOZ1ll0QDMJjfOx\nSM/ZhIuxm7xsrffE+oPmq2shmxBjXAgsuR37pc5Yodoy92tRMpILZz6hMZph\n9tXkqjTq0EeodyPKBKpIPANGIu2sdUzQKzT66ZXJXWCgXUvtnI49piDMneUA\nRpgE\r\n=bPvc\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "fade5b6d2acbdbf2c7e77adf220e7b7d89d04437",
+    "tarball": "https://registry.npmjs.org/pino-pretty/-/pino-pretty-2.5.0.tgz",
+    "unpackedSize": 220569
+  },
+  "gitHead": "6cf8ec47c0af76c07a3f7cd7ebc525d9f62297ca",
+  "homepage": "https://github.com/pinojs/pino-pretty#readme",
+  "keywords": [
+    "pino"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "davidmarkclements",
+      "email": "huperekchuno@googlemail.com"
+    },
+    {
+      "name": "jsumners",
+      "email": "james.sumners@gmail.com"
+    },
+    {
+      "name": "matteo.collina",
+      "email": "hello@matteocollina.com"
+    },
+    {
+      "name": "watson",
+      "email": "w@tson.dk"
+    }
+  ],
+  "name": "pino-pretty",
+  "optionalDependencies": {},
+  "precommit": [
+    "lint",
+    "test"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pinojs/pino-pretty.git"
+  },
+  "scripts": {
+    "lint": "standard | snazzy",
+    "lint-ci": "standard",
+    "test": "tap --no-cov 'test/**/*.test.js'",
+    "test-ci": "tap --cov 'test/**/*.test.js'"
+  },
+  "version": "2.5.0"
+}

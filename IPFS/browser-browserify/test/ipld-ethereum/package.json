@@ -1,0 +1,151 @@
+{
+  "_args": [
+    [
+      "ipld-ethereum@^2.0.1",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "ipld-ethereum@>=2.0.1 <3.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "ipld-ethereum@2.0.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ipld-ethereum",
+  "_nodeVersion": "10.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/ipld-ethereum_2.0.3_1547813983062_0.21414205128203356"
+  },
+  "_npmUser": {
+    "email": "volker.mische@gmail.com",
+    "name": "vmx"
+  },
+  "_npmVersion": "6.5.0",
+  "_phantomChildren": {
+    "lodash": "4.17.11"
+  },
+  "_requested": {
+    "name": "ipld-ethereum",
+    "raw": "ipld-ethereum@^2.0.1",
+    "rawSpec": "^2.0.1",
+    "scope": null,
+    "spec": ">=2.0.1 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs"
+  ],
+  "_resolved": "https://registry.npmjs.org/ipld-ethereum/-/ipld-ethereum-2.0.3.tgz",
+  "_shasum": "18a31f5d18bb14b0fc4cca250235796807124d39",
+  "_shrinkwrap": null,
+  "_spec": "ipld-ethereum@^2.0.1",
+  "_where": "/home/ubuntu/js-ipfs",
+  "bugs": {
+    "url": "https://github.com/ipld/js-ipld-ethereum/issues"
+  },
+  "contributors": [
+    {
+      "name": "Alan Shaw",
+      "email": "alan.shaw@protocol.ai"
+    },
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Richard Schneider",
+      "email": "makaretu@gmail.com"
+    },
+    {
+      "name": "Victor Bjelkholm",
+      "email": "victorbjelkholm@gmail.com"
+    },
+    {
+      "name": "Volker Mische",
+      "email": "volker.mische@gmail.com"
+    },
+    {
+      "name": "greenkeeper[bot]",
+      "email": "greenkeeper[bot]@users.noreply.github.com"
+    },
+    {
+      "name": "harrshasri",
+      "email": "35241544+harrshasri@users.noreply.github.com"
+    },
+    {
+      "name": "kumavis",
+      "email": "aaron@kumavis.me"
+    }
+  ],
+  "dependencies": {
+    "async": "^2.6.0",
+    "cids": "~0.5.2",
+    "ethereumjs-account": "^2.0.4",
+    "ethereumjs-block": "^2.1.0",
+    "ethereumjs-tx": "^1.3.3",
+    "ipfs-block": "~0.8.0",
+    "merkle-patricia-tree": "^3.0.0",
+    "multihashes": "~0.4.12",
+    "multihashing-async": "~0.5.1",
+    "rlp": "^2.0.0"
+  },
+  "description": "JavaScript Implementation of All Ethereum IPLD formats",
+  "devDependencies": {
+    "aegir": "^18.0.2",
+    "chai": "^4.1.2",
+    "dirty-chai": "^2.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "fileCount": 37,
+    "integrity": "sha512-sJyKMMm8vPXC/cbOwV+f8emJ7FTmT12VYq70FfnNmPSfhtvYRdRtLPKG711KkqPOoTRC+nehQNII2Vwizw/6yg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcQcRfCRA9TVsSAnZWagAAKm8P+gPz2i5D3iUXOQ7heppJ\nu/eQ2JpEwjLc3zs67UWaBsLeCxLxu4pf4wSjo2j0BVFWxS8RnjTLTNSzxiYy\nyX6kWIemtS6LRG4hWh4fCRhOvDsC9trx0gvamFL40Jr8EdVarqlFNktM3Mor\nFpaK6rssLVMtE2x865ApWweP4WwHsWBVuyk0FR4o06hwBn1Vd3t5YMCNpaOx\nQM0ThBtIa/5xOj1lh1ZURVJO0vDG73b40hqUduXK2q/NMI/o0JYB69IrxUK6\nwPsJ6nah9rBJy3aHrSLYwBhZN8rHGjf3HZ9TUG1+07Ik89TzPZT77SHZZwqH\ngVeX8b8eCtB+TpyhAPLcLRnF9V7yZsH8tdjVFacxp5CpA28QVMzjfXkjCSsK\nLrVEYFinLOTQXcyGSHzH8CupzfnGourlP9gjDbqaPsQoAeK39212kyaG9hLc\nHmJqYTXbHkajrtUUyVu7PSDGHU+rt3/EztWLyOTGFVBu9JhGNll/VSNJiaxg\nyqv7zAC0or3slLM7FCufZdChUaTLifo3vUYQA+qt5kcm9w7V6J5XmHv7uCpK\n9SHwyaUCpVVwPc+PyWipFK/fwKBF/s+InYfwadh4H1B9scxTtyPEVeoNq679\n0n2uJYg+MSTqRvpGmCFDMz5EUp91PsB7ZbIJdq0PqhcBc6FYRkbbBvtl6Wtw\nPmKh\r\n=vjJl\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "18a31f5d18bb14b0fc4cca250235796807124d39",
+    "tarball": "https://registry.npmjs.org/ipld-ethereum/-/ipld-ethereum-2.0.3.tgz",
+    "unpackedSize": 3655953
+  },
+  "gitHead": "0608428acefb956dfb84433a845392fd52a38601",
+  "homepage": "https://github.com/ipld/js-ipld-ethereum#readme",
+  "leadMaintainer": "Volker Mische <volker.mische@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "kumavis",
+      "email": "aaron@kumavis.me"
+    },
+    {
+      "name": "vmx",
+      "email": "volker.mische@gmail.com"
+    }
+  ],
+  "name": "ipld-ethereum",
+  "optionalDependencies": {},
+  "pre-push": [
+    "lint",
+    "test"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipld/js-ipld-ethereum.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "release-major": "aegir release --type major",
+    "release-minor": "aegir release --type minor",
+    "test": "aegir test",
+    "test:browser": "aegir test --target browser",
+    "test:node": "aegir test --target node"
+  },
+  "version": "2.0.3"
+}

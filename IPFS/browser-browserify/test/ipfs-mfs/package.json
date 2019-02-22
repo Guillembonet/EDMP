@@ -1,0 +1,157 @@
+{
+  "_args": [
+    [
+      "ipfs-mfs@~0.9.1",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "ipfs-mfs@>=0.9.1 <0.10.0",
+  "_hasShrinkwrap": false,
+  "_id": "ipfs-mfs@0.9.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ipfs-mfs",
+  "_nodeVersion": "10.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/ipfs-mfs_0.9.1_1548954353317_0.23168122884806897"
+  },
+  "_npmUser": {
+    "email": "alex@achingbrain.net",
+    "name": "achingbrain"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {
+    "lodash": "4.17.11"
+  },
+  "_requested": {
+    "name": "ipfs-mfs",
+    "raw": "ipfs-mfs@~0.9.1",
+    "rawSpec": "~0.9.1",
+    "scope": null,
+    "spec": ">=0.9.1 <0.10.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs"
+  ],
+  "_resolved": "https://registry.npmjs.org/ipfs-mfs/-/ipfs-mfs-0.9.1.tgz",
+  "_shasum": "e7d7618bc445194f5a12b0b674724c2153a898f5",
+  "_shrinkwrap": null,
+  "_spec": "ipfs-mfs@~0.9.1",
+  "_where": "/home/ubuntu/js-ipfs",
+  "browser": {
+    "fs": false,
+    "joi": "joi-browser"
+  },
+  "bugs": {
+    "url": "https://github.com/ipfs/js-ipfs-mfs/issues"
+  },
+  "contributors": [
+    {
+      "name": "Alan Shaw",
+      "email": "alan.shaw@protocol.ai"
+    },
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Jacob Heun",
+      "email": "jacobheun@gmail.com"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@moxy.studio"
+    },
+    {
+      "name": "achingbrain",
+      "email": "alex@achingbrain.net"
+    }
+  ],
+  "dependencies": {
+    "async": "^2.6.1",
+    "cids": "~0.5.5",
+    "debug": "^4.1.0",
+    "filereader-stream": "^2.0.0",
+    "hamt-sharding": "~0.0.2",
+    "interface-datastore": "~0.6.0",
+    "ipfs-multipart": "~0.1.0",
+    "ipfs-unixfs": "~0.1.16",
+    "ipfs-unixfs-exporter": "~0.35.5",
+    "ipfs-unixfs-importer": "~0.38.0",
+    "ipld-dag-pb": "~0.15.0",
+    "is-pull-stream": "~0.0.0",
+    "is-stream": "^1.1.0",
+    "joi": "^14.0.4",
+    "joi-browser": "^13.4.0",
+    "mortice": "^1.2.1",
+    "once": "^1.4.0",
+    "promisify-es6": "^1.0.3",
+    "pull-cat": "^1.1.11",
+    "pull-defer": "~0.2.3",
+    "pull-stream": "^3.6.9",
+    "pull-stream-to-stream": "^1.3.4",
+    "stream-to-pull-stream": "^1.7.2"
+  },
+  "description": "JavaScript implementation of the IPFS Mutable File System",
+  "devDependencies": {
+    "aegir": "^18.0.2",
+    "chai": "^4.2.0",
+    "detect-node": "^2.0.4",
+    "detect-webworker": "^1.0.0",
+    "dirty-chai": "^2.0.1",
+    "ipld": "~0.20.0",
+    "ipld-in-memory": "^2.0.0",
+    "multihashes": "~0.4.14",
+    "pull-buffer-stream": "^1.0.0",
+    "pull-traverse": "^1.0.3"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 90,
+    "integrity": "sha512-e0p/N4iqeeGprbemShnDJQNoMkZmgBNlil9LkZT8v6y+TuBAPhfM5CJ3e2Wbic3pGO/Gwe93o5pMinX2+oiysQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcUyryCRA9TVsSAnZWagAAGtMQAJim8faTHkj+rKC6ta0E\ntyt5KME0tGWsMndNl+abzEjdl/U7WLNWey3cM0jA6yAL3zUavyNS961lFMfU\nnTG2ZqsJ0IEtBHF393WeIuyBOHkIAsIIqL+0yjQsdW9+cjCaJ9GJKPPQI+KK\nK/PH1fQ++yl1qrSt3z0tqHkBqzYj7yk1JYBmO7pfBV65OXK/5e4c8Mz53Dj7\nAgtpNwiwDGobrYpsPkh3u90FHmhzXen9aZp5txGuuByuSmXVi4ECTW88/7w1\nkg2ckDpLOeOsqVvCojQUoGhO0xnuilTZUZFMg/7ijSZSu06+sKYj5M3FZUao\nDWSNsyVb8NNM6Zi1tDV/i9jqKGAQsQOslHjz8ck1+EcAXENsTvPGebjMfydT\nntmGkpGYNo0kgor5x+G1teCAgV5YYm43ByF2p2n/trwhEWnwc5ZNIkFBGPhS\nWihC4uN7Pei8JhU+v+Qazt7WhWhU1W/38ci3KzaDfyv1VtHXl9BBRla36vwO\nPm0n+OMJIdXQ1W9mCnh5DGM/HsNzvcq/IcBHWiNhZA/0nBMnfsQ6O2hhif03\nJOxeGJ/yN1kgQy3UpZGclyS22zTVC19cBsfRJ2crJCJgGAVmb0lcPrGKKyTW\nEiV1iDwulUfDwnvcjE3zRo2SgrHLFfw0p1eU0A+13xBfJ5cozuzqztyxVrL2\nCpff\r\n=Lxml\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "e7d7618bc445194f5a12b0b674724c2153a898f5",
+    "tarball": "https://registry.npmjs.org/ipfs-mfs/-/ipfs-mfs-0.9.1.tgz",
+    "unpackedSize": 8848583
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=3.0.0"
+  },
+  "gitHead": "a31f62ec5d03f46cdac93a45fd4017699bc27cb3",
+  "homepage": "https://github.com/ipfs/js-ipfs-mfs#readme",
+  "keywords": [
+    "IPFS"
+  ],
+  "leadMaintainer": "Alex Potsides <alex.potsides@protocol.ai>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "achingbrain",
+      "email": "alex@achingbrain.net"
+    }
+  ],
+  "name": "ipfs-mfs",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipfs/js-ipfs-mfs.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "release-major": "aegir release --type major",
+    "release-minor": "aegir release --type minor",
+    "test": "aegir test",
+    "test:browser": "aegir test -t browser",
+    "test:node": "aegir test -t node",
+    "test:webworker": "aegir test -t webworker"
+  },
+  "version": "0.9.1"
+}

@@ -1,0 +1,131 @@
+{
+  "_args": [
+    [
+      "libp2p-pubsub@~0.0.1",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/libp2p-floodsub"
+    ]
+  ],
+  "_from": "libp2p-pubsub@>=0.0.1 <0.1.0",
+  "_hasShrinkwrap": false,
+  "_id": "libp2p-pubsub@0.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/libp2p-pubsub",
+  "_nodeVersion": "10.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/libp2p-pubsub_0.0.2_1549626032391_0.8029793902247562"
+  },
+  "_npmUser": {
+    "email": "vasco.santos@moxy.studio",
+    "name": "vascosantos"
+  },
+  "_npmVersion": "6.5.0",
+  "_phantomChildren": {
+    "lodash": "4.17.11"
+  },
+  "_requested": {
+    "name": "libp2p-pubsub",
+    "raw": "libp2p-pubsub@~0.0.1",
+    "rawSpec": "~0.0.1",
+    "scope": null,
+    "spec": ">=0.0.1 <0.1.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/libp2p-floodsub"
+  ],
+  "_resolved": "https://registry.npmjs.org/libp2p-pubsub/-/libp2p-pubsub-0.0.2.tgz",
+  "_shasum": "67b42182af2fe00eb199ab680c1334b98b8111d9",
+  "_shrinkwrap": null,
+  "_spec": "libp2p-pubsub@~0.0.1",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/libp2p-floodsub",
+  "bugs": {
+    "url": "https://github.com/libp2p/js-libp2p-pubsub/issues"
+  },
+  "contributors": [
+    {
+      "name": "Mikerah",
+      "email": "mikerahqc@protonmail.com"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@moxy.studio"
+    }
+  ],
+  "dependencies": {
+    "async": "^2.6.1",
+    "debug": "^4.1.1",
+    "err-code": "^1.1.2",
+    "length-prefixed-stream": "^1.6.0",
+    "protons": "^1.0.1",
+    "pull-pushable": "^2.2.0",
+    "time-cache": "~0.3.0"
+  },
+  "description": "Pubsub base protocol for libp2p pubsub routers",
+  "devDependencies": {
+    "aegir": "^18.0.3",
+    "benchmark": "^2.1.4",
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
+    "dirty-chai": "^2.0.1",
+    "libp2p": "~0.24.4",
+    "libp2p-secio": "~0.11.0",
+    "libp2p-spdy": "~0.13.1",
+    "libp2p-tcp": "~0.13.0",
+    "lodash": "^4.17.11",
+    "peer-id": "~0.12.2",
+    "peer-info": "~0.15.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 13,
+    "integrity": "sha512-1/ZzP+QmEG/J1D20JKORar9H1QgNLvFVHnaGPSWt0D4oGtzY790oRSyybYFEV+tkshii/gm74na5UmDHL/1q7g==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcXWqxCRA9TVsSAnZWagAADiEQAJQC/Fs7GU/srdLiEhLx\nmc5n2gzslDY5nFpg4sL4QUrd+d+Iyukmi1/UcHu/ytpKhMI0Xqw/PcIR/9vJ\nExX6zhNxp0CXRaS3Pg0YA0N3tYwgebw61jlXSNZ+OKyHivY5wCeFsfLIN864\nS2o1v5ilggbFPbxseRofPCCyrDDMEDC0siHvSb6wNp2p7P77/0uNJyCyOXvZ\nbUHGK9OGi1EmkZ+sp697uaVZvJqlnTJIMN9opk96Ru2Uz6TcQiyQIqJkJ2yO\nqqf4JUzChIQCausdp2UyY8dIPbXpTbcQrenZe1eGZi8LBGgNz1Hg5T6VBs1T\nBV4p/gJxAuzzw8bgcfmcSuTXs4aYrXCwGdp7q/T6ZiBY5iRYpe1rYoWn+ge6\ndfgKq/L5s0B/soyCmhbX72ZlbUN78LsQEPKjNg+eJ3Z+xGwnwkqfSE3/nEj/\nyEjrp0cl2ZfdCV+invSLpREbOysf2VngamwcXULk9KcmCuxqzRiqPLo8goaW\nPVtTJrqmPAx4XUzXkzCDb43QbL5tYqNeggPAOdx8eSdMpeWN34nWMUendJzQ\nzdBpCQYZmiTxdwX7+pOHjXgeO+TNw9Yv092fM5gr24Jj8IXEhd5ZCQfDlXEI\nqmdiq7lFPuRyJ8zSr+c2Nd42lSuBC4Vdi5SAsQ5l/IAKx5ChHcjAd9bvZyws\nLAJW\r\n=g4cp\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "67b42182af2fe00eb199ab680c1334b98b8111d9",
+    "tarball": "https://registry.npmjs.org/libp2p-pubsub/-/libp2p-pubsub-0.0.2.tgz",
+    "unpackedSize": 1143023
+  },
+  "gitHead": "1e4ce8cbf3b00dc7288283f82a35317f84ace714",
+  "homepage": "https://github.com/libp2p/js-libp2p-pubsub#readme",
+  "keywords": [
+    "IPFS",
+    "flood",
+    "flooding",
+    "gossip",
+    "libp2p",
+    "pubsub"
+  ],
+  "leadMaintainer": "Vasco Santos <santos.vasco10@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "vascosantos",
+      "email": "vasco.santos@moxy.studio"
+    }
+  ],
+  "name": "libp2p-pubsub",
+  "optionalDependencies": {},
+  "pre-push": [
+    "lint"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libp2p/js-libp2p-pubsub.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage --provider coveralls",
+    "docs": "aegir-docs",
+    "lint": "aegir lint",
+    "release": "aegir release --target node --docs",
+    "release-major": "aegir release --type major --docs",
+    "release-minor": "aegir release --type minor --docs",
+    "test": "aegir test -t node",
+    "test:node": "aegir test -t node"
+  },
+  "version": "0.0.2"
+}

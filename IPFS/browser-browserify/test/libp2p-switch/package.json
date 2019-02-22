@@ -1,0 +1,248 @@
+{
+  "_args": [
+    [
+      "libp2p-switch@~0.41.3",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/libp2p"
+    ]
+  ],
+  "_from": "libp2p-switch@>=0.41.3 <0.42.0",
+  "_hasShrinkwrap": false,
+  "_id": "libp2p-switch@0.41.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/libp2p-switch",
+  "_nodeVersion": "10.14.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/libp2p-switch_0.41.5_1547231853583_0.757803356577091"
+  },
+  "_npmUser": {
+    "email": "jacobheun@gmail.com",
+    "name": "jacobheun"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {
+    "lodash": "4.17.11"
+  },
+  "_requested": {
+    "name": "libp2p-switch",
+    "raw": "libp2p-switch@~0.41.3",
+    "rawSpec": "~0.41.3",
+    "scope": null,
+    "spec": ">=0.41.3 <0.42.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/libp2p"
+  ],
+  "_resolved": "https://registry.npmjs.org/libp2p-switch/-/libp2p-switch-0.41.5.tgz",
+  "_shasum": "f1d0be14cbfe2c3929bb539a3b1e661875b6c8a4",
+  "_shrinkwrap": null,
+  "_spec": "libp2p-switch@~0.41.3",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/libp2p",
+  "bugs": {
+    "url": "https://github.com/libp2p/js-libp2p-switch/issues"
+  },
+  "contributors": [
+    {
+      "name": "Kevin Kwok",
+      "email": "antimatter15@gmail.com"
+    },
+    {
+      "name": "Alan Shaw",
+      "email": "alan@tableflip.io"
+    },
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "David Dias",
+      "email": "mail@daviddias.me"
+    },
+    {
+      "name": "Dmitriy Ryajov",
+      "email": "dryajov@gmail.com"
+    },
+    {
+      "name": "Francisco Baio Dias",
+      "email": "xicombd@gmail.com"
+    },
+    {
+      "name": "Friedel Ziegelmayer",
+      "email": "dignifiedquire@gmail.com"
+    },
+    {
+      "name": "Greenkeeper",
+      "email": "support@greenkeeper.io"
+    },
+    {
+      "name": "Haad",
+      "email": "haadcode@users.noreply.github.com"
+    },
+    {
+      "name": "Hugo Dias",
+      "email": "mail@hugodias.me"
+    },
+    {
+      "name": "Hugo Dias",
+      "email": "hugomrdias@gmail.com"
+    },
+    {
+      "name": "Jacob Heun",
+      "email": "jacobheun@gmail.com"
+    },
+    {
+      "name": "Jacob Heun",
+      "email": "jake@andyet.net"
+    },
+    {
+      "name": "Arnaud",
+      "email": "arnaud.valensi@gmail.com"
+    },
+    {
+      "name": "Kobi Gurkan",
+      "email": "kobigurk@gmail.com"
+    },
+    {
+      "name": "Maciej Krüger",
+      "email": "mkg20001@gmail.com"
+    },
+    {
+      "name": "Matteo Collina",
+      "email": "matteo.collina@gmail.com"
+    },
+    {
+      "name": "Michael Fakhry",
+      "email": "fakhrimichael@live.com"
+    },
+    {
+      "name": "Oli Evans",
+      "email": "oli@tableflip.io"
+    },
+    {
+      "name": "Pau Ramon Revilla",
+      "email": "masylum@gmail.com"
+    },
+    {
+      "name": "Pedro Teixeira",
+      "email": "i@pgte.me"
+    },
+    {
+      "name": "Richard Littauer",
+      "email": "richard.littauer@gmail.com"
+    },
+    {
+      "name": "Sid Harder",
+      "email": "sideharder@gmail.com"
+    },
+    {
+      "name": "greenkeeper[bot]",
+      "email": "greenkeeper[bot]@users.noreply.github.com"
+    },
+    {
+      "name": "harrshasri",
+      "email": "35241544+harrshasri@users.noreply.github.com"
+    },
+    {
+      "name": "kumavis",
+      "email": "kumavis@users.noreply.github.com"
+    },
+    {
+      "name": "ᴠɪᴄᴛᴏʀ ʙᴊᴇʟᴋʜᴏʟᴍ",
+      "email": "victorbjelkholm@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "async": "^2.6.1",
+    "bignumber.js": "^8.0.1",
+    "class-is": "^1.1.0",
+    "debug": "^4.1.1",
+    "err-code": "^1.1.2",
+    "fsm-event": "^2.1.0",
+    "hashlru": "^2.3.0",
+    "interface-connection": "~0.3.3",
+    "libp2p-circuit": "~0.3.4",
+    "libp2p-identify": "~0.7.5",
+    "moving-average": "^1.0.0",
+    "multiaddr": "^6.0.3",
+    "multistream-select": "~0.14.4",
+    "once": "^1.4.0",
+    "peer-id": "~0.12.2",
+    "peer-info": "~0.15.1",
+    "pull-stream": "^3.6.9",
+    "retimer": "^2.0.0"
+  },
+  "description": "libp2p switch implementation in JavaScript",
+  "devDependencies": {
+    "aegir": "^18.0.3",
+    "chai": "^4.2.0",
+    "chai-checkmark": "^1.0.1",
+    "dirty-chai": "^2.0.1",
+    "libp2p-mplex": "~0.8.4",
+    "libp2p-pnet": "~0.1.0",
+    "libp2p-secio": "~0.11.0",
+    "libp2p-spdy": "~0.13.1",
+    "libp2p-tcp": "~0.13.0",
+    "libp2p-webrtc-star": "~0.15.8",
+    "libp2p-websockets": "~0.12.1",
+    "peer-book": "~0.9.1",
+    "portfinder": "^1.0.20",
+    "sinon": "^7.2.0",
+    "webrtcsupport": "^2.2.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 28,
+    "integrity": "sha512-bKfkFsEiRXfc3+2Fcbep9WtuuNzKKQziHH5PkQWihn+BVh5UrUGXoWCip/YwsGV7CcGI2zhp3qAmBJ+Cde9EDg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcOOJuCRA9TVsSAnZWagAAvHUP/1v5bFxcSLdm3ZGhC78j\np89B1jHHjjRx9m6X+TnfuHBGlECpyXWzv1jBAPFkafYMmTPnQWJu7seLFwJ2\nQu1fTljLvJTcQTejVclir/078Knc3FQhB/AIjb4Xu6gA7O1P3p3VpeK6/1Dn\nXglbevsjfRDqOGZ472eoOEbrlB0lwuLkFt2oHv1+fulhngo3KOlL7SXkB0wy\njtUf6Cf8AUXRSUnWLr1RSB3osVEPMinRFfz+Nkj2Z+B2YgbOFqxkqiU3LxPy\n0aC2cC51zq8FZ6PygiFtdAxdoh6Ot9smco3qlXNUwKQaL5jLg/eh5E70/u5i\nOKqvtWDBeq2jKi7SWcPMB9wpgo9hMhurtNSLFIDREj3hE2+pQs2w1gAS/vFz\n2cqGWReDLmgP1LUqrqtKErfKQQTzEt/cznMcIcFaFDIW7ShIBtXkGppUhrcV\npeMX3hxa69LXfMogTbv2Jt4uOOImP9IbIsFZEk3tsA5O2jPCBnxrilAae4Xw\nD3Z52hf+MKfAVcRogRKQWkvxVeLMFKOwJ0ykjUwiDLUXkEl4B9GbQAocMTUU\nJx5mPY8MLiD2wSuM060g9x07MPj4Rd6IdhwOdLJC8Ez1j+DuidxYOr8PwXEI\nPVudsTgEH8RSzbyRKh2IsuuhcZMs9n3h6brcdXfu07XVorSmzUASWjcxB5bT\nEz3i\r\n=Umts\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "f1d0be14cbfe2c3929bb539a3b1e661875b6c8a4",
+    "tarball": "https://registry.npmjs.org/libp2p-switch/-/libp2p-switch-0.41.5.tgz",
+    "unpackedSize": 7185356
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
+  "gitHead": "6fade87eba52373b1dfaaa3face228bedae6a29c",
+  "homepage": "https://github.com/libp2p/js-libp2p-switch",
+  "keywords": [
+    "IPFS"
+  ],
+  "leadMaintainer": "Jacob Heun <jacobheun@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "mail@daviddias.me"
+    },
+    {
+      "name": "jacobheun",
+      "email": "jacobheun@gmail.com"
+    }
+  ],
+  "name": "libp2p-switch",
+  "optionalDependencies": {},
+  "pre-push": [
+    "lint"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libp2p/js-libp2p-switch.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage --provider coveralls",
+    "lint": "aegir lint",
+    "release": "aegir release -t node -t browser",
+    "release-major": "aegir release --type major -t node -t browser",
+    "release-minor": "aegir release --type minor -t node -t browser",
+    "test": "aegir test -t node -t browser",
+    "test:browser": "aegir test -t browser",
+    "test:node": "aegir test -t node"
+  },
+  "version": "0.41.5"
+}

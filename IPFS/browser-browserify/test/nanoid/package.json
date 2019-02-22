@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      "nanoid@^2.0.0",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/shortid"
+    ]
+  ],
+  "_from": "nanoid@>=2.0.0 <3.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "nanoid@2.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/nanoid",
+  "_nodeVersion": "11.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/nanoid_2.0.1_1547492694130_0.079394056383981"
+  },
+  "_npmUser": {
+    "email": "andrey@sitnik.ru",
+    "name": "ai"
+  },
+  "_npmVersion": "6.5.0-next.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "nanoid",
+    "raw": "nanoid@^2.0.0",
+    "rawSpec": "^2.0.0",
+    "scope": null,
+    "spec": ">=2.0.0 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/libp2p-websocket-star",
+    "/shortid"
+  ],
+  "_resolved": "https://registry.npmjs.org/nanoid/-/nanoid-2.0.1.tgz",
+  "_shasum": "deb55cac196e3f138071911dabbc3726eb048864",
+  "_shrinkwrap": null,
+  "_spec": "nanoid@^2.0.0",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/shortid",
+  "author": {
+    "email": "andrey@sitnik.ru",
+    "name": "Andrey Sitnik"
+  },
+  "browser": {
+    "./async/index.js": "./async/index.browser.js",
+    "./async/random.js": "./async/random.browser.js",
+    "./index.js": "./index.browser.js",
+    "./random.js": "./random.browser.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ai/nanoid/issues"
+  },
+  "dependencies": {},
+  "description": "A tiny (141 bytes), secure URL-friendly unique string ID generator",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 19,
+    "integrity": "sha512-k1u2uemjIGsn25zmujKnotgniC/gxQ9sdegdezeDiKdkDW56THUMqlz3urndKCXJxA6yPzSZbXx/QCMe/pxqsA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcPN1XCRA9TVsSAnZWagAAVh4P/Ai6VSWZD6vKmbP28tCY\nzoTsLZdibxfu3caKQid5SfLxCnkY849hj9LvyASAr+9ubD9RFUwMis2LwuSx\nLhOR7Ow+4KkPiDQZ68NrXNTV7TzUFzEy6jqaK2GdtCULDxwH9y6lW4FJ+6i6\nvpBp6vwYhv30SBUj4QAZ0Z0b0GIRli1FFHkY4HlxYB6NzdlXNzfqymuQeh12\nmxJkytTrlr9izgU9OLJfVtx6UQTyc0HxGOSYNj2nijkkig46sd9Oc/GBnmjk\naWPRl3RWs48jpmgwnO12jwJqx7LElaecSQFqUPTopv18etXs7O1QUKLB9tpC\nC+n758pJjzAf4x8qmOuY3ho9ZDPNQf+nov3vBPYZECYI4Xr4uUoBaOipSYMW\nq6MLFBAlo6rxBkm6GqrYBNCoI4xyOU8sFHDy8NO5Q5arcStRPSO8M3r/TACB\nF1a9DpxxwP7DgUg5Bs+p23hpMxa4AHjvnE0SkSUadMOZTnX1xjCnwckq8lZi\naXSTYRE0m+0YEiQojYlgVviYvkAyXq27aU9xI6/J4rN9yzxPgr+yaPp4eJb9\nUT9rgarlzyLjC6Ouei2W04pwRaIqXeETyuA00SFpYTmn1oTiG2bJVjht68Qd\nU4cyhrTwPCbxUDaG+Lx3V93R48HLpsyxDXQ8rIio7o/rcZ8fEJoXlOc4l86k\nD5ZK\r\n=/7qx\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "deb55cac196e3f138071911dabbc3726eb048864",
+    "tarball": "https://registry.npmjs.org/nanoid/-/nanoid-2.0.1.tgz",
+    "unpackedSize": 22320
+  },
+  "homepage": "https://github.com/ai/nanoid#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "keywords": [
+    "id",
+    "random",
+    "url",
+    "uuid"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "ai",
+      "email": "andrey@sitnik.ru"
+    }
+  ],
+  "name": "nanoid",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ai/nanoid.git"
+  },
+  "sideEffects": false,
+  "version": "2.0.1"
+}

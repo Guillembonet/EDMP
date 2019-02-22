@@ -1,0 +1,210 @@
+{
+  "_args": [
+    [
+      "multihashing-async@~0.5.1",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "multihashing-async@>=0.5.1 <0.6.0",
+  "_hasShrinkwrap": false,
+  "_id": "multihashing-async@0.5.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/multihashing-async",
+  "_nodeVersion": "10.13.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/multihashing-async_0.5.2_1547035300810_0.9850237301377209"
+  },
+  "_npmUser": {
+    "email": "mail@hugodias.me",
+    "name": "hugomrdias"
+  },
+  "_npmVersion": "6.5.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "multihashing-async",
+    "raw": "multihashing-async@~0.5.1",
+    "rawSpec": "~0.5.1",
+    "scope": null,
+    "spec": ">=0.5.1 <0.6.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs",
+    "/ipfs-bitswap",
+    "/ipfs-unixfs-importer",
+    "/ipld-bitcoin",
+    "/ipld-dag-cbor",
+    "/ipld-dag-pb",
+    "/ipld-ethereum",
+    "/ipld-git",
+    "/ipld-raw",
+    "/ipld-zcash",
+    "/libp2p-crypto",
+    "/libp2p-crypto-secp256k1",
+    "/libp2p-kad-dht",
+    "/libp2p-secio"
+  ],
+  "_resolved": "https://registry.npmjs.org/multihashing-async/-/multihashing-async-0.5.2.tgz",
+  "_shasum": "4af40e0dde2f1dbb12a7c6b265181437ac26b9de",
+  "_shrinkwrap": null,
+  "_spec": "multihashing-async@~0.5.1",
+  "_where": "/home/ubuntu/js-ipfs",
+  "browser": {
+    "./src/crypto-sha1-2.js": "./src/crypto-sha1-2-browser.js"
+  },
+  "bugs": {
+    "url": "https://github.com/multiformats/js-multihashing-async/issues"
+  },
+  "contributors": [
+    {
+      "name": "Marcin Rataj",
+      "email": "lidel@lidel.org"
+    },
+    {
+      "name": "André Cruz",
+      "email": "andremiguelcruz@msn.com"
+    },
+    {
+      "name": "David Dias",
+      "email": "mail@daviddias.me"
+    },
+    {
+      "name": "Dmitriy Ryajov",
+      "email": "dryajov@gmail.com"
+    },
+    {
+      "name": "Friedel Ziegelmayer",
+      "email": "dignifiedquire@gmail.com"
+    },
+    {
+      "name": "Harlan T Wood",
+      "email": "harlantwood@users.noreply.github.com"
+    },
+    {
+      "name": "Hugo Dias",
+      "email": "hugomrdias@gmail.com"
+    },
+    {
+      "name": "Hugo Dias",
+      "email": "mail@hugodias.me"
+    },
+    {
+      "name": "Juan Batiz-Benet",
+      "email": "juan@benet.ai"
+    },
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Matteo Collina",
+      "email": "matteo.collina@gmail.com"
+    },
+    {
+      "name": "Mitar",
+      "email": "mitar.github@tnode.com"
+    },
+    {
+      "name": "Pedro Teixeira",
+      "email": "i@pgte.me"
+    },
+    {
+      "name": "Richard Littauer",
+      "email": "richard.littauer@gmail.com"
+    },
+    {
+      "name": "Richard Schneider",
+      "email": "makaretu@gmail.com"
+    },
+    {
+      "name": "Victor Bjelkholm",
+      "email": "victorbjelkholm@gmail.com"
+    },
+    {
+      "name": "Volker Mische",
+      "email": "volker.mische@gmail.com"
+    },
+    {
+      "name": "npm-to-cdn-bot",
+      "email": "npmcdn-to-unpkg-bot@users.noreply.github.com",
+      "url": "by Forbes Lindesay"
+    }
+  ],
+  "dependencies": {
+    "blakejs": "^1.1.0",
+    "js-sha3": "~0.8.0",
+    "multihashes": "~0.4.13",
+    "murmurhash3js": "^3.0.1",
+    "nodeify": "^1.0.1"
+  },
+  "description": "multiple hash functions",
+  "devDependencies": {
+    "aegir": "^18.0.3",
+    "benchmark": "^2.1.4",
+    "chai": "^4.1.2",
+    "dirty-chai": "^2.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 19,
+    "integrity": "sha512-mmyG6M/FKxrpBh9xQDUvuJ7BbqT93ZeEeH5X6LeMYKoYshYLr9BDdCsvDtZvn+Egf+/Xi+aOznrWL4vp3s+p0Q==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcNeKlCRA9TVsSAnZWagAAkX4P/jNkjHZKeuTJc8nm7iZ2\nQp55aBr4z5BKEpauDiq/K+sxVCrGK7I4dAK6eJutWKRn6jKKnWxNKJyo+6qu\nFzG9ZbFmPfe4H2pPEM6AYYcF2w+9G7GGWlBpSaLp2U4uwXnGnPENumrlLBhj\nwcfnMunaKMQBH9SttAI6mqN8KtbS+z0iaCUh1XmiRmqo4av3Ue4X/4g380pX\nfAxzdptbF7mNfc7pZ2LtOrRfoEEAmaC4eONb89f41DE1XNClnTj6Rz3YTtpA\n8bUa50x8U61k67GS9ZE2jq2rOrrQXT/fI3aGuTZYCTKKpLGxPU+VA3Wlk0IH\n3bJB/1TxurJz2tJObnyUK+vFLTiPrnEtqEK6A1nXRAdEzKYRXlXVgGXQ9oOV\nYLDhX9wvM2GsCGVbrzAv8FExOMob6ajDIhiI2TvA46jZwJuWH90GqiaZHHEw\n0RXqEZsK2RblVYoyFohi5w739PEDw3O+82DNdiewwy0Zl4snXOtP/nIgvHio\nBhi+89ABqgWrLL0ydOgdjgl3d3sbuuvPC6E/qAA3G7CUd459bVx7dgYEjkbB\n2958E/zNFi7zQq5spqsA2BUuwyHKZE9hFrv2MAxma5RCsIwMBCFEY91ilLKq\nXDhy1SNCVlyMPU2WiUg1loZaeQeVpr9eYErSMm42pNaJ1cgR1idQtv+sB4r4\nN34k\r\n=tsKJ\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "4af40e0dde2f1dbb12a7c6b265181437ac26b9de",
+    "tarball": "https://registry.npmjs.org/multihashing-async/-/multihashing-async-0.5.2.tgz",
+    "unpackedSize": 1285808
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
+  "gitHead": "2e735f558070df8c12e2b9fb0a00bc0b2af86e64",
+  "homepage": "https://github.com/multiformats/js-multihashing-async",
+  "keywords": [
+    "multihash"
+  ],
+  "leadMaintainer": "Hugo Dias <mail@hugodias.me>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "dignifiedquire",
+      "email": "dignifiedquire@gmail.com"
+    },
+    {
+      "name": "vmx",
+      "email": "volker.mische@gmail.com"
+    }
+  ],
+  "name": "multihashing-async",
+  "optionalDependencies": {},
+  "pre-push": [
+    "lint",
+    "test"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/multiformats/js-multihashing-async.git"
+  },
+  "scripts": {
+    "bench": "node benchmarks/hash.js",
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage publish",
+    "docs": "aegir docs",
+    "lint": "aegir lint",
+    "release": "aegir release --docs",
+    "release-major": "aegir release --type major --docs",
+    "release-minor": "aegir release --type minor --docs",
+    "test": "aegir test",
+    "test:browser": "aegir test -t browser",
+    "test:node": "aegir test -t node"
+  },
+  "version": "0.5.2"
+}

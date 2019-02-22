@@ -1,0 +1,167 @@
+{
+  "_args": [
+    [
+      "mafmt@^6.0.2",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "mafmt@>=6.0.2 <7.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "mafmt@6.0.6",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/mafmt",
+  "_nodeVersion": "10.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/mafmt_6.0.6_1549537828477_0.2651103804704473"
+  },
+  "_npmUser": {
+    "email": "vasco.santos@moxy.studio",
+    "name": "vascosantos"
+  },
+  "_npmVersion": "6.5.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "mafmt",
+    "raw": "mafmt@^6.0.2",
+    "rawSpec": "^6.0.2",
+    "scope": null,
+    "spec": ">=6.0.2 <7.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs",
+    "/joi-multiaddr",
+    "/libp2p",
+    "/libp2p-bootstrap",
+    "/libp2p-circuit",
+    "/libp2p-tcp",
+    "/libp2p-webrtc-star",
+    "/libp2p-websocket-star",
+    "/libp2p-websocket-star-multi",
+    "/libp2p-websockets",
+    "/peer-info"
+  ],
+  "_resolved": "https://registry.npmjs.org/mafmt/-/mafmt-6.0.6.tgz",
+  "_shasum": "d94f491541264c51a810bea03c6866981e3c07fe",
+  "_shrinkwrap": null,
+  "_spec": "mafmt@^6.0.2",
+  "_where": "/home/ubuntu/js-ipfs",
+  "bugs": {
+    "url": "https://github.com/multiformats/js-mafmt/issues"
+  },
+  "contributors": [
+    {
+      "name": "Maciej Krüger",
+      "email": "mkg20001@gmail.com"
+    },
+    {
+      "name": "Alan Shaw",
+      "email": "alan@tableflip.io"
+    },
+    {
+      "name": "Hugo Dias",
+      "email": "mail@hugodias.me"
+    },
+    {
+      "name": "Jacob Heun",
+      "email": "jacobheun@gmail.com"
+    },
+    {
+      "name": "Jeromy",
+      "email": "jeromyj@gmail.com"
+    },
+    {
+      "name": "Jeromy Johnson",
+      "email": "why@ipfs.io"
+    },
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@moxy.studio"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@ua.pt"
+    },
+    {
+      "name": "dignifiedquire",
+      "email": "dignifiedquire@gmail.com"
+    },
+    {
+      "name": "dmitriy ryajov",
+      "email": "dryajov@dmitriys-MBP.HomeNET"
+    },
+    {
+      "name": "victorbjelkholm",
+      "email": "victorbjelkholm@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "multiaddr": "^6.0.4"
+  },
+  "description": "A multiaddr validator",
+  "devDependencies": {
+    "aegir": "^18.0.3",
+    "chai": "^4.2.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 10,
+    "integrity": "sha512-tbLpK8eZsGmjxo6HjSNQOrOiClXprErbdnmO/5VY3R4g0zWUELgvMjJQr3WTlh6MXMZqJqwmz6FsEyJEcU2Xnw==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcXBIlCRA9TVsSAnZWagAA4h8P/Rv4vfCAcjH6kGmEtwTU\nQOYPydCu5e85Z++WCyl8duANQO+hTevUZ+wX2ct5UCbkbqarJLDzUl3aLlVX\nzd2VACzuffS4bdI5Zg+efzGO1+Rs034+jMelnr4opTMkFklQoaBxUAZKENme\njID2JNawRnGI+1kzedXJHBILsLAMr4jIxi77mKwWiNI2ILWN7Rdl/zCS3X+t\nUWUeIUsEPYMnOqlRLU0ZC/t1+oS1WpXvTueq4peiQcm3lwPSOY6Dbf8TJ+mP\n692FjejbLOF5qeUn6XCSKlXb+sJbiIi2ehq/u7ztY+yCvU4drLmsAJwVQbPO\nKHV8qbJSt5/pYJ1cjVQZQUTSlLBK22Kz7FldQXBkKPJaCHyMQlbx69gzefO3\nzr5Vct6zkiwMvN/WRMLejIdQOpVzArV+mR2tjktWCDIMvT+VBREtnAT/+K97\n1728gi+66GH6VpUAJfbM7huXyOzKLn+80L++JV1BR6Tt/xjohnbH/7wFEAPD\nVzWStQWQq+UYZteDTHcVJYr3iOdGdUEUR/I4FNbTcVjYJx04TlOPewhz48FM\n6J4M5d9Tq6FdbLJu48yOYdoFbobPx6EMLhYEXL1xcco9w1LdsIz60X9tg5C1\nJtJewdROctEMosAUW+zUQGUh9chVRIn4TlhwzhFIJHkiC4ToXwxafZe8kvAV\n7Z6x\r\n=DK7u\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "d94f491541264c51a810bea03c6866981e3c07fe",
+    "tarball": "https://registry.npmjs.org/mafmt/-/mafmt-6.0.6.tgz",
+    "unpackedSize": 521277
+  },
+  "gitHead": "1fb4869bb5b6f917294f099f19763db4572ad7bb",
+  "homepage": "https://github.com/multiformats/js-mafmt#readme",
+  "keywords": [
+    "multiaddr"
+  ],
+  "leadMaintainer": "Vasco Santos <vasco.santos@moxy.studio>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "vmx",
+      "email": "volker.mische@gmail.com"
+    },
+    {
+      "name": "whyrusleeping",
+      "email": "why@ipfs.io"
+    }
+  ],
+  "name": "mafmt",
+  "optionalDependencies": {},
+  "pre-push": [
+    "lint",
+    "test"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multiformats/js-mafmt.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage publish",
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "release-major": "aegir release --type major",
+    "release-minor": "aegir release --type minor",
+    "test": "aegir test",
+    "test:browser": "aegir test --target browser",
+    "test:node": "aegir test --target node"
+  },
+  "version": "6.0.6"
+}

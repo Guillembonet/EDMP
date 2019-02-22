@@ -1,0 +1,134 @@
+{
+  "_args": [
+    [
+      "bitcoinjs-lib@^4.0.2",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/ipld-bitcoin"
+    ]
+  ],
+  "_from": "bitcoinjs-lib@>=4.0.2 <5.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "bitcoinjs-lib@4.0.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/bitcoinjs-lib",
+  "_nodeVersion": "10.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bitcoinjs-lib_4.0.3_1548836201052_0.08774592319508212"
+  },
+  "_npmUser": {
+    "email": "junderwood@bitcoinbank.co.jp",
+    "name": "junderw"
+  },
+  "_npmVersion": "6.7.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "bitcoinjs-lib",
+    "raw": "bitcoinjs-lib@^4.0.2",
+    "rawSpec": "^4.0.2",
+    "scope": null,
+    "spec": ">=4.0.2 <5.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipld-bitcoin"
+  ],
+  "_resolved": "https://registry.npmjs.org/bitcoinjs-lib/-/bitcoinjs-lib-4.0.3.tgz",
+  "_shasum": "c04873514d547d5f8d40c9d1844dc649e6437c14",
+  "_shrinkwrap": null,
+  "_spec": "bitcoinjs-lib@^4.0.2",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/ipld-bitcoin",
+  "bugs": {
+    "url": "https://github.com/bitcoinjs/bitcoinjs-lib/issues"
+  },
+  "dependencies": {
+    "bech32": "^1.1.2",
+    "bip32": "^1.0.0",
+    "bip66": "^1.1.0",
+    "bitcoin-ops": "^1.4.0",
+    "bs58check": "^2.0.0",
+    "create-hash": "^1.1.0",
+    "create-hmac": "^1.1.3",
+    "merkle-lib": "^2.0.10",
+    "pushdata-bitcoin": "^1.0.1",
+    "randombytes": "^2.0.1",
+    "safe-buffer": "^5.1.1",
+    "tiny-secp256k1": "^1.0.0",
+    "typeforce": "^1.11.3",
+    "varuint-bitcoin": "^1.0.4",
+    "wif": "^2.0.1"
+  },
+  "description": "Client-side Bitcoin JavaScript library",
+  "devDependencies": {
+    "bip39": "^2.3.0",
+    "bip65": "^1.0.1",
+    "bip68": "^1.0.3",
+    "bn.js": "^4.11.8",
+    "bs58": "^4.0.0",
+    "dhttp": "^3.0.0",
+    "hoodwink": "^2.0.0",
+    "minimaldata": "^1.0.2",
+    "mocha": "^5.2.0",
+    "nyc": "^11.8.0",
+    "proxyquire": "^2.0.1",
+    "standard": "^11.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 48,
+    "integrity": "sha512-cb5t55MYUpwQi095J+u6eyltgIU7lbhZfC6+annstncDhfH4cyctW5jmU/tac7NonZZFYH7DktWnDxUm9AWWDQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcUV1pCRA9TVsSAnZWagAAQhUP/iMFiI/UHIJ/FKJAibyH\nkj7dgxTnG+Z3QFcyWaVzt3acEkFcqJDOLto1zxX4AhUXh8BGzcs2TV/7lMLo\nEL3uLhp365FCvhVZrb2TntDbmvzi+tFb1V0RojhZsBioxmDsQW7LVn1VSvzz\n1hqsosdHRYJo0bHBGdEHBNRtbGk+xYO2lLVKTNzY8an/OtHlAWswZQQSkGYI\nvYhYFkljcRKgpqUjaOES0mqPywL9/CQJnR3PqVDaEDXOugN/sHB2oqWD3UeN\n0YU0S9FHByE4unNHk2dBFLOrlwpxwjiEqn4VVQBo2/yVvH95+h7yTuDPXhLN\nBoCFBg1wiRVX4Mv+WBfrI8wvhHGXyXKcewWkILKPsmMYiPDxVXGlsazvpOwR\nZ4as7lNJpABQ62up//8m8/00AzLT8mcXeAGqkQ8ALGXl2H0RWIbu2zsnB4+4\n3ps/dIRUCxv6R4QUyV4wQe5jGwG4lviax4X0jIIQtAwLy1D2UFt1EmjGNC9w\nIDDlTNBXdblWToQh9QMATb52YewTTSgpAGWPmDiFvBX5OwMEotGvWRJSyAWM\nY3bGEXuoxEIXY5qtMZXPFIYMWxoUDEeL9FPdmiT1OSEkLWckRC0T1tsBgkuG\n6xihxRx0iku+6FXVz0rCJDO6QCk3TFBqJ37K+kZhbERZIRVF0wfv/JaudJf6\nUnKd\r\n=yw+X\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "c04873514d547d5f8d40c9d1844dc649e6437c14",
+    "tarball": "https://registry.npmjs.org/bitcoinjs-lib/-/bitcoinjs-lib-4.0.3.tgz",
+    "unpackedSize": 127359
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "gitHead": "568e5c818988eeb01deba5e8bb52d6930ac6ac4c",
+  "homepage": "https://github.com/bitcoinjs/bitcoinjs-lib#readme",
+  "keywords": [
+    "bitcoin",
+    "bitcoinjs",
+    "bitcoinjs",
+    "browserify",
+    "javascript"
+  ],
+  "license": "MIT",
+  "main": "./src/index.js",
+  "maintainers": [
+    {
+      "name": "dcousens",
+      "email": "npm@dcousens.com"
+    },
+    {
+      "name": "fanatid",
+      "email": "fanatid@ya.ru"
+    },
+    {
+      "name": "jprichardson",
+      "email": "jprichardson@gmail.com"
+    },
+    {
+      "name": "junderw",
+      "email": "junderwood@bitcoinbank.co.jp"
+    }
+  ],
+  "name": "bitcoinjs-lib",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitcoinjs/bitcoinjs-lib.git"
+  },
+  "scripts": {
+    "coverage": "nyc --check-coverage --branches 90 --functions 90 mocha",
+    "coverage-html": "nyc report --reporter=html",
+    "coverage-report": "nyc report --reporter=lcov",
+    "integration": "mocha --timeout 50000 test/integration/",
+    "standard": "standard",
+    "test": "npm run standard && npm run coverage",
+    "unit": "mocha"
+  },
+  "version": "4.0.3"
+}

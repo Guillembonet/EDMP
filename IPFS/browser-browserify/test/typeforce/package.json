@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      "typeforce@^1.11.3",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/bitcoinjs-lib"
+    ]
+  ],
+  "_from": "typeforce@>=1.11.3 <2.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "typeforce@1.18.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/typeforce",
+  "_nodeVersion": "11.3.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/typeforce_1.18.0_1544430313099_0.1614026690269379"
+  },
+  "_npmUser": {
+    "email": "npm@dcousens.com",
+    "name": "dcousens"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "typeforce",
+    "raw": "typeforce@^1.11.3",
+    "rawSpec": "^1.11.3",
+    "scope": null,
+    "spec": ">=1.11.3 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/bip32",
+    "/bitcoinjs-lib"
+  ],
+  "_resolved": "https://registry.npmjs.org/typeforce/-/typeforce-1.18.0.tgz",
+  "_shasum": "d7416a2c5845e085034d70fcc5b6cc4a90edbfdc",
+  "_shrinkwrap": null,
+  "_spec": "typeforce@^1.11.3",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/bitcoinjs-lib",
+  "author": {
+    "name": "Daniel Cousens"
+  },
+  "bugs": {
+    "url": "https://github.com/dcousens/typeforce/issues"
+  },
+  "dependencies": {},
+  "description": "Another biased type checking solution for Javascript",
+  "devDependencies": {
+    "nyc": "^13.1.0",
+    "standard": "*",
+    "tape": "^4.6.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 9,
+    "integrity": "sha512-7uc1O8h1M1g0rArakJdf0uLRSSgFcYexrVoKo+bzJd32gd4gDy2L/Z+8/FjPnU9ydY3pEnVPtr9FyscYY60K1g==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcDiLpCRA9TVsSAnZWagAAH1AP/3TIgqNJMJ1gdGsLAmdm\nK9HjbpQ9aRXQ/gGNBcVuE6SMcN/CpqTXP15nKHtjmgF3YNyO954KHGBHV8xh\nE4J5kyLqWm7ncz8cfu+YMzuS3XgteCFAH2qabIBWU+Ei5M6jK/yqHRP6yDaf\nPDQZ60iCctZ1oaDtgKZ/9JwxUhtzav0GBL0K4yV2YlKf+zWJiRwgCJ9zyFR+\nIYHZUAfvU6BUv96LE6XOYnGz2nGHUnZn+H0Y966LY4VIeOLYif7EMJuEZCCJ\ng6/aC/vs8/+zrnFEc1kA7f3undkC2G4fTj4KiO3Jtz2ncJrwi3p7zK1aWvl2\nLVGNLc0KIdF6itvqL4NmyIUVJjT61+eWEP1e+0bdBpE+ztYrF0V3QZAu+Z2G\noODrZh2Bxe508AObBdc1QF+aco2H0T0KYi32hTPjSxSjuRbNYTzMT3Q7AtEv\ncAtLVKLkFV+7ILG+nkXUgHuPnibe/4Xt5BYz501dvxgYVjzWfYg3omirnJxt\nxiFAF9a45Bsyf8jl+TNfL3xLmSRtVKkbMLox0uMHkpeS70pQVXV8KVEFhe2S\nvfH3FdIY2gFEZm9/DMUAi55ThlOt2ffQ5U8b8vB8+WiTVPSEy/fYzn/R4HRM\n4utTA1IgI6wrwnsKHvEECgq9VCnyqVRNSEynqkBuB/fbTk0rpe2chDFaCr/D\nDatz\r\n=i4uE\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "d7416a2c5845e085034d70fcc5b6cc4a90edbfdc",
+    "tarball": "https://registry.npmjs.org/typeforce/-/typeforce-1.18.0.tgz",
+    "unpackedSize": 19052
+  },
+  "gitHead": "29ff3061ba372b0f4eeeda47d5013f13545ea01e",
+  "homepage": "https://github.com/dcousens/typeforce",
+  "keywords": [
+    "exceptions",
+    "force",
+    "type",
+    "typechecking",
+    "typeforce",
+    "types"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "dcousens",
+      "email": "email@dcousens.com"
+    }
+  ],
+  "name": "typeforce",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcousens/typeforce.git"
+  },
+  "scripts": {
+    "coverage": "nyc --check-coverage --branches 100 --functions 100 node test/*.js",
+    "standard": "standard",
+    "test": "npm run standard && npm run unit",
+    "unit": "node test/*.js"
+  },
+  "version": "1.18.0"
+}

@@ -1,0 +1,159 @@
+{
+  "_args": [
+    [
+      "libp2p-ping@~0.8.3",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/libp2p"
+    ]
+  ],
+  "_from": "libp2p-ping@>=0.8.3 <0.9.0",
+  "_hasShrinkwrap": false,
+  "_id": "libp2p-ping@0.8.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/libp2p-ping",
+  "_nodeVersion": "10.14.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/libp2p-ping_0.8.5_1547129801589_0.8623696692791838"
+  },
+  "_npmUser": {
+    "email": "jacobheun@gmail.com",
+    "name": "jacobheun"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "libp2p-ping",
+    "raw": "libp2p-ping@~0.8.3",
+    "rawSpec": "~0.8.3",
+    "scope": null,
+    "spec": ">=0.8.3 <0.9.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/libp2p"
+  ],
+  "_resolved": "https://registry.npmjs.org/libp2p-ping/-/libp2p-ping-0.8.5.tgz",
+  "_shasum": "e7fb9fb32d9ff0d6b51be52caef4395ce1a17613",
+  "_shrinkwrap": null,
+  "_spec": "libp2p-ping@~0.8.3",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/libp2p",
+  "bugs": {
+    "url": "https://github.com/libp2p/js-libp2p-ping/issues"
+  },
+  "contributors": [
+    {
+      "name": "João Antunes",
+      "email": "j.goncalo.antunes@gmail.com"
+    },
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Friedel Ziegelmayer",
+      "email": "dignifiedquire@gmail.com"
+    },
+    {
+      "name": "Hugo Dias",
+      "email": "mail@hugodias.me"
+    },
+    {
+      "name": "Jacob Heun",
+      "email": "jacobheun@gmail.com"
+    },
+    {
+      "name": "Francisco Baio Dias",
+      "email": "xicombd@gmail.com"
+    },
+    {
+      "name": "Richard Littauer",
+      "email": "richard.littauer@gmail.com"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@moxy.studio"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@ua.pt"
+    },
+    {
+      "name": "greenkeeperio-bot",
+      "email": "support@greenkeeper.io"
+    },
+    {
+      "name": "ᴠɪᴄᴛᴏʀ ʙᴊᴇʟᴋʜᴏʟᴍ",
+      "email": "victorbjelkholm@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "libp2p-crypto": "~0.16.0",
+    "pull-handshake": "^1.1.4",
+    "pull-stream": "^3.6.9"
+  },
+  "description": "libp2p Ping protocol implementation",
+  "devDependencies": {
+    "aegir": "^18.0.3",
+    "async": "^2.6.1",
+    "chai": "^4.2.0",
+    "debug": "^4.1.1",
+    "dirty-chai": "^2.0.1",
+    "libp2p-switch": "~0.41.4",
+    "libp2p-tcp": "~0.13.0",
+    "multiaddr": "^6.0.0",
+    "peer-book": "~0.9.0",
+    "peer-id": "~0.12.0",
+    "peer-info": "~0.15.0",
+    "run-parallel": "^1.1.9"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 13,
+    "integrity": "sha512-BzCN3+jp1SvJQZlXq2G3TMkyK5UOOf3JO+CZMnaUEHYlRgQf2zShYta5XU2IGx0EJA/23iCdCL+LjBP/DOvbkQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcN1PKCRA9TVsSAnZWagAATnAQAJCsf0O6Yk5hUpRLN4iI\n3YkQz91D+9HtTOMlxb/yMR0Wjgk6DQ6FzonpBpOeoR9bx/BQbPkBkBJrOdUp\n5bbBhLd/t47yUcHPeHETJ1T5Zsptl/iUBf559EDkcOAj0jUBcsBBU2jeSrDm\nPiQH1uvAcVULGL/JD7RKowk71rXXctrYdTZvHmO40VwYt/2NDaQff0wHXpvs\nFK9fzY7HspGNNHFhNaEWcF5v73uvUjo60Fx08/59AL1yUKnv/QEBWGx0K/LH\nns4DjKgUZL5DYWsIEMHzKNLKTt2M2def776cDV+GM/8Oqaj4UvppUDJgMy7Z\nsx02uG8hBx57tFzE3uX04LKsbQ6+TvnsZxqKCzEvpto+imUJnhTDj+q4a/ht\nltXM9T7622Ygo2iJkTezUL21x7Kpc+avvar4rACd104ZfTTzfgthI9+ErfyU\neJ3a+5EKIdz+sCEwXIk2ggqltIZDpwSmEkuk2kQfNVhT7aLRE0OWYrwM1uUJ\n30HawbZ3qZXAMj//hBBgSOESSdsibPEcOqBoikY4Ws2E0ZQ9vA63bMjDZZqs\nZN6GpcarpsbjfyaI03gDj3AVM4WWbr3pzF3Nh1ZogRmVMvRPhdri8ZoKMyrC\nuUJcuwOv7dP50i5XljTBvsssoxOXxq7zjdhK+5qxqWJCbGI/ETg36sePpKla\nMjjh\r\n=JCmL\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "e7fb9fb32d9ff0d6b51be52caef4395ce1a17613",
+    "tarball": "https://registry.npmjs.org/libp2p-ping/-/libp2p-ping-0.8.5.tgz",
+    "unpackedSize": 5182104
+  },
+  "gitHead": "9307846722cb3ce79483fc9d0aee206d87dcdafa",
+  "homepage": "https://github.com/libp2p/js-libp2p-ping",
+  "keywords": [
+    "IPFS"
+  ],
+  "leadMaintainer": "Jacob Heun <jacobheun@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "mail@daviddias.me"
+    },
+    {
+      "name": "jacobheun",
+      "email": "jacobheun@gmail.com"
+    }
+  ],
+  "name": "libp2p-ping",
+  "optionalDependencies": {},
+  "pre-push": [
+    "lint"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libp2p/js-libp2p-ping.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage publish",
+    "lint": "aegir lint",
+    "release": "aegir release -t node",
+    "release-major": "aegir release --type major -t node",
+    "release-minor": "aegir release --type minor -t node",
+    "test": "aegir test -t node",
+    "test:node": "aegir test -t node"
+  },
+  "version": "0.8.5"
+}

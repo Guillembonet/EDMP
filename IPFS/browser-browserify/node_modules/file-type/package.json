@@ -1,0 +1,196 @@
+{
+  "_args": [
+    [
+      "file-type@^10.2.0",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "file-type@>=10.2.0 <11.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "file-type@10.7.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/file-type",
+  "_nodeVersion": "10.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/file-type_10.7.1_1548134866193_0.08270405577467987"
+  },
+  "_npmUser": {
+    "email": "sindresorhus@gmail.com",
+    "name": "sindresorhus"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "file-type",
+    "raw": "file-type@^10.2.0",
+    "rawSpec": "^10.2.0",
+    "scope": null,
+    "spec": ">=10.2.0 <11.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs"
+  ],
+  "_resolved": "https://registry.npmjs.org/file-type/-/file-type-10.7.1.tgz",
+  "_shasum": "bcfdd618fddfa7f7e5fc504e08b62cfec7bda8f2",
+  "_shrinkwrap": null,
+  "_spec": "file-type@^10.2.0",
+  "_where": "/home/ubuntu/js-ipfs",
+  "author": {
+    "email": "sindresorhus@gmail.com",
+    "name": "Sindre Sorhus",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/file-type/issues"
+  },
+  "dependencies": {},
+  "description": "Detect the file type of a Buffer/Uint8Array",
+  "devDependencies": {
+    "ava": "^1.0.1",
+    "read-chunk": "^3.0.0",
+    "xo": "^0.23.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 4,
+    "integrity": "sha512-kUc4EE9q3MH6kx70KumPOvXLZLEJZzY9phEVg/bKWyGZ+OA9KoKZzFR4HS0yDmNv31sJkdf4hbTERIfplF9OxQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcRqnTCRA9TVsSAnZWagAAB10P/0mzK1Mp7DC7kNxQB56I\n2w4POP4suxCjwmY8pBmaJ9yWiKZ5Q+C/WebbpdWUAY2EO/V2kmQgGfs4cE7P\njRQbOXVxZMQXLtIIUD1fwAxKOcfwUPTR7UQMc7lT10nQi2U7eHMh3KdmUqlu\n2Eqw3pr8ZDX4M7a8qZdkY+zxzsCRNdoHruLaW30CATSPlEi5jzySLX7c1/XK\nanUJKD3/kWSFXJnAyfGAgZNbpNuKMu+EwrzhHArfsX9L22TIXznNXRhDhe55\nUC/zpKsLMzhz7iMKDSl9FhsGu5nr135A/wL58eOrDV8b8N/WYucv/PHkkFv9\n5UOo7DPspkp1kVb+jU306IdFd2okhdar3aT0Aj1meF9mjpDI236/MBeAg5l7\nIhfaUujNJ6UYqmCTC42eAexUR50HzEAoLpBENZaxAfbw+N+BK9poIEK7lnBS\nDFIkinEY7w3VGlnwfoiIu1x0nExhScRPvhNY9P+KsZ0ZSIDZeSKoHHwHcdqP\n62uTIqm/CitZ8nuQ203RY+t7SO02nz5wG8rVECZmSKL4wwlAZCC6kmqH7gD0\n36RoidkgVnJ+80D4Qo83M1p5FyozWjf3AHRxPvC+vAk+DuUEAoOQmx+Y/4IL\n274wNt9RnIcBbkwwfvAQNIsU/khcrgKcg5opwwXkSR61B/kbC3PrEJHY54HJ\nv+T3\r\n=ggvA\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "bcfdd618fddfa7f7e5fc504e08b62cfec7bda8f2",
+    "tarball": "https://registry.npmjs.org/file-type/-/file-type-10.7.1.tgz",
+    "unpackedSize": 29285
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "gitHead": "6c343215290ed9ae9993ecbc1d1491f5b87a798d",
+  "homepage": "https://github.com/sindresorhus/file-type#readme",
+  "keywords": [
+    "3gp",
+    "7z",
+    "Z",
+    "aif",
+    "amr",
+    "ar",
+    "archive",
+    "avi",
+    "binary",
+    "blend",
+    "bmp",
+    "bpg",
+    "buffer",
+    "bz2",
+    "cab",
+    "check",
+    "cr2",
+    "deb",
+    "detect",
+    "dmg",
+    "docx",
+    "eot",
+    "epub",
+    "exe",
+    "exif",
+    "file",
+    "flac",
+    "flash",
+    "flif",
+    "flv",
+    "gif",
+    "glb",
+    "gz",
+    "heic",
+    "ico",
+    "ics",
+    "image",
+    "img",
+    "is",
+    "jp2",
+    "jpg",
+    "jpm",
+    "jpx",
+    "jxr",
+    "lz",
+    "m4a",
+    "m4v",
+    "mid",
+    "mime",
+    "mj2",
+    "mkv",
+    "mobi",
+    "mov",
+    "mp2",
+    "mp3",
+    "mp4",
+    "mpg",
+    "msi",
+    "mts",
+    "mxf",
+    "odp",
+    "ods",
+    "odt",
+    "ogg",
+    "opus",
+    "otf",
+    "pdf",
+    "photo",
+    "pic",
+    "picture",
+    "png",
+    "pptx",
+    "ps",
+    "psd",
+    "rar",
+    "rpm",
+    "rtf",
+    "sqlite",
+    "swf",
+    "tar",
+    "tif",
+    "ttf",
+    "type",
+    "uint8array",
+    "video",
+    "wasm",
+    "wav",
+    "webassembly",
+    "webm",
+    "webp",
+    "wma",
+    "woff",
+    "woff2",
+    "xlsx",
+    "xml",
+    "xpi",
+    "xz",
+    "zip"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "kevva",
+      "email": "kevinmartensson@gmail.com"
+    },
+    {
+      "name": "mifi",
+      "email": "finstaden@gmail.com"
+    },
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    }
+  ],
+  "name": "file-type",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/file-type.git"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "version": "10.7.1"
+}

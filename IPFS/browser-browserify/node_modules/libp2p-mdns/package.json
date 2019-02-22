@@ -1,0 +1,157 @@
+{
+  "_args": [
+    [
+      "libp2p-mdns@~0.12.0",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "libp2p-mdns@>=0.12.0 <0.13.0",
+  "_hasShrinkwrap": false,
+  "_id": "libp2p-mdns@0.12.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/libp2p-mdns",
+  "_nodeVersion": "10.14.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/libp2p-mdns_0.12.2_1546622179510_0.7069717721587889"
+  },
+  "_npmUser": {
+    "email": "jacobheun@gmail.com",
+    "name": "jacobheun"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "libp2p-mdns",
+    "raw": "libp2p-mdns@~0.12.0",
+    "rawSpec": "~0.12.0",
+    "scope": null,
+    "spec": ">=0.12.0 <0.13.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs"
+  ],
+  "_resolved": "https://registry.npmjs.org/libp2p-mdns/-/libp2p-mdns-0.12.2.tgz",
+  "_shasum": "7087c0c69c70b15d1feef97d221c68864d39ef04",
+  "_shrinkwrap": null,
+  "_spec": "libp2p-mdns@~0.12.0",
+  "_where": "/home/ubuntu/js-ipfs",
+  "bugs": {
+    "url": "https://github.com/libp2p/js-libp2p-mdns/issues"
+  },
+  "contributors": [
+    {
+      "name": "Richard Littauer",
+      "email": "richard.littauer@gmail.com"
+    },
+    {
+      "name": "Alan Shaw",
+      "email": "alan.shaw@protocol.ai"
+    },
+    {
+      "name": "Friedel Ziegelmayer",
+      "email": "dignifiedquire@gmail.com"
+    },
+    {
+      "name": "Jacob Heun",
+      "email": "jacobheun@gmail.com"
+    },
+    {
+      "name": "Jacob Heun",
+      "email": "jake@andyet.net"
+    },
+    {
+      "name": "Nuno Nogueira",
+      "email": "nunofmn@gmail.com"
+    },
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Richard Schneider",
+      "email": "makaretu@gmail.com"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@moxy.studio"
+    },
+    {
+      "name": "emersion",
+      "email": "contact@emersion.fr"
+    },
+    {
+      "name": "greenkeeperio-bot",
+      "email": "support@greenkeeper.io"
+    },
+    {
+      "name": "ᴠɪᴄᴛᴏʀ ʙᴊᴇʟᴋʜᴏʟᴍ",
+      "email": "victorbjelkholm@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "libp2p-tcp": "~0.13.0",
+    "multiaddr": "^6.0.2",
+    "multicast-dns": "^7.2.0",
+    "peer-id": "~0.12.0",
+    "peer-info": "~0.15.0"
+  },
+  "description": "Node.js libp2p mDNS discovery implementation for peer discovery",
+  "devDependencies": {
+    "aegir": "^18.0.2",
+    "async": "^2.6.1",
+    "chai": "^4.2.0",
+    "dirty-chai": "^2.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 8,
+    "integrity": "sha512-EDAt4GcRGOp2VkeeeEBU5VSRKv2znnSIBBF1XOkOM/1lbKifrlUiW+9GvXoJJFfrtfAh0F2yQFSAgHD06Y3KcQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcL5TkCRA9TVsSAnZWagAAtqsP/ivudfIIyma7iDYMMvHg\njVEA5MP+5PU1+JXu2JQjNvfZcI/k42Q4IVBZZVG5I6Zq+ALNm5BA+qHBTs61\nl9k0qmV57Srbxy1QA78BKQK1IqEd0we0/8qan/ZfBqhSwyv7WJ7OLaLc2nz8\ng+uRB1YPq869Ra972IVZ7TWmaG/tr2XcviiJy6bIL8B9HG/Bed1jt0NVf7Xq\n1xkRgjPh07MOpE2S5d51WkXLiyOd8wR7AN7VX1Lrzt8DXpMqWf3+uZjVjTux\nMzhvDfFEGoGpRmiuAg3UIF/lJt/Zu1aU1e7yHQzLGcfCDkgVXARfiNgn8piD\nMJcaeUvD8BKPL9zJz89l1Shw3IbSg1YSHqmZRhkX1Ug631uCCeM+c04AeKpy\n30x+Rxs7PEfoMY3H+2iZTNjOgMKSFMf5YvuFVL2Dv3kenMrKEB6K83p9lVNb\na+aOx/3OygiwKXcEr1UniVkZVs7f4C8l2upuXnHK+AdvZc09iWEZEkScq2en\nZYeRBIZD+HYLkPHomQXtnMW5PFnAiYzX2LBZvlY71Nt0eu72ih6lAJPWPZfj\n1yj407Va8PSbfF9jTyLaGmAJFiCjyEm1Y27l8U4nA/1swudnfzwSF/RtpxpK\nLlLD43B9ACrG65qYeqgCCQa14n3HNk8kYVG84MygsOVJ3keC52jYRvVRowTn\neo3s\r\n=ca8R\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "7087c0c69c70b15d1feef97d221c68864d39ef04",
+    "tarball": "https://registry.npmjs.org/libp2p-mdns/-/libp2p-mdns-0.12.2.tgz",
+    "unpackedSize": 26421
+  },
+  "gitHead": "c4e90b450b3e51bcd9027fcd3cfeb0ba3417ce9b",
+  "homepage": "https://github.com/libp2p/js-libp2p-mdns",
+  "keywords": [
+    "IPFS"
+  ],
+  "leadMaintainer": "Jacob Heun <jacobheun@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "dignifiedquire",
+      "email": "dignifiedquire@gmail.com"
+    }
+  ],
+  "name": "libp2p-mdns",
+  "optionalDependencies": {},
+  "pre-push": [
+    "lint",
+    "test"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libp2p/js-libp2p-mdns.git"
+  },
+  "scripts": {
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage publish",
+    "lint": "aegir lint",
+    "release": "aegir release -t node --no-build",
+    "release-major": "aegir release --type major -t node --no-build",
+    "release-minor": "aegir release --type minor -t node --no-build",
+    "test": "aegir test -t node",
+    "test:node": "aegir test -t node"
+  },
+  "version": "0.12.2"
+}

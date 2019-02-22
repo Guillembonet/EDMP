@@ -1,0 +1,163 @@
+{
+  "_args": [
+    [
+      "libp2p-keychain@~0.3.3",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "libp2p-keychain@>=0.3.3 <0.4.0",
+  "_hasShrinkwrap": false,
+  "_id": "libp2p-keychain@0.3.6",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/libp2p-keychain",
+  "_nodeVersion": "10.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/libp2p-keychain_0.3.6_1547120058195_0.572205757264896"
+  },
+  "_npmUser": {
+    "email": "vasco.santos@moxy.studio",
+    "name": "vascosantos"
+  },
+  "_npmVersion": "6.5.0",
+  "_phantomChildren": {
+    "lodash": "4.17.11"
+  },
+  "_requested": {
+    "name": "libp2p-keychain",
+    "raw": "libp2p-keychain@~0.3.3",
+    "rawSpec": "~0.3.3",
+    "scope": null,
+    "spec": ">=0.3.3 <0.4.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs"
+  ],
+  "_resolved": "https://registry.npmjs.org/libp2p-keychain/-/libp2p-keychain-0.3.6.tgz",
+  "_shasum": "ba7552797050e845271f4bedec650ae72b67ded8",
+  "_shrinkwrap": null,
+  "_spec": "libp2p-keychain@~0.3.3",
+  "_where": "/home/ubuntu/js-ipfs",
+  "bugs": {
+    "url": "https://github.com/libp2p/js-libp2p-keychain/issues"
+  },
+  "contributors": [
+    {
+      "name": "Alan Shaw",
+      "email": "alan.shaw@protocol.ai"
+    },
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Hugo Dias",
+      "email": "mail@hugodias.me"
+    },
+    {
+      "name": "Maciej Krüger",
+      "email": "mkg20001@gmail.com"
+    },
+    {
+      "name": "Masahiro Saito",
+      "email": "camelmasa@gmail.com"
+    },
+    {
+      "name": "Richard Schneider",
+      "email": "makaretu@gmail.com"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@moxy.studio"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@ua.pt"
+    },
+    {
+      "name": "Victor Bjelkholm",
+      "email": "victorbjelkholm@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "async": "^2.6.1",
+    "interface-datastore": "~0.6.0",
+    "libp2p-crypto": "~0.16.0",
+    "merge-options": "^1.0.1",
+    "node-forge": "~0.7.6",
+    "pull-stream": "^3.6.8",
+    "sanitize-filename": "^1.6.1"
+  },
+  "description": "Key management and cryptographically protected messages",
+  "devDependencies": {
+    "aegir": "^18.0.3",
+    "chai": "^4.2.0",
+    "chai-string": "^1.4.0",
+    "datastore-fs": "~0.7.0",
+    "datastore-level": "~0.10.0",
+    "dirty-chai": "^2.0.1",
+    "level-js": "^4.0.0",
+    "mocha": "^5.2.0",
+    "multihashes": "~0.4.14",
+    "peer-id": "~0.12.2",
+    "rimraf": "^2.6.3"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 17,
+    "integrity": "sha512-pwZoPCNyMIhKqMXgCgr87JIjW8H/0I0EtclzHKwQh/Ej5EbZMX/GjvrkBiYplgBvrWFtOl76GokTTvW0bOPB8Q==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcNy26CRA9TVsSAnZWagAAlIYP/jnP3E/v5JBladk2L/n8\nNa2JyOtQ9EMFUzKvVvocfDA/A8ZPEzRvrvejHcIpJcY2Oded0tYlFlu7p9ax\nebIaNm8UydFA096ySYaTuDsiw0UmdK14Tw3fQWfJPzQUGyDcn84h1zDq9LdS\nY3W1OsBGky2rnSoARgjJh30ncVpA/MvzRWNAZMhwAB6WZHYlLfQ5yazz67Vw\nxFr/LZK1B8nrsWuZhH3Bshs6Zrbe7gFggdDLCrgN0Y14FdTNNZ5OXjCuCgmt\nLkRXJrXs9xOUQvH30cuBAAfeaMIXL6McI+j0C2KNP00xgv6T3nwzVLrrQ49t\nNZzixI9NiJ9uE957w6QwGC7yTXk7NyrUc6g4jGelWPKys/aRCt+EyDccAl63\ncBDJmjmoqxqxjp2dMfkV2/fyZirMiaaAgKC/XpvdW8eklNI/MuVDfbHLy5dj\nzaVWhToK5Cic2c2NQCs0DkgI3N/zfqzerkAz5Y1KfpdTWVlvZtzHh12h0ceb\nMA34IGJr7D6Wr0sFM+B8cj0c2WBQGtZkVg7HQM7xFC2d6I4RzfxS4d5a7EvV\nUkml7gygboAXok6gU3bonmt2X2bgee7x6IrXi8Z3WrwY7+mRFI+VnjQW+4yu\nzrIKiYJHztUVpsSAmh9BIdKub0xB3aij18tR+4sJ3U2DTvRtP93bU6C9GdZ/\nMTZH\r\n=WEEC\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "ba7552797050e845271f4bedec650ae72b67ded8",
+    "tarball": "https://registry.npmjs.org/libp2p-keychain/-/libp2p-keychain-0.3.6.tgz",
+    "unpackedSize": 83240
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
+  "gitHead": "aa5a6cb73c564a0b01dfb6d2b74c4ca490b8e2cd",
+  "homepage": "https://github.com/libp2p/js-libp2p-keychain#readme",
+  "keywords": [
+    "IPFS",
+    "crypto",
+    "encryption",
+    "keys",
+    "libp2p",
+    "secure"
+  ],
+  "leadMaintainer": "Vasco Santos <vasco.santos@moxy.studio>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "daviddias.p@gmail.com"
+    }
+  ],
+  "name": "libp2p-keychain",
+  "optionalDependencies": {},
+  "pre-push": [
+    "lint",
+    "test"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libp2p/js-libp2p-keychain.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage publish",
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "release-major": "aegir release --type major",
+    "release-minor": "aegir release --type minor",
+    "test": "aegir test -t node -t browser",
+    "test:browser": "aegir test -t browser",
+    "test:node": "aegir test -t node"
+  },
+  "version": "0.3.6"
+}

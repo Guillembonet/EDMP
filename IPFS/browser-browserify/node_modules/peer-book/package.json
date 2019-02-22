@@ -1,0 +1,144 @@
+{
+  "_args": [
+    [
+      "peer-book@~0.9.0",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "peer-book@>=0.9.0 <0.10.0",
+  "_hasShrinkwrap": false,
+  "_id": "peer-book@0.9.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/peer-book",
+  "_nodeVersion": "10.12.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/peer-book_0.9.1_1547051111771_0.019887859828851884"
+  },
+  "_npmUser": {
+    "email": "i@pgte.me",
+    "name": "pgte"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "peer-book",
+    "raw": "peer-book@~0.9.0",
+    "rawSpec": "~0.9.0",
+    "scope": null,
+    "spec": ">=0.9.0 <0.10.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs",
+    "/libp2p"
+  ],
+  "_resolved": "https://registry.npmjs.org/peer-book/-/peer-book-0.9.1.tgz",
+  "_shasum": "42dffd7b1faf263bd6abe2907a26f7411f4dbf34",
+  "_shrinkwrap": null,
+  "_spec": "peer-book@~0.9.0",
+  "_where": "/home/ubuntu/js-ipfs",
+  "bugs": {
+    "url": "https://github.com/libp2p/js-peer-book/issues"
+  },
+  "contributors": [
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Friedel Ziegelmayer",
+      "email": "dignifiedquire@gmail.com"
+    },
+    {
+      "name": "Hugo Dias",
+      "email": "hugomrdias@gmail.com"
+    },
+    {
+      "name": "Pedro Teixeira",
+      "email": "i@pgte.me"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@moxy.studio"
+    },
+    {
+      "name": "Victor Bjelkholm",
+      "email": "victorbjelkholm@gmail.com"
+    },
+    {
+      "name": "greenkeeperio-bot",
+      "email": "support@greenkeeper.io"
+    },
+    {
+      "name": "npmcdn-to-unpkg-bot",
+      "email": "npmcdn-to-unpkg-bot@users.noreply.github.com"
+    }
+  ],
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "peer-id": "~0.12.2",
+    "peer-info": "~0.15.1"
+  },
+  "description": "Peer Store for libp2p and IPFS",
+  "devDependencies": {
+    "aegir": "^18.0.3",
+    "async": "^2.6.1",
+    "chai": "^4.2.0",
+    "dirty-chai": "^2.0.1",
+    "multiaddr": "^6.0.3"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 9,
+    "integrity": "sha512-Bnhsrruilysw5nFU0V2hcTmLnT2cRfc6mud62aaG1dkh9J8IkQ83IclcC2ziVPnEi8AFX8SQ1sSG7Qe0JTwIBA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcNiBoCRA9TVsSAnZWagAAfdAP/1+zwHV5EhU2u7zbo4DA\n446oy1kZhIMDypy1aEuUO1zYb1fPpyDjWZXTnYOcJA34lmVaT/DM5lack4G5\nPi/oUEyJiEIQQjRH/782xdYHIj5Fy/CKP8A0Ccrt1nzaetgNWKS4ZuTBJ/BI\nVnMofgaiFYkdem4PIGD20BpYgYlXDZqu3374QvNfdG8n4FP1q4Ghou5icL+j\nt5aodeUvpFAobrf3ai9+P/zICgoxf5QHHJzey2viQjKCQutNKK+fiGutiZza\nWxC6Z0nZWkEjNbzQCGelgnLsTvsCoRevgj4Ca92Ka8AEQohbk8FY0fxL+ulY\npMli0/8vYz9ftqlRSrWJZCRzN90od2zTFdDhM7WTJoXrfKLpD8iPpAmt3NLc\npLO5iGvNAzL2XljQjvvuxNeEpfneXF2r0B9JSLpel6RKiljDYlcNuSwOOFu5\nb4P6nQGQ3PQl+vgDaIsuLOY9FAfKYXMq4gQHPhKbB22BgB9zHr3qGa9YwCrz\nSfL/ZY1XBAy1iq0S2YQOsv9DQ2KfdCwiUFKFR5r/u/jv9fFMewcseogBpj9N\n/lfix76ZYi00E4izaTwkBu94ZsZ6AuL8VzZEi4O61Pi5bLN3kGKXG5uIRaTv\n1hJR7Fs/p+o87jGUb0VjzrAwRTYqoa5EG1V7R1qZJEvC4hSB5Tn8WPLLMJ//\naZ2F\r\n=gAbY\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "42dffd7b1faf263bd6abe2907a26f7411f4dbf34",
+    "tarball": "https://registry.npmjs.org/peer-book/-/peer-book-0.9.1.tgz",
+    "unpackedSize": 6821312
+  },
+  "gitHead": "a1d5bf6823d1602dbdcc0fc2b0b5738c279bd368",
+  "homepage": "https://github.com/libp2p/js-peer-book#readme",
+  "keywords": [
+    "IPFS",
+    "libp2p"
+  ],
+  "leadMaintainer": "Pedro Teixeira <i@pgte.me>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "mail@daviddias.me"
+    },
+    {
+      "name": "pgte",
+      "email": "i@pgte.me"
+    }
+  ],
+  "name": "peer-book",
+  "optionalDependencies": {},
+  "pre-push": [
+    "lint",
+    "test"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libp2p/js-peer-book.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage --provider coveralls",
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "release-major": "aegir release --type major",
+    "release-minor": "aegir release --type minor",
+    "test": "aegir test",
+    "test:browser": "aegir test -t browser",
+    "test:node": "aegir test -t node"
+  },
+  "version": "0.9.1"
+}

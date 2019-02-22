@@ -1,0 +1,104 @@
+{
+  "_args": [
+    [
+      "split2@^3.0.0",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/pino-pretty"
+    ]
+  ],
+  "_from": "split2@>=3.0.0 <4.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "split2@3.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/split2",
+  "_nodeVersion": "11.3.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/split2_3.1.0_1544783465418_0.7891068873319871"
+  },
+  "_npmUser": {
+    "email": "hello@matteocollina.com",
+    "name": "matteo.collina"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {
+    "inherits": "2.0.3",
+    "safe-buffer": "5.1.2",
+    "util-deprecate": "1.0.2"
+  },
+  "_requested": {
+    "name": "split2",
+    "raw": "split2@^3.0.0",
+    "rawSpec": "^3.0.0",
+    "scope": null,
+    "spec": ">=3.0.0 <4.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/pino-pretty"
+  ],
+  "_resolved": "https://registry.npmjs.org/split2/-/split2-3.1.0.tgz",
+  "_shasum": "064bbfac70cdb66f77827870d42f159a8b442201",
+  "_shrinkwrap": null,
+  "_spec": "split2@^3.0.0",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/pino-pretty",
+  "author": {
+    "email": "hello@matteocollina.com",
+    "name": "Matteo Collina"
+  },
+  "bugs": {
+    "url": "http://github.com/mcollina/split2/issues"
+  },
+  "dependencies": {
+    "readable-stream": "^3.0.0"
+  },
+  "description": "split a Text Stream into a Line Stream, using Stream 3",
+  "devDependencies": {
+    "binary-split": "^1.0.3",
+    "callback-stream": "^1.1.0",
+    "fastbench": "^1.0.0",
+    "pre-commit": "^1.1.2",
+    "safe-buffer": "^5.1.1",
+    "standard": "^12.0.0",
+    "tap": "^12.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 7,
+    "integrity": "sha512-ePE1otNQVMnBRyqf3INbZvZwBPGsdBDThgrOWZ6z8zXGNVQNVCSEoOO9aBMTzDN1mXoNSZJ2kHSFH7AA5SPWww==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcE4ZqCRA9TVsSAnZWagAA+pYP+wQ/pc//WcMLmHakveGf\n2PNU4kzNyE1rkgU6AfXWrDquR0lK2R8CtDtXjNQ+iCPdZncV3LIYxR+sZ92R\nDx36sRw1c6eTJhfC/7NiDQok8Xv+HkhdWQcJWdqBd9sCgEa6AoIYpz/QMhjO\nMSb9beiyFSJEwu4mMM7polT5eAu5x0hESpgpQ0EKwoxNDW7BustdcQiMBOe+\n4XB7w3jZ0qJrWlOzc53Uwhxcdi646ZlHK4r+6M6PtvaRobX+Cb4JWr9ElFBs\n4LHwBKnkO8ajbBxuf7zeleVHjlG50p9WIesbdHX1X5+qVYG35ULS7ChdX8+B\ndFdEIBGmPivfgrQTNMZ/Tde42Eei06No9z4/jV0A02Nk1LU2UjYpAnqdXtsR\n8rOQ2YG5tJSAka4QYtUtcUBdBKxIB/aBnh5+AzUOCUmOdan87z7SJbJiw+u8\nbH5C52QgjX+jlVyuNFf9XMNc2Fm4vx88uoCmyPwDUTvAPhkvLZoORLgTy9zY\nRw6G3uSHj1YpQ/bel7rixdINHkQxi0wdxnCIRmlBcFksIG6ImbJ3MP5sS+Oa\nVRatvUQ9ZUevAiOCgV54jQNJa2ZCeEtMwsgc8rax+IZnn30oUHdqipGGZxnG\nSSIa+4fYUq2Eh+ektpAeMSnKszX4LJVXf9FTcItl4pLF8tB0eji8eDzHgwFM\nmDgk\r\n=s1l2\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "064bbfac70cdb66f77827870d42f159a8b442201",
+    "tarball": "https://registry.npmjs.org/split2/-/split2-3.1.0.tgz",
+    "unpackedSize": 15753
+  },
+  "gitHead": "a9b7da45e6dacdd5e33b52907cadaefb73fd4aa8",
+  "greenkeeper": {
+    "ignore": [
+      "tap"
+    ]
+  },
+  "homepage": "https://github.com/mcollina/split2#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "matteo.collina",
+      "email": "hello@matteocollina.com"
+    }
+  ],
+  "name": "split2",
+  "optionalDependencies": {},
+  "pre-commit": [
+    "test"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcollina/split2.git"
+  },
+  "scripts": {
+    "test": "standard && tap -b test.js"
+  },
+  "version": "3.1.0",
+  "website": "https://github.com/mcollina/split2"
+}

@@ -1,0 +1,210 @@
+{
+  "_args": [
+    [
+      "libp2p-crypto@~0.16.0",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "libp2p-crypto@>=0.16.0 <0.17.0",
+  "_hasShrinkwrap": false,
+  "_id": "libp2p-crypto@0.16.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/libp2p-crypto",
+  "_nodeVersion": "10.13.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/libp2p-crypto_0.16.0_1546979649130_0.0182041544203686"
+  },
+  "_npmUser": {
+    "email": "mail@daviddias.me",
+    "name": "daviddias"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {
+    "bn.js": "4.11.8",
+    "inherits": "2.0.3",
+    "lodash": "4.17.11",
+    "minimalistic-assert": "1.0.1"
+  },
+  "_requested": {
+    "name": "libp2p-crypto",
+    "raw": "libp2p-crypto@~0.16.0",
+    "rawSpec": "~0.16.0",
+    "scope": null,
+    "spec": ">=0.16.0 <0.17.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs",
+    "/ipfs-http-client",
+    "/ipns",
+    "/libp2p-floodsub",
+    "/libp2p-kad-dht",
+    "/libp2p-keychain",
+    "/libp2p-ping",
+    "/libp2p-secio",
+    "/libp2p-websocket-star",
+    "/peer-id"
+  ],
+  "_resolved": "https://registry.npmjs.org/libp2p-crypto/-/libp2p-crypto-0.16.0.tgz",
+  "_shasum": "717d7cfa1b48cf8f01ede9f8dede6fe798ab8ece",
+  "_shrinkwrap": null,
+  "_spec": "libp2p-crypto@~0.16.0",
+  "_where": "/home/ubuntu/js-ipfs",
+  "browser": {
+    "./src/aes/ciphers.js": "./src/aes/ciphers-browser.js",
+    "./src/hmac/index.js": "./src/hmac/index-browser.js",
+    "./src/keys/ecdh.js": "./src/keys/ecdh-browser.js",
+    "./src/keys/rsa.js": "./src/keys/rsa-browser.js"
+  },
+  "bugs": {
+    "url": "https://github.com/libp2p/js-libp2p-crypto/issues"
+  },
+  "contributors": [
+    {
+      "name": "Maciej Krüger",
+      "email": "mkg20001@gmail.com"
+    },
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Friedel Ziegelmayer",
+      "email": "dignifiedquire@gmail.com"
+    },
+    {
+      "name": "Greenkeeper",
+      "email": "support@greenkeeper.io"
+    },
+    {
+      "name": "Hugo Dias",
+      "email": "hugomrdias@gmail.com"
+    },
+    {
+      "name": "Jack Kleeman",
+      "email": "jackkleeman@gmail.com"
+    },
+    {
+      "name": "Jacob Heun",
+      "email": "jacobheun@gmail.com"
+    },
+    {
+      "name": "Joao Santos",
+      "email": "jrmsantos15@gmail.com"
+    },
+    {
+      "name": "Dmitriy Ryajov",
+      "email": "dryajov@gmail.com"
+    },
+    {
+      "name": "Richard Littauer",
+      "email": "richard.littauer@gmail.com"
+    },
+    {
+      "name": "Richard Schneider",
+      "email": "makaretu@gmail.com"
+    },
+    {
+      "name": "Tom Swindell",
+      "email": "t.swindell@rubyx.co.uk"
+    },
+    {
+      "name": "Victor Bjelkholm",
+      "email": "victorbjelkholm@gmail.com"
+    },
+    {
+      "name": "Yusef Napora",
+      "email": "yusef@napora.org"
+    },
+    {
+      "name": "greenkeeper[bot]",
+      "email": "greenkeeper[bot]@users.noreply.github.com"
+    },
+    {
+      "name": "nikuda",
+      "email": "nikuda@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "asn1.js": "^5.0.1",
+    "async": "^2.6.1",
+    "browserify-aes": "^1.2.0",
+    "bs58": "^4.0.1",
+    "iso-random-stream": "^1.1.0",
+    "keypair": "^1.0.1",
+    "libp2p-crypto-secp256k1": "~0.2.3",
+    "multihashing-async": "~0.5.1",
+    "node-forge": "~0.7.6",
+    "pem-jwk": "^2.0.0",
+    "protons": "^1.0.1",
+    "rsa-pem-to-jwk": "^1.1.3",
+    "tweetnacl": "^1.0.0",
+    "ursa-optional": "~0.9.10"
+  },
+  "description": "Crypto primitives for libp2p",
+  "devDependencies": {
+    "aegir": "^18.0.3",
+    "benchmark": "^2.1.4",
+    "bundlesize": "~0.17.0",
+    "chai": "^4.2.0",
+    "chai-string": "^1.5.0",
+    "dirty-chai": "^2.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 33,
+    "integrity": "sha512-Msu7PIumcVRO8LajSGs6uVZpC7bOiJVWu0a8iFMZ6mdbasI+A6accAmP/NjJ5WBcEdxzwjzQGNP23bQQzPoqqg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcNQlBCRA9TVsSAnZWagAAvMMQAJ3ViCyAq3d9vGeKy3kc\nS+LlslDumkrpGu5hwK+r9Iazj4+nKNeg9j9/vLW8PxYoUhDR0nMMA0ZHrZp1\nFitBHiYoK+A9Jmq1ejG/d2IYtNe5IoKD3ZGHC6VIEZk2oWrQwuxmo08FDfag\n/hcD7lMTfhHWiLuVv+I/aO5xXGDChHgQkUY0LjJN9P+qAugg0PgxMeRS9zow\n8+eQQSy2ltOPb7SFzuxsjp4c7sHCmqM6w65XpJGSqQ+H93erITNuoTF4SelT\nPoYUDUNFDUUBLfp9MgnBhpLFumrx+7g6CalC+lkKD3QhmXy6q+aF4zgZgRNP\numbt1sOs4AJKjCLGJnq6lINoSApyvzbfNMKWICsKfWzcvYAc7N7+0o68sSt4\nklZzbnap8YOw+v9dqSu6ZzEbmzcsi2W/uFDq8HQ2n/CEHv3f3GKvyRizGrls\nmUyHCwA/45ABaeZH4PDKw7YnFqTVbxC69kFowwq/FFSFVRmWBlL//kqaiyGQ\n/ia5lF1yc5u+0bKOeWMXXWi6vTHcm4cCPuDuyFO88IBW/m6DTtMxCwgvkPvZ\nky0idYWDH72QwKHi8ZXm4cjvxzROKyhI0LWc9+ZRLGnieAtDWYXSau6yVd0X\n8eModlRDQkM3I4WwRHN4JriZ/Mb29cR/2JhUwGkfqYxMpRZC2FH4xiktyCOx\n4TPO\r\n=G7Ph\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "717d7cfa1b48cf8f01ede9f8dede6fe798ab8ece",
+    "tarball": "https://registry.npmjs.org/libp2p-crypto/-/libp2p-crypto-0.16.0.tgz",
+    "unpackedSize": 5095356
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "567d68c855068a821add0da009b2dbd5ebd16d19",
+  "homepage": "https://github.com/libp2p/js-libp2p-crypto",
+  "keywords": [
+    "IPFS",
+    "crypto",
+    "libp2p",
+    "rsa"
+  ],
+  "leadMaintainer": "Friedel Ziegelmayer <dignifiedquire@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "dignifiedquire",
+      "email": "dignifiedquire@gmail.com"
+    }
+  ],
+  "name": "libp2p-crypto",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libp2p/js-libp2p-crypto.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "build-proto": "pbjs --wrap commonjs --target static-module src/keys/keys.proto > src/keys/keys.proto.js",
+    "coverage": "aegir coverage --ignore src/keys/keys.proto.js",
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "release-major": "aegir release --type major",
+    "release-minor": "aegir release --type minor",
+    "size": "bundlesize -f dist/index.min.js -s 139kB",
+    "test": "aegir test",
+    "test:browser": "aegir test -t browser -t webworker",
+    "test:node": "aegir test -t node"
+  },
+  "version": "0.16.0"
+}

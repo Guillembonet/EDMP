@@ -1,0 +1,172 @@
+{
+  "_args": [
+    [
+      "libp2p-websocket-star@~0.10.2",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/libp2p-websocket-star-multi"
+    ]
+  ],
+  "_from": "libp2p-websocket-star@>=0.10.2 <0.11.0",
+  "_hasShrinkwrap": false,
+  "_id": "libp2p-websocket-star@0.10.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/libp2p-websocket-star",
+  "_nodeVersion": "10.14.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/libp2p-websocket-star_0.10.2_1547144358492_0.7308062627685565"
+  },
+  "_npmUser": {
+    "email": "jacobheun@gmail.com",
+    "name": "jacobheun"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {
+    "lodash": "4.17.11"
+  },
+  "_requested": {
+    "name": "libp2p-websocket-star",
+    "raw": "libp2p-websocket-star@~0.10.2",
+    "rawSpec": "~0.10.2",
+    "scope": null,
+    "spec": ">=0.10.2 <0.11.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/libp2p-websocket-star-multi"
+  ],
+  "_resolved": "https://registry.npmjs.org/libp2p-websocket-star/-/libp2p-websocket-star-0.10.2.tgz",
+  "_shasum": "74df4c651292bf64307d1198746e249827041ea5",
+  "_shrinkwrap": null,
+  "_spec": "libp2p-websocket-star@~0.10.2",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/libp2p-websocket-star-multi",
+  "bugs": {
+    "url": "https://github.com/libp2p/js-libp2p-websocket-star/issues"
+  },
+  "contributors": [
+    {
+      "name": "Maciej Krüger",
+      "email": "mkg20001@gmail.com"
+    },
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Dirk McCormick",
+      "email": "dirkmdev@gmail.com"
+    },
+    {
+      "name": "Gorka",
+      "email": "gorka@aquigorka.com"
+    },
+    {
+      "name": "Hugo Dias",
+      "email": "mail@hugodias.me"
+    },
+    {
+      "name": "Jacob Heun",
+      "email": "jacobheun@gmail.com"
+    },
+    {
+      "name": "Diogo Silva",
+      "email": "fsdiogo@gmail.com"
+    },
+    {
+      "name": "Pedro Teixeira",
+      "email": "i@pgte.me"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@ua.pt"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@moxy.studio"
+    },
+    {
+      "name": "Victor Bjelkholm",
+      "email": "victorbjelkholm@gmail.com"
+    },
+    {
+      "name": "dirkmc",
+      "email": "dirk@mccormick.cx"
+    }
+  ],
+  "dependencies": {
+    "async": "^2.6.1",
+    "class-is": "^1.1.0",
+    "debug": "^4.1.1",
+    "interface-connection": "~0.3.2",
+    "libp2p-crypto": "~0.16.0",
+    "mafmt": "^6.0.4",
+    "multiaddr": "^6.0.3",
+    "nanoid": "^2.0.0",
+    "once": "^1.4.0",
+    "peer-id": "~0.12.2",
+    "peer-info": "~0.15.1",
+    "pull-stream": "^3.6.9",
+    "socket.io-client": "^2.1.1",
+    "socket.io-pull-stream": "~0.1.5"
+  },
+  "description": "libp2p-webrtc-star without webrtc. Just plain socket.io.",
+  "devDependencies": {
+    "aegir": "^18.0.3",
+    "chai": "^4.2.0",
+    "dirty-chai": "^2.0.1",
+    "libp2p-websocket-star-rendezvous": "~0.3.0",
+    "lodash": "^4.17.11"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 11,
+    "integrity": "sha512-ccjMqy7lrKV6vbTdsm9XOZ+eWt01ZCS3hI2s+I+ZpglnPQNg8z+dGs+8rdl8/hU44Sq3EbmUw0gCxPB/2ZbPlg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcN4ynCRA9TVsSAnZWagAAvRgQAIRlUTEc6YrTD4cblTHg\njpIv40XgX9OFjSl/kWCwm23wengdr2GRjEv9KlWvEeNYCMoN1GsRQ6BGNKby\nF1nv3DYbHE9PBJwT2ZXQNw/gP6quNwNsPOj/kb5LbHHakxfuLvez+2FJx0iT\n2plt2XBEs8vUqjCrsT3T724YVRdY+ERQPlUhNfelFGEYmsb/UpVcBPS9lkxX\nz26CBeHZwMNLLSwl7HyNb9Hyq74+eKdR8aq34KrxYsCjV0G0wdVLf+/Jzg+3\nDYhKY2kV63qvFIXnlEl9RYDiRx/jXejUWfGKorOw1VuyuJX0mJdCdyyV1NkD\n6awy/yYfqEq3qM/IZc66a8b35tg7LewqConkFgG2oaQakX37eioyiMMgKahU\nCocCP9vCO3bcSzeedxAW237pRpxIdcfz7Hko/H/TtvHOjRcYznMEaDpCuqKu\n2/VOz0DAmMAZ4TLnlom2nvPk+OMWLfs3vO8/aFoNqiecy0jSOq3msVVpUTPK\ni3AWDfxV3pAy1ZS8GvNz1L0PJNqUtPD8DCsSLas0D4lxFm3paAehgGqGlEzv\nsUeOjP3Jz4S6pNinODKZDgX6LDTfFbquc2xu73ITg2Ow8lz0oD7UABQrrVrD\nnS6KkhlOeXULSiiPaGf/UBtItqzT6AiZVzNkMNkMh7FD5oJKv+Dzq8jKmx8E\nNI20\r\n=+i02\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "74df4c651292bf64307d1198746e249827041ea5",
+    "tarball": "https://registry.npmjs.org/libp2p-websocket-star/-/libp2p-websocket-star-0.10.2.tgz",
+    "unpackedSize": 6730265
+  },
+  "gitHead": "0d461ef36e87dc87f3d1531ae3c32df66d865edd",
+  "homepage": "https://github.com/libp2p/js-libp2p-websocket-star#readme",
+  "keywords": [
+    "libp2p",
+    "transport",
+    "websocket"
+  ],
+  "leadMaintainer": "Jacob Heun <jacobheun@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "mkg20001",
+      "email": "mkg20001@gmail.com"
+    }
+  ],
+  "name": "libp2p-websocket-star",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libp2p/js-libp2p-websocket-star.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage --provider coveralls",
+    "lint": "aegir lint",
+    "release": "aegir release --target node --target browser",
+    "release-major": "aegir release --type major --target node --target browser",
+    "release-minor": "aegir release --type minor --target node --target browser",
+    "test": "aegir test",
+    "test:browser": "aegir test --target browser",
+    "test:dns": "REMOTE_DNS=1 aegir test",
+    "test:ip": "REMOTE_IP=1 aegir test",
+    "test:node": "aegir test --target node",
+    "test:webworker": "aegir test --target webworker"
+  },
+  "version": "0.10.2"
+}

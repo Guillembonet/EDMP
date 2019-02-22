@@ -1,0 +1,140 @@
+{
+  "_args": [
+    [
+      "ipld-bitcoin@~0.1.8",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "ipld-bitcoin@>=0.1.8 <0.2.0",
+  "_hasShrinkwrap": false,
+  "_id": "ipld-bitcoin@0.1.9",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ipld-bitcoin",
+  "_nodeVersion": "10.4.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/ipld-bitcoin_0.1.9_1543837542577_0.31195826670831006"
+  },
+  "_npmUser": {
+    "email": "volker.mische@gmail.com",
+    "name": "vmx"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {
+    "lodash": "4.17.11"
+  },
+  "_requested": {
+    "name": "ipld-bitcoin",
+    "raw": "ipld-bitcoin@~0.1.8",
+    "rawSpec": "~0.1.8",
+    "scope": null,
+    "spec": ">=0.1.8 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs"
+  ],
+  "_resolved": "https://registry.npmjs.org/ipld-bitcoin/-/ipld-bitcoin-0.1.9.tgz",
+  "_shasum": "83c0e0c95c88652c5fa76d9bcde2daadc2a1fde0",
+  "_shrinkwrap": null,
+  "_spec": "ipld-bitcoin@~0.1.8",
+  "_where": "/home/ubuntu/js-ipfs",
+  "bugs": {
+    "url": "https://github.com/ipld/js-ipld-bitcoin/issues"
+  },
+  "contributors": [
+    {
+      "name": "Alex Potsides",
+      "email": "alex@achingbrain.net"
+    },
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Mathis Wiehl",
+      "email": "mathis.wiehl@sinnerschrader.com"
+    },
+    {
+      "name": "Richard Schneider",
+      "email": "makaretu@gmail.com"
+    },
+    {
+      "name": "Scott",
+      "email": "scottystreet@gmail.com"
+    },
+    {
+      "name": "Volker Mische",
+      "email": "volker.mische@gmail.com"
+    },
+    {
+      "name": "greenkeeper[bot]",
+      "email": "greenkeeper[bot]@users.noreply.github.com"
+    }
+  ],
+  "dependencies": {
+    "async": "^2.6.1",
+    "bitcoinjs-lib": "^4.0.2",
+    "cids": "~0.5.6",
+    "multihashes": "~0.4.14",
+    "multihashing-async": "~0.5.1"
+  },
+  "description": "JavaScript implementation of Bitcoin IPLD formats",
+  "devDependencies": {
+    "aegir": "^17.1.1",
+    "chai": "^4.2.0",
+    "dirty-chai": "^2.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 14,
+    "integrity": "sha512-50aih5PpUbu2gURijdYAZbldnmu5qrXu+VMWHVqCKmm9MUkOeBT67kzoLDWK95oWN+ahpfTaIMqPh2I3RreCCA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcBRdnCRA9TVsSAnZWagAAi9UP/0HXyJSfP+nDLJQd3Cap\nhcU6nW65IhFve7ACUW2yFsgWsoJHRvYid01EvGyr5LzmQkk3HovUQgXH3fvX\nOVmm+4+NRhGgm8mH1t6aK7xPAZq7Rol8pBrWii5sQGkNrXpTa/RrLTWDJqS7\nGspwKZr6pi0llb+mB6RWpX3VGyD3lTFdwc1dDNFjL3opDSSEFysGdmi3PnAP\n3v4KG9hd7K8RjilJ2n+MaoWB9wp3OX8x7bw1v3JqF6bt2InXuY2ekDndpVTW\nHjDWT0PYg8X937AWNPu8nrgpJ9cpCs/OwBUHX0HS0qRnVyoX2KwG2XMO0sCn\nHqS9GzqOKVTEKH44LpiUB9NJKvfRXsPViBkPlaY/81wgeF5hTMTk5V9VSEKM\n9hZcLogEpEzMAaOJvqurku5IiBHvOybLxR7ApDIMcAL85MijE/2yRfCmIFMd\nkTel07rhB1Y0RSStwt75GmINvSSBLd7CyfoUDe/yTYXugI5lgKgRJZuEkC9q\nNLtbuVdapqJlxKqh+PgyhZ2mWyrrVQf9PARw5yXGMy3kCLK5VpDatlXcZxaB\nQM55PldP/94FY0oLG9YwXbICNQ5vlp8ZwMT7NoJ9hKQeCmLD9kyKmIPUD5sl\n8h/dSmS9l+44LO/LAo41/T2/h+EW0+r8NqfnOgAsYbPVf7fsnsRK5kIa+5kr\nw5AL\r\n=Ba3m\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "83c0e0c95c88652c5fa76d9bcde2daadc2a1fde0",
+    "tarball": "https://registry.npmjs.org/ipld-bitcoin/-/ipld-bitcoin-0.1.9.tgz",
+    "unpackedSize": 2762381
+  },
+  "gitHead": "4b897a77f5b5842c2e488367a649ad075f8f5847",
+  "homepage": "https://github.com/ipld/js-ipld-bitcoin#readme",
+  "keywords": [
+    "IPFS"
+  ],
+  "leadMaintainer": "Volker Mische <volker.mische@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "mail@daviddias.me"
+    },
+    {
+      "name": "vmx",
+      "email": "volker.mische@gmail.com"
+    }
+  ],
+  "name": "ipld-bitcoin",
+  "optionalDependencies": {},
+  "pre-push": [
+    "lint",
+    "test"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipld/js-ipld-bitcoin.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage publish",
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "release-major": "aegir release --type major",
+    "release-minor": "aegir release --type minor",
+    "test": "aegir test",
+    "test:browser": "aegir test --target browser",
+    "test:node": "aegir test --target node"
+  },
+  "version": "0.1.9"
+}

@@ -1,0 +1,145 @@
+{
+  "_args": [
+    [
+      "ipns@~0.5.0",
+      "/home/ubuntu/js-ipfs"
+    ]
+  ],
+  "_from": "ipns@>=0.5.0 <0.6.0",
+  "_hasShrinkwrap": false,
+  "_id": "ipns@0.5.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/ipns",
+  "_nodeVersion": "10.14.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/ipns_0.5.0_1547121894043_0.793236094462421"
+  },
+  "_npmUser": {
+    "email": "vasco.santos@moxy.studio",
+    "name": "vascosantos"
+  },
+  "_npmVersion": "6.5.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "ipns",
+    "raw": "ipns@~0.5.0",
+    "rawSpec": "~0.5.0",
+    "scope": null,
+    "spec": ">=0.5.0 <0.6.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ipfs"
+  ],
+  "_resolved": "https://registry.npmjs.org/ipns/-/ipns-0.5.0.tgz",
+  "_shasum": "f0ff0187d124d19eb2abc13b91b01a7e2130f94e",
+  "_shrinkwrap": null,
+  "_spec": "ipns@~0.5.0",
+  "_where": "/home/ubuntu/js-ipfs",
+  "author": {
+    "email": "vasco.santos@moxy.studio",
+    "name": "Vasco Santos"
+  },
+  "bugs": {
+    "url": "https://github.com/ipfs/js-ipns/issues"
+  },
+  "contributors": [
+    {
+      "name": "Diogo Silva",
+      "email": "fsdiogo@gmail.com"
+    },
+    {
+      "name": "Esteban Ordano",
+      "email": "eordano@gmail.com"
+    },
+    {
+      "name": "Hugo Dias",
+      "email": "mail@hugodias.me"
+    },
+    {
+      "name": "Jacob Heun",
+      "email": "jacobheun@gmail.com"
+    },
+    {
+      "name": "Rob Brackett",
+      "email": "rob@robbrackett.com"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@moxy.studio"
+    },
+    {
+      "name": "Vasco Santos",
+      "email": "vasco.santos@ua.pt"
+    }
+  ],
+  "dependencies": {
+    "base32-encode": "^1.1.0",
+    "debug": "^4.1.1",
+    "interface-datastore": "~0.6.0",
+    "left-pad": "^1.3.0",
+    "libp2p-crypto": "~0.16.0",
+    "multihashes": "~0.4.14",
+    "peer-id": "~0.12.2",
+    "protons": "^1.0.1",
+    "timestamp-nano": "^1.0.0"
+  },
+  "description": "ipns record definitions",
+  "devDependencies": {
+    "aegir": "^18.0.3",
+    "chai": "^4.2.0",
+    "chai-bytes": "~0.1.2",
+    "chai-string": "^1.5.0",
+    "dirty-chai": "^2.0.1",
+    "ipfs": "~0.33.1",
+    "ipfsd-ctl": "~0.40.2"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 10,
+    "integrity": "sha512-Uf/VWftFnCI0UtjL8VyGRgq62k5PrRzJrA0G43WoIuw7FNk6ggrt+3KAzhlukbYtlHYhOLWwF5eLDllqvurE6g==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcNzTmCRA9TVsSAnZWagAAii8P/3Gkmp0q++ghqZVs9F5N\nXVrc+ryUk12NV43m1kDXyVUkbGzRvdu2LuFYKxJvaniFAD72rbLmCM5KcOM5\nFKDoVojrKQ9c/X2VGpjfcR9yw+011bMnhXSA4J0TepoHYyWnlKDEnG5Ms/3O\nr/wkmPhAHajkSiaktqWobxJNyhN28nhbcF6Dw1rKw3+bO6M6ngh/GDHTYuvq\nygZMp3KYZ0fFGKGg+d7j44/Sp9uwz6sUjCYEGNRxPEXwsm4zuRGUliVnuDqe\nhAp+F5/4RefVYj5XoyU44Ww8NVRyamarqnB7GNAIYIiDq7vCJwiB89/9/huE\ntanwZEN+EFbNNdwhR18uMY8tpav7Ym4REGwc9chj8fKuscXNsuWf6v1fx39k\nwrD2j9IWfUL46gbeqncxHTONkGlDqb03zCPjDcsRc0Fy0DXwthK2YhiczwXq\nQowPMVpF2NZymeMMPEogyEQCl16fbn8HwWeS7KijkUmDx8vaeJsWa1I6CN3O\npAoSHIo8yZcUu2hiivM2lYyMKZb38SkxHJRqxbnznUgoVWISESHklSKcfYK4\n6y8NR/coep4YLpCPabpCFE1Jvu5ROqhFBkjmnPDqPt3KoJFEeIrP6wvkMguS\nDRVDbVBrel000MyxD6A5JwNetKvnHIrhu6zDgh3tkctDQfGqGYmTR0mtYfB9\n7Fyo\r\n=eFip\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "f0ff0187d124d19eb2abc13b91b01a7e2130f94e",
+    "tarball": "https://registry.npmjs.org/ipns/-/ipns-0.5.0.tgz",
+    "unpackedSize": 39837
+  },
+  "gitHead": "cef5feb5bf3a51f3986f5fee86108f5987a245bb",
+  "homepage": "https://github.com/ipfs/js-ipns#readme",
+  "keywords": [
+    "ipfs",
+    "ipns"
+  ],
+  "leadMaintainer": "Vasco Santos <vasco.santos@moxy.studio>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "vascosantos",
+      "email": "vasco.santos@moxy.studio"
+    }
+  ],
+  "name": "ipns",
+  "optionalDependencies": {},
+  "pre-push": [
+    "lint",
+    "test"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipfs/js-ipns.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "release-major": "aegir release --type major",
+    "release-minor": "aegir release --type minor",
+    "test": "aegir test",
+    "test:browser": "aegir test -t browser -t webworker",
+    "test:node": "aegir test -t node"
+  },
+  "version": "0.5.0"
+}

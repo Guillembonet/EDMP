@@ -1,0 +1,140 @@
+{
+  "_args": [
+    [
+      "libp2p-crypto-secp256k1@~0.2.3",
+      "/home/ubuntu/js-ipfs/examples/Code/node_modules/libp2p-crypto"
+    ]
+  ],
+  "_from": "libp2p-crypto-secp256k1@>=0.2.3 <0.3.0",
+  "_hasShrinkwrap": false,
+  "_id": "libp2p-crypto-secp256k1@0.2.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/libp2p-crypto-secp256k1",
+  "_nodeVersion": "10.13.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/libp2p-crypto-secp256k1_0.2.3_1546962322605_0.34900602432471617"
+  },
+  "_npmUser": {
+    "email": "mail@daviddias.me",
+    "name": "daviddias"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {
+    "lodash": "4.17.11"
+  },
+  "_requested": {
+    "name": "libp2p-crypto-secp256k1",
+    "raw": "libp2p-crypto-secp256k1@~0.2.3",
+    "rawSpec": "~0.2.3",
+    "scope": null,
+    "spec": ">=0.2.3 <0.3.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/libp2p-crypto"
+  ],
+  "_resolved": "https://registry.npmjs.org/libp2p-crypto-secp256k1/-/libp2p-crypto-secp256k1-0.2.3.tgz",
+  "_shasum": "212fc171d39dae7be3eaf4d9d311e0a8e9619c78",
+  "_shrinkwrap": null,
+  "_spec": "libp2p-crypto-secp256k1@~0.2.3",
+  "_where": "/home/ubuntu/js-ipfs/examples/Code/node_modules/libp2p-crypto",
+  "browser": {
+    "secp256k1": "secp256k1/js"
+  },
+  "bugs": {
+    "url": "https://github.com/libp2p/js-libp2p-crypto-secp256k1/issues"
+  },
+  "contributors": [
+    {
+      "name": "David Dias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "Friedel Ziegelmayer",
+      "email": "dignifiedquire@gmail.com"
+    },
+    {
+      "name": "Hugo Dias",
+      "email": "hugomrdias@gmail.com"
+    },
+    {
+      "name": "Victor Bjelkholm",
+      "email": "victorbjelkholm@gmail.com"
+    },
+    {
+      "name": "Yusef Napora",
+      "email": "yusef@napora.org"
+    }
+  ],
+  "dependencies": {
+    "async": "^2.6.1",
+    "multihashing-async": "~0.5.1",
+    "nodeify": "^1.0.1",
+    "safe-buffer": "^5.1.2",
+    "secp256k1": "^3.6.1"
+  },
+  "description": "Support for secp256k1 keys in libp2p-crypto",
+  "devDependencies": {
+    "aegir": "^18.0.3",
+    "benchmark": "^2.1.4",
+    "chai": "^4.2.0",
+    "dirty-chai": "^2.0.1",
+    "libp2p-crypto": "~0.15.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 12,
+    "integrity": "sha512-DFrK89VdboacqM3vqWV8yt8FH9Ni181JJAOU2tRkJfUN9tNEV7VfZEg390NJxEQQbLsyH4HZ7on3QTpPHMHQZQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcNMWTCRA9TVsSAnZWagAAPHUQAInWT5Lsh5fci+orILzZ\nsm+mpO130OpsoN5UnXtSuwzg6aURyHMcnYcpfHmDO5X5r0x+4Q6lJ3sqXbJE\npX36biaDDKUTIGDDa5C1KgsAna2798LGFo1ts69mNnaRrOeIyX34SZpGcUAt\n+0xqT/0+zNCQ5eOXYczrB8QG6vmF4+VKrkfPpC1STZczFQNw2B+o+XtmAJnX\nd+CrJrkBPJpbB/di+SS/AtOvhedBvH8IFPjZKpcH70kbxBxQ2o5hHf7ATC52\nzUJH8pWYE2FD7wulJrH0a2jNEHngrHmUN4oItvCWWDv3jJXB0HfSu7310/1G\nHJloDKVO0tIv3dGfNjJx9i8Kjwp7Wa+iEX44pzEwzYkdevA4OIiuAiJBS/q9\nsMDRg0PkaJCglF8vNnQfAqnSFoj882sMYX797CMq7BwSnVTVe0bkzT2Nuawg\nfUZzTaFgB2OOTJvJtliPNaEbFyxDWAtpOs6uHr4nx2r55jOozfLkyQskI3xC\n9u6mZz4Pqd3BrUA7lDScoqw+dMLHJ/PX193vxLkE0g5D0sBiJ36OZjwOLF4X\nJmm76v88At7hRr2qq4nCnX88eLTq0paIHABM18xtVfYJ5jBuThTlduJp/8K+\nlkjCdjB8/tWhJ3yKkrmo1KvlyNaqP7lCEdVa6VKWIJYKnVB2Y4HWFxe1lFtI\nBU6P\r\n=EnCx\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "212fc171d39dae7be3eaf4d9d311e0a8e9619c78",
+    "tarball": "https://registry.npmjs.org/libp2p-crypto-secp256k1/-/libp2p-crypto-secp256k1-0.2.3.tgz",
+    "unpackedSize": 1773905
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
+  "gitHead": "3a8bab9f44c218d42c88e4ff70a52b09851da673",
+  "homepage": "https://github.com/libp2p/js-libp2p-crypto-secp256k1",
+  "keywords": [
+    "IPFS",
+    "crypto",
+    "libp2p",
+    "secp256k1"
+  ],
+  "leadMaintainer": "Friedel Ziegelmayer <dignifiedquire@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "maintainers": [
+    {
+      "name": "daviddias",
+      "email": "daviddias.p@gmail.com"
+    },
+    {
+      "name": "dignifiedquire",
+      "email": "dignifiedquire@gmail.com"
+    }
+  ],
+  "name": "libp2p-crypto-secp256k1",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libp2p/js-libp2p-crypto-secp256k1.git"
+  },
+  "scripts": {
+    "build": "aegir build",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage publish",
+    "lint": "aegir lint",
+    "release": "aegir release",
+    "release-major": "aegir release --type major",
+    "release-minor": "aegir release --type minor",
+    "test": "npm run test:node && npm run test:browser",
+    "test:browser": "aegir test --env browser",
+    "test:node": "aegir test --env node"
+  },
+  "version": "0.2.3"
+}
