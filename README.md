@@ -127,6 +127,9 @@ The buyer, as presented in Figure 7 create an HTTP PUT request, representing the
 5.	Transaction finalisation:
 After matching is performed, the transaction is validated and stored in the local chain of both transaction party, according to TrustChain mechanism. As it is possible to see in Figure 8 the transaction, if ask order request is satisfied, is eventually recorded. We can see that it lists what was transferred, the id of the counterparty and the buyer itself (in this case is the buyer watching the record) and the timestamp of the transaction record. Moreover, the amount of other orders created by the counterparty is present in the record, and the number of the specific transaction taken into account.
 ![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Figure%208%20Transaction%20record.PNG "Figure 8 Transaction record")
+![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/marketSell.PNG "Web GUI sell section")
+![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/marketBuy.PNG "Web GUI buy section")
+
 ### IPFS:
 As already mentioned, IPFS is used as a settlement provider to allow users to store and retrieve data coming from the SM. 
 IPFS primarily provide an ancillary service to our system securing the data transmission. However, the question is: how do we exploit it for our project?
@@ -137,6 +140,8 @@ We present the IPFS steps exploiting the image provided below. Basically, the IP
 ![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Figure%209%20Data%20insertion%20in%20IPFS%20(owner%20side).PNG "Figure 9 Data insertion in IPFS (owner side)")
 ![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Figure%2010%20Data%20retrieval%20from%20IPFS%20(buyer%20side).PNG "Figure 10 Data retrieval from IPFS (buyer side)")
 ![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Figure%2011%20Architecture%20improvement.PNG "Figure 11 Architecture improvement")
+
+![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Capture.JPG "Figure 12 Tribler Deep Integration attempt")
 ## Issues and further developing:
 We present above the design we implemented in order to create a system allowing users to trade energy consumption data. The design we build is primitive, since even if valid, it faces several problems that must be furtherly analysed and solved. In this section, a critical analysis is made to identify some of this point and to foster the development of solutions. 
 One big issue is that nothing stops a buyer to just simply copy a hash present in the available supply (see Figure 6) and directly goes in the IPFS and taking the data related to that hash freely. Of course, the transaction will be not stored in the EDMP, this certifying the ownership of that specific set of data, but a malicious user could be only interested in using this data for personal use without worrying of proof-of-ownership. 
