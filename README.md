@@ -150,6 +150,8 @@ A hash is generated and then sent to the buyer through the EDMP. Even if the tra
 ## Appendix:
 Here we attach the OEHU API from where the energy consumption data where retrived.
 Note that electricity is in kWh and gas in m3
+![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Figure%2013%20OEHU%20data.PNG "Figure 13 OEHU data")
+
 
  
 ## References
