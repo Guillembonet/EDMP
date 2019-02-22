@@ -44,7 +44,7 @@ function buy(hash, price, currency) {
 		console.log(data)
 		if (xhr.status == 200) {
 			alert('bid created successfully')
-			alert('You can copy the hash: ' + hash)
+			alert('You can copy the hash: ' + hash.replace(/^EW/, ""))
 			location.reload();
 		}
 	}
