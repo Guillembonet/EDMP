@@ -130,6 +130,8 @@ The buyer, as presented in Figure 7 create an HTTP PUT request, representing the
 5.	Transaction finalisation:
 After matching is performed, the transaction is validated and stored in the local chain of both transaction party, according to TrustChain mechanism. As it is possible to see in Figure 8 the transaction, if ask order request is satisfied, is eventually recorded. We can see that it lists what was transferred, the id of the counterparty and the buyer itself (in this case is the buyer watching the record) and the timestamp of the transaction record. Moreover, the amount of other orders created by the counterparty is present in the record, and the number of the specific transaction taken into account.
 ![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Figure%208%20Transaction%20record.PNG "Figure 8 Transaction record")
+
+We created a small website that allows us to do the previous HTTP requests in a more user-friendly way for demo purposes. It allows the user to sell a hash, and to see all the hash in the market and create a bid for them.
 ![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/marketSell.PNG "Web GUI sell section")
 ![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/marketBuy.PNG "Web GUI buy section")
 
@@ -191,3 +193,6 @@ Note that electricity is in kWh and gas in m3
 16. BlockLab. Open Energy Hub for smart meter data. OHEU. [Online] BlockLab. [Cited: 2 Febbruary 2019.] https://oehu.org/.
 17. Waldman, Jonathan. Blockchain Fundamentals. s.l. : Microsoft Corportaion, 2018.
 
+## Download PDF Report
+
+[Download PDF]()
