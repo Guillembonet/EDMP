@@ -193,6 +193,4 @@ Note that electricity is in kWh and gas in m3
 16. BlockLab. Open Energy Hub for smart meter data. OHEU. [Online] BlockLab. [Cited: 2 Febbruary 2019.] https://oehu.org/.
 17. Waldman, Jonathan. Blockchain Fundamentals. s.l. : Microsoft Corportaion, 2018.
 
-## Download PDF Report
-
-[Download PDF]()
+## [Download PDF Report](https://github.com/Guillembonet/EDMP/blob/devel/EnerDatX.pdf)
