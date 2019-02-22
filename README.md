@@ -13,7 +13,10 @@ python run_market.py 8082 /home/bunetz/.Tribler2 /home/bunetz/.Tribler2/ec_multi
 
 Now we can call the API deployed in http://localhost:[port], for this we can use the index.html file for the GUI.
 
-To use IPFS we can use the following page: http://54.196.97.107/
+To use IPFS we can use the following page: http://54.196.97.107/ which is running the code inside IPFS/broswer-browserify with the following command:
+```
+npm start
+```
 
 Market API documentation https://tribler.readthedocs.io/en/devel/restapi/market.html
 
