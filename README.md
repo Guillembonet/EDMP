@@ -146,6 +146,11 @@ Then, when a buyer wants the data related to them, the owner put in the IPFS the
 A hash is generated and then sent to the buyer through the EDMP. Even if the transaction could be intercepted by malicious users who are willing to steal the consumption data in the IPFS, only the buyer will be able to decrypt that data using its own Private Key.
 
 ![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Figure%2012%20Cryptographic%20encryption%20(17).PNG "Figure 12 Cryptographic encryption (17)")
+
+## Appendix:
+Here we attach the OEHU API from where the energy consumption data where retrived.
+Note that electricity is in kWh and gas in m3
+
  
 ## References
 1. IEA. World Energy Outlook 2018. France : IEA Publications, 2018.
