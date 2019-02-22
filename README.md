@@ -149,7 +149,7 @@ The final part of the project was the integration in a unique component of: the 
 We attempted an effort to integrate the Tribler & IPFS in a single GUI instead of the current version where we make market transactions and IPFS data upload/download through webpages. However, due to time limitations as creating a data market place on the Tribler is not feasible due to the complexity and extent of the code, we decided to go for the basic implementation using webpages.
 The attempt in the single integration resulted in the trying of creating an enhanced version of Tribler GUI with an additional feature of a separate Data marketplace to raise ask and accept a bid (data for currency) from a single interface. By the way, we start this attempt in order to understand its feasibility. An image of the resulted try is presented below. Further developments could result in a single interface of great integration between the different components.
 
-![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Capture.JPG "Figure 12 Tribler Deep Integration attempt")
+![alt text](https://github.com/Guillembonet/EDMP/blob/devel/images/Integration.PNG "Figure 12 Tribler Deep Integration attempt")
 
 ## Issues and further developing:
 We present above the design we implemented in order to create a system allowing users to trade energy consumption data. The design we build is primitive, since even if valid, it faces several problems that must be furtherly analysed and solved. In this section, a critical analysis is made to identify some of this point and to foster the development of solutions. 
