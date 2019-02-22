@@ -139,20 +139,21 @@ After proof-of-ownership determine the transaction of that data’s property by 
 We present the IPFS steps exploiting the image provided below. Basically, the IPFS exploitation regards the initial and final part of the overall transaction process. From data recording to data retrieval.
 ![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Figure%209%20Data%20insertion%20in%20IPFS%20(owner%20side).PNG "Figure 9 Data insertion in IPFS (owner side)")
 ![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Figure%2010%20Data%20retrieval%20from%20IPFS%20(buyer%20side).PNG "Figure 10 Data retrieval from IPFS (buyer side)")
-![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Figure%2011%20Architecture%20improvement.PNG "Figure 11 Architecture improvement")
-
 ![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Capture.JPG "Figure 12 Tribler Deep Integration attempt")
+
 ## Issues and further developing:
 We present above the design we implemented in order to create a system allowing users to trade energy consumption data. The design we build is primitive, since even if valid, it faces several problems that must be furtherly analysed and solved. In this section, a critical analysis is made to identify some of this point and to foster the development of solutions. 
 One big issue is that nothing stops a buyer to just simply copy a hash present in the available supply (see Figure 6) and directly goes in the IPFS and taking the data related to that hash freely. Of course, the transaction will be not stored in the EDMP, this certifying the ownership of that specific set of data, but a malicious user could be only interested in using this data for personal use without worrying of proof-of-ownership. 
 A solution could be data branching, i.e. dividing the data as depicted in Figure 11. Then put only electricity consumption data in the IPFS while using time and location as an asset description in the market. Only after the transaction is completed, the owner provides to the buyer the hash related to the consumption data inside the IPFS. It is essential to understand that solely consumption data divided by time and location lose their meaning and for this reason, all the three assets (consumption data,  descriptive data, hash) are necessary for the full completion of the exchange.  This solution will also solve the problem of selling just a hash that does not give any information about the fundamental characteristics of the data related to it. Basically time, type and location will work as data description.
 For the reason above introduced, in our work, we supposed a network of trusted individuals, where buyers already know at which data each hash is referred.
+![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Figure%2011%20Architecture%20improvement.PNG "Figure 11 Architecture improvement")
 Another advantage of this approach is that it adds a layer of security to the system. In fact, stored data in the IPFS will not be related to any user since no location and type is provided. By the way, something more could be done, using cryptographic encryption exploiting a pair of Public and Private Key, e.g. elliptic curve cryptography. Basically, the process could work in the following way. 
 The owner posts in the market: time, location and type, coming from SM data. 
 Then, when a buyer wants the data related to them, the owner put in the IPFS the data regarding consumption (and in some cases production with roof PV panel) encrypted using buyer public key. 
 A hash is generated and then sent to the buyer through the EDMP. Even if the transaction could be intercepted by malicious users who are willing to steal the consumption data in the IPFS, only the buyer will be able to decrypt that data using its own Private Key.
 
 ![alt text](https://raw.githubusercontent.com/Guillembonet/EDMP/devel/images/Figure%2012%20Cryptographic%20encryption%20(17).PNG "Figure 12 Cryptographic encryption (17)")
+
 
 ## Appendix:
 Here we attach the OEHU API from where the energy consumption data where retrived.
