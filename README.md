@@ -39,7 +39,7 @@ Second, install the `dependencies <doc/development/development_on_linux.rst>`_.
 
 Done!
 Now you can run the market with the instructions above.
-
+# Report
 ## Introduction:
 Nowadays some main transformations are happening in the energetic scenario. The one that will represent a significant change is the electrification of the energy system (1). Industry 4.0, electric vehicle (EV), heat pumps, new appliances and other trends are shifting energy demand towards a more electric system.
 Is clear that the electric system will face a tremendous growth, but this situation is complicated by the fact that the system will become more complex and will face disruptive organisational evolution. The introduction of unpredictable renewable energy sources (RES), generation of enormous amounts of valuable data both from the supply and the demand side, decentralisation of energy generation and its distribution are only a few of the changes that will affect the system.
