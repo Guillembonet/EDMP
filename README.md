@@ -1,7 +1,5 @@
 # EDMP
 
-[1. Index example](#running-edmp-from-the-repository)
-
 ## How to run
 To be able to have two nodes in the same computer you should run run_market.py with 3 arguments which have to be different for each node.
 
@@ -28,29 +26,20 @@ We support development on Linux, macOS and Windows. We have written documentatio
 First clone the repository:
 
 ```
-git clone --recursive git@github.com:Tribler/tribler.git
+git clone --recursive git@github.com:Guillembonet/EDMP.git
 ```
 
 or, if you haven't added your ssh key to your github account:
 
 ```
-git clone --recursive https://github.com/Tribler/tribler.git
+git clone --recursive https://github.com/Guillembonet/EDMP.git
 ```
 
 Second, install the `dependencies <doc/development/development_on_linux.rst>`_.
 
 Done!
-Now you can run tribler by executing the ``tribler.sh`` script on the root of the repository:
+Now you can run the market with the instructions above.
 
-```
-./tribler.sh
-```
-    
-On Windows, you can use the following command to run Tribler:
-
-```
-python run_tribler.py
-```
 ## Introduction:
 Nowadays some main transformations are happening in the energetic scenario. The one that will represent a significant change is the electrification of the energy system (1). Industry 4.0, electric vehicle (EV), heat pumps, new appliances and other trends are shifting energy demand towards a more electric system.
 Is clear that the electric system will face a tremendous growth, but this situation is complicated by the fact that the system will become more complex and will face disruptive organisational evolution. The introduction of unpredictable renewable energy sources (RES), generation of enormous amounts of valuable data both from the supply and the demand side, decentralisation of energy generation and its distribution are only a few of the changes that will affect the system.
